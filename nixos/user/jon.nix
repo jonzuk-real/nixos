@@ -20,7 +20,6 @@ users.users.jon = {
 	signal-desktop
 	gimp # Photo Editor
 	rpcs3 # PS3 Emulator
-#	betterbird # Email Client
 	qbittorrent
 	mpv # Media Player
 	heroic # Games Launcher
