@@ -32,8 +32,6 @@ users.users.jon = {
 	keepassxc # Password Manager
 	xfce.mousepad
 	nox
-	mumble
-	murmur
 	openjdk
 	qalculate-qt
 	pcsx2
