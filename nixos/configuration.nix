@@ -7,25 +7,23 @@
 {
   imports =
     [ # Include the results of the hardware scan.
-./hardware-configuration.nix      
+./hardware-configuration.nix
 ./hardware/amdgpu.nix
 #./hardware/nvidia.nix
-#./hardware/sway.nix
 ./hardware/X11.nix
-#./hardware/nouveau.nix
  ./user/jon.nix
  ./user/chromium.nix
  ./user/firefox.nix
   ./system/applications.nix
   ./system/services.nix
-  ./system/pipewire.nix   
+  ./system/pipewire.nix
 #  ./system/unstable.nix
    ./virtualization.nix
   ./vfio.nix
 #  ./vnetwork.nix
  ];
 
-   services.flatpak.enable = true;
+services.flatpak.enable = true;
 
 
 #Steam
@@ -39,7 +37,7 @@ programs.steam = {
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
-  
+
 
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
