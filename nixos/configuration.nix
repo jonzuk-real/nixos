@@ -20,7 +20,6 @@
 #  ./system/unstable.nix
    ./virtualization.nix
   ./vfio.nix
-#  ./vnetwork.nix
  ];
 
 services.flatpak.enable = true;
