@@ -17,7 +17,6 @@
   ./system/applications.nix
   ./system/services.nix
   ./system/pipewire.nix
-#  ./system/unstable.nix
    ./virtualization.nix
   ./vfio.nix
  ];
