@@ -30,7 +30,7 @@ users.users.jon = {
 	mari0 # Mario and Portal Combined
 	superTux
 	keepassxc # Password Manager
-	xfce.mousepad
+	lite
 	nox
 	openjdk
 	qalculate-qt
