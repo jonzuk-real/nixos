@@ -1,5 +1,5 @@
 { config, pkgs, ... }:
-a
+
 let
   unstableTarball =
     fetchTarball
