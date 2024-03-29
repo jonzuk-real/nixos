@@ -22,7 +22,7 @@ users.users.jon = {
 	rpcs3 # PS3 Emulator
 	qbittorrent
 	mpv # Media Player
-	heroic # Games Launcher
+	heroic #Games Launcher
 	xarchiver
 	airshipper
 	minetest

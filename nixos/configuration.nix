@@ -4,6 +4,7 @@
 
 { config, pkgs, ... }:
 
+
 {
   imports =
     [ # Include the results of the hardware scan.
@@ -19,6 +20,7 @@
   ./system/pipewire.nix
    ./virtualization.nix
   ./vfio.nix
+# ./unstable.nix
  ];
 
 services.flatpak.enable = true;
@@ -65,7 +67,7 @@ programs.steam = {
   };
 
 
-  # Enable touchpad support (enabled default in most desktopManager).
+#Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
 #Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
