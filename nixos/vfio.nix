@@ -1,5 +1,5 @@
 let
-  # RTX 3070 Ti
+  # RX 6800
   gpuIDs = [
     "1002:73bf" # Graphics
     "1002:ab28" # Audio
