@@ -24,7 +24,7 @@
  ];
 
 services.flatpak.enable = true;
-
+nixpkgs.config.allowUnfree = true;
 
 #Steam
 programs.steam = {

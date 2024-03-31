@@ -11,4 +11,11 @@
  	services.printing.enable = true;
 	hardware.bluetooth.enable = true;
 	programs.gamemode.enable = true;
+
+	services.plex = {
+   enable = true;
+   openFirewall = true;
+   user = "jon";
+};	
 }
+
