@@ -6,6 +6,7 @@ users.users.jon = {
     description = "jon";
     extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
     packages = with pkgs; [
+	gedit
 	lutris
 	gamemode
 	yt-dlp # YouTube CMD Downloader
