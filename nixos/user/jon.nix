@@ -8,10 +8,10 @@ users.users.jon = {
     packages = with pkgs; [
 	wordbook # Offline English-English dictionary application built for GNOME
 	libreoffice-qt # Comprehensive, professional-quality productivity suite, a variant of openoffice.org
-#	aspell # Spell checker for many languages
-#	aspellDicts.en # Aspell dictionary for English
-	hunspell # Spell checker
-	hunspellDicts.en_US # Hunspell dictionary for English (United States) from Wordlist
+	aspell # Spell checker for many languages
+	aspellDicts.en # Aspell dictionary for English
+#	hunspell # Spell checker
+#	hunspellDicts.en_US # Hunspell dictionary for English (United States) from Wordlist
 	gedit # Former GNOME text editor
 	lutris # Open Source gaming platform for GNU/Linux
 	gamemode # Optimise Linux system performance on demand
