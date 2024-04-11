@@ -33,6 +33,7 @@
 DisableFirefoxAccounts = true;
 DisablePocket = true;
 DisableTelemetry = true;
+browser.fullscreen.autohide = false;
 };
   
  programs.firefox.enable = true;
