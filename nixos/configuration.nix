@@ -73,6 +73,16 @@ environment.systemPackages = [
     LC_TIME = "en_US.UTF-8";
   };
 
+system.autoUpgrade = {
+  enable = true;
+   flags = [
+    "--update-input"
+    "nixpkgs"
+    "-L" # print build logs
+  ];
+  dates = "02:00";
+  randomizedDelaySec = "45min";
+};
 
 #Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
