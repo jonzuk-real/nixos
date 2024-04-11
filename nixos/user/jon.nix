@@ -6,6 +6,7 @@ users.users.jon = {
     description = "jon";
     extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
     packages = with pkgs; [
+	darkman # Framework for dark-mode and light-mode transitions on Linux desktop
 	discord # All-in-one cross-platform voice and text chat for gamers
 	obs-studio # Free and open source software for video recording and live streaming
 	path-of-building # Offline build planner for Path of Exile

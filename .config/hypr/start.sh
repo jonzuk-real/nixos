@@ -15,7 +15,8 @@ waybar &
 
 dunst& 
 
-
+firefox&
 discord&
-steam& heroic
+steam& heroic&
 
+darkman run& 

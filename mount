@@ -1,1 +1,1 @@
-sudo ntfs-3g /dev/sdc1 .mount
+sudo ntfs-3g /dev/sdb1 .mount
