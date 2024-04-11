@@ -32,6 +32,13 @@ programs.steam = {
   remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
   dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
 };
+environment.systemPackages = [
+#WayBar
+(pkgs.waybar.overrideAttrs (oldAttrs: {
+    mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
+  })
+)
+];
 
 
   # Bootloader.

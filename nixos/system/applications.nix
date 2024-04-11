@@ -3,6 +3,13 @@
 #List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
+	
+	swww
+	rofi-wayland
+	kitty
+	pkgs.dunst
+	libnotify
+	pkgs.waybar
 	plex
 	pkgs.unrar
 	pkgs.sway

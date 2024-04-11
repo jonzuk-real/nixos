@@ -6,6 +6,7 @@ users.users.jon = {
     description = "jon";
     extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
     packages = with pkgs; [
+	path-of-building # Offline build planner for Path of Exile
 	wordbook # Offline English-English dictionary application built for GNOME
 	libreoffice-qt # Comprehensive, professional-quality productivity suite, a variant of openoffice.org
 	aspell # Spell checker for many languages
