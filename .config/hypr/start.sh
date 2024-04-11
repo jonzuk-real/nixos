@@ -13,4 +13,9 @@ nm-applet --indicator &
 waybar &
 
 
-dunst
+dunst& 
+
+
+discord&
+steam& heroic
+
