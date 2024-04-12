@@ -6,6 +6,7 @@ users.users.jon = {
     description = "jon";
     extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
     packages = with pkgs; [
+	gammastep # Screen color temperature manager
 	darkman # Framework for dark-mode and light-mode transitions on Linux desktop
 	discord # All-in-one cross-platform voice and text chat for gamers
 	obs-studio # Free and open source software for video recording and live streaming
