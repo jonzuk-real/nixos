@@ -15,9 +15,5 @@ waybar &
 
 dunst& 
 
-brave&
-discord&
-steam& heroic&
-
 darkman run& 
 gammastep -t 5000k:2700k&
