@@ -3,6 +3,7 @@
 #List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
+	xfce.thunar
 #	pkgs.nerdfonts
 	pkgs.grim
 	pkgs.slurp
@@ -21,7 +22,7 @@
 	pkgs.virtiofsd
 	pkgs.blender-hip
 	pkgs.gparted
-#	pkgs.vmware-workstation
+	pkgs.vmware-workstation
 	pkgs.htop
 	pkgs.pcsclite
 	pkgs.reaper

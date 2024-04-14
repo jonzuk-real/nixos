@@ -11,7 +11,7 @@
 ./hardware-configuration.nix
 ./hardware/amdgpu.nix
 #./hardware/nvidia.nix
-./hardware/X11.nix
+#./hardware/X11.nix
  ./user/jon.nix
  ./user/chromium.nix
  ./user/firefox.nix

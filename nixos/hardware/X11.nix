@@ -14,7 +14,7 @@
 # 		xterm.enable = false;
 #		xfce.enable = true;
 #		lxqt.enable = true;
-		plasma5.enable = true;
+#		plasma5.enable = true;
 #		gnome.enable = true;
  };
 	displayManager.sddm.enable = true;
