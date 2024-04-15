@@ -4,6 +4,8 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
 	xfce.thunar
+	xfce.thunar-volman
+	gvfs
 #	pkgs.nerdfonts
 	pkgs.grim
 	pkgs.slurp
