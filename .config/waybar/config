@@ -5,7 +5,7 @@
 	"position": "top",
 
 	"modules-left": [
-		"sway/workspaces",
+		"hyprland/workspaces",
 			],
 	"modules-center": [
 		"clock#1",
@@ -33,7 +33,7 @@
 	],
 
 
-	"sway/workspaces": {
+	"hyprland/workspaces": {
 		"disable-scroll": true,
 		"format": "{name}"
 	},
