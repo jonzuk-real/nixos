@@ -5,12 +5,13 @@
 	"position": "top",
 
 	"modules-left": [
-		"hyprland/workspaces",
+	"clock#1",
+	"clock#2",
+	"clock#3",
+	"hyprland/workspaces",
 			],
 	"modules-center": [
-		"clock#1",
-		"clock#2",
-		"clock#3",
+		"hyprland/window"
 			],
 	"modules-right": [
 		
@@ -34,8 +35,9 @@
 
 
 	"hyprland/workspaces": {
-		"disable-scroll": true,
-		"format": "{name}"
+		"format": "{icon}",
+		  "on-scroll-down": "hyprctl dispatch workspace e+1",
+     		  "on-scroll-up": "hyprctl dispatch workspace e-1"
 	},
 
 	"clock#1": {
