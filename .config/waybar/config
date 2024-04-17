@@ -15,9 +15,7 @@
 			],
 	"modules-right": [
 		
-		"custom/notification",
-
-		"pulseaudio",
+				"pulseaudio",
 		
 		
 		"memory",
@@ -39,7 +37,7 @@
 	"hyprland/workspaces": {
 		"format": "{icon}",
 		  "on-scroll-down": "hyprctl dispatch workspace e+1",
-     		  "on-scroll-up": "hyprctl dispatch workspace e-1"
+		  "on-scroll-up": "hyprctl dispatch workspace e-1"
 	},
 
 	"clock#1": {
