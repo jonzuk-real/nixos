@@ -3,6 +3,10 @@
 #List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
+	clematis
+	xorg.xhost
+	lxqt.lxqt-policykit
+	waybar-mpris
 	swaynotificationcenter
 	pkgs.nerdfonts
 	xfce.thunar

@@ -3,8 +3,8 @@
  # List services that you want to enable:
 
 
-
-
+	virtualisation.waydroid.enable = true;
+	security.polkit.enable = true;
         services.adguardhome.enable = true;
         services.opensnitch.enable = true;
         services.geoclue2.enable = true;

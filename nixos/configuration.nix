@@ -20,7 +20,7 @@
   ./system/pipewire.nix
    ./virtualization.nix
   ./vfio.nix
-# ./unstable.nix
+ ./unstable.nix
  ];
 
 services.flatpak.enable = true;
