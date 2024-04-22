@@ -1,0 +1,20 @@
+{
+  "2CcNZS3pNeX6eFQ8ESfj1p": {
+    "autoInstallDxvk": true,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableFsync": true,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": false,
+    "useSteamRuntime": false,
+    "language": "",
+    "winePrefix": "/home/jon/Games/Heroic/Prefixes/default/Stardew Valley",
+    "wineCrossoverBottle": ""
+  },
+  "version": "v0",
+  "explicit": true
+}

@@ -1,0 +1,34 @@
+{
+  "a8XP9XueDDUgwSZQbTfQxn": {
+    "autoInstallDxvk": true,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableFsync": true,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "showMangohud": true,
+    "useGameMode": true,
+    "useSteamRuntime": false,
+    "language": "",
+    "winePrefix": "/home/jon/Games/Heroic/Prefixes/default/Crysis 3",
+    "wineCrossoverBottle": "",
+    "autoInstallDxvkNvapi": true,
+    "gamescope": {
+      "enableUpscaling": false,
+      "enableLimiter": false,
+      "windowType": "fullscreen",
+      "gameWidth": "",
+      "gameHeight": "",
+      "upscaleHeight": "",
+      "upscaleWidth": "",
+      "upscaleMethod": "fsr",
+      "fpsLimiter": "",
+      "fpsLimiterNoFocus": ""
+    }
+  },
+  "version": "v0",
+  "explicit": true
+}

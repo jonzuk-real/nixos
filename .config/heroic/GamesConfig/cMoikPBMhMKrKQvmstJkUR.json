@@ -1,0 +1,25 @@
+{
+  "cMoikPBMhMKrKQvmstJkUR": {
+    "autoInstallDxvk": true,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableFsync": true,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": false,
+    "useSteamRuntime": false,
+    "language": "",
+    "wineVersion": {
+      "bin": "/run/current-system/sw/bin/wine",
+      "name": "Wine Default - wine-8.0.2",
+      "type": "wine",
+      "wineserver": "/run/current-system/sw/bin/wineserver"
+    },
+    "winePrefix": "/home/jon/Games/Heroic/Prefixes/default/Crysis Warhead"
+  },
+  "version": "v0",
+  "explicit": true
+}

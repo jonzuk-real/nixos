@@ -1,0 +1,27 @@
+{
+  "oKKM4XxKTWvtxS68NZCeAX": {
+    "autoInstallDxvk": true,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableFsync": true,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": false,
+    "useSteamRuntime": false,
+    "language": "",
+    "wineVersion": {
+      "bin": "/home/jon/.config/heroic/tools/wine/Wine-GE-latest/bin/wine",
+      "name": "Wine - Wine-GE-latest",
+      "type": "wine",
+      "lib": "/home/jon/.config/heroic/tools/wine/Wine-GE-latest/lib64",
+      "lib32": "/home/jon/.config/heroic/tools/wine/Wine-GE-latest/lib",
+      "wineserver": "/home/jon/.config/heroic/tools/wine/Wine-GE-latest/bin/wineserver"
+    },
+    "winePrefix": "/home/jon/Games/Heroic/Prefixes/default/Crysis Remastered"
+  },
+  "version": "v0",
+  "explicit": true
+}

@@ -1,0 +1,54 @@
+{
+  "defaultSettings": {
+    "checkUpdatesInterval": 10,
+    "enableUpdates": false,
+    "addDesktopShortcuts": false,
+    "addStartMenuShortcuts": true,
+    "autoInstallDxvk": true,
+    "autoInstallVkd3d": true,
+    "autoInstallDxvkNvapi": false,
+    "addSteamShortcuts": false,
+    "preferSystemLibs": false,
+    "checkForUpdatesOnStartup": true,
+    "autoUpdateGames": false,
+    "customWinePaths": [],
+    "defaultInstallPath": "/home/jon/Games/Heroic",
+    "libraryTopSection": "disabled",
+    "defaultSteamPath": "/home/jon/.steam/steam",
+    "defaultWinePrefix": "/home/jon/Games/Heroic/Prefixes/default",
+    "hideChangelogsOnStartup": false,
+    "language": "en",
+    "maxWorkers": 0,
+    "minimizeOnLaunch": false,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": false,
+    "userInfo": {
+      "name": "jon"
+    },
+    "wineCrossoverBottle": "Heroic",
+    "winePrefix": "/home/jon/Games/Heroic/Prefixes/default",
+    "wineVersion": {
+      "bin": "/home/jon/.config/heroic/tools/wine/Wine-GE-latest/bin/wine",
+      "name": "Wine - Wine-GE-latest",
+      "type": "wine",
+      "lib": "/home/jon/.config/heroic/tools/wine/Wine-GE-latest/lib64",
+      "lib32": "/home/jon/.config/heroic/tools/wine/Wine-GE-latest/lib",
+      "wineserver": "/home/jon/.config/heroic/tools/wine/Wine-GE-latest/bin/wineserver"
+    },
+    "enableEsync": true,
+    "enableFsync": true,
+    "framelessWindow": true,
+    "darkTrayIcon": false,
+    "useSteamRuntime": false,
+    "experimentalFeatures": {
+      "enableNewDesign": false
+    },
+    "maxRecentGames": 4,
+    "discordRPC": true,
+    "exitToTray": true
+  },
+  "version": "v0"
+}

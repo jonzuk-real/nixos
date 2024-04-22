@@ -1,0 +1,20 @@
+{
+  "qhXBuwCYEeQHdt1ZMazqcU": {
+    "autoInstallDxvk": true,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableFsync": true,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": false,
+    "useSteamRuntime": false,
+    "language": "",
+    "winePrefix": "/home/jon/Games/Heroic/Prefixes/default/sideload",
+    "wineCrossoverBottle": ""
+  },
+  "version": "v0",
+  "explicit": true
+}
