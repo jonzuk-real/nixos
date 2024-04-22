@@ -8,6 +8,7 @@
 {
   imports =
     [ # Include the results of the hardware scan.
+#./firefox/default.nix
 ./hardware-configuration.nix
 ./hardware/amdgpu.nix
 #./hardware/nvidia.nix

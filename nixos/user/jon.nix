@@ -6,6 +6,8 @@ users.users.jon = {
     description = "jon";
     extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
     packages = with pkgs; [
+#	obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files
+	process-viewer # A process viewer GUI in rust
 	gammastep # Screen color temperature manager
 	darkman # Framework for dark-mode and light-mode transitions on Linux desktop
 	discord # All-in-one cross-platform voice and text chat for gamers
