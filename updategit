@@ -1,3 +1,4 @@
 # GitHub and Git is great
+git add nixos/
 git commit -a
 git push 
