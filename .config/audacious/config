@@ -5,9 +5,8 @@ mixer-element=Headphone
 
 [audacious]
 enable_replay_gain=FALSE
+no_playlist_advance=TRUE
 output_buffer_size=100
-repeat=TRUE
-shuffle=TRUE
 
 [audqt]
 theme=dark

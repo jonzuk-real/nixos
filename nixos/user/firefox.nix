@@ -10,6 +10,7 @@
           };
         };
         in listToAttrs [
+	  (extension "unpaywall" "{f209234a-76f0-4735-9920-eb62507a54cd}")
           (extension "tree-style-tab" "treestyletab@piro.sakura.ne.jp")
           (extension "adnauseam" "adnauseam@rednoise.org")
           (extension "augmented-steam" "{1be309c5-3e4f-4b99-927d-bb500eb4fa88}")
