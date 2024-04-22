@@ -1,0 +1,42 @@
+(06:59:39) INFO:    [Legendary]:        Legendary location: /nix/store/gs5nxwkkslk2shb8kcl0apgg2161jp51-heroic-unwrapped-2.10.0/share/heroic/build/bin/linux/legendary
+(06:59:39) INFO:    [Gog]:              GOGDL location: /nix/store/gs5nxwkkslk2shb8kcl0apgg2161jp51-heroic-unwrapped-2.10.0/share/heroic/build/bin/linux/gogdl
+(06:59:39) INFO:    [Connection]:       Connectivity: check-online
+(06:59:39) INFO:    [Connection]:       Pinging external endpoints
+(06:59:39) INFO:    [Backend]:          DRM modules disabled for nixpkgs
+(06:59:39) WARNING: [Backend]:          Failed to register protocol with OS.
+(06:59:39) INFO:    [Backend]:          Loading Screen Ready
+(06:59:39) INFO:    [Backend]:          Frontend Ready
+(06:59:39) INFO:    [Backend]:          Checking for new Heroic Updates
+(06:59:39) INFO:    [Backend]:          Checking for current version changelog
+(06:59:39) INFO:    [Connection]:       Connectivity: online
+(06:59:39) INFO:    [Backend]:          User Not Found, removing it from Store
+(06:59:39) ERROR:   [Gog]:              Unable to syncQueued playtime, userData not present
+(06:59:39) INFO:    [Backend]:          AreWeAntiCheatYet data downloaded
+(06:59:40) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/jon/.config/heroic/legendaryConfig/legendary /nix/store/gs5nxwkkslk2shb8kcl0apgg2161jp51-heroic-unwrapped-2.10.0/share/heroic/build/bin/linux/legendary --version
+(06:59:40) INFO:    [Gog]:              Running command: /nix/store/gs5nxwkkslk2shb8kcl0apgg2161jp51-heroic-unwrapped-2.10.0/share/heroic/build/bin/linux/gogdl --auth-config-path /home/jon/.config/heroic/gog_store/auth.json --version
+(06:59:40) INFO:    [Nile]:             Running command: NILE_CONFIG_PATH=/home/jon/.config/heroic/nile_config /nix/store/gs5nxwkkslk2shb8kcl0apgg2161jp51-heroic-unwrapped-2.10.0/share/heroic/build/bin/linux/nile --version
+(06:59:41) INFO:    [Backend]:          
+System Information:
+CPU: 16x AMD Ryzen 7 3700X 8-Core Processor
+Memory: 33.57 GB (used: 6.25 GB)
+GPUs:
+  GPU 0:
+    Name: Advanced Micro Devices, Inc. [AMD/ATI] Navi 21 [Radeon RX 6800/6800 XT / 6900 XT]
+    IDs: D=73bf V=1002 SD=6705 SV=1eae
+    Driver: amdgpu
+OS: NixOS 23.11 (Tapir) (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.10.0 Jewelry Bonney
+  Legendary: 0.20.33 Undue Alarm
+  gogdl: 0.7.3
+  Nile: 1.0.0 Jonathan Joestar
+
+(06:59:41) INFO:    [Winetricks]:       Downloading Winetricks
+(06:59:44) INFO:    [WineDownloader]:   Updating wine versions info
+(06:59:44) INFO:    [WineDownloader]:   Fetching upstream information...
+(06:59:44) INFO:    [Backend]:          Starting the Download Queue
+(06:59:45) INFO:    [WineDownloader]:   wine versions updated
