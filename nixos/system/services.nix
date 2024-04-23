@@ -14,9 +14,6 @@
  	services.printing.enable = true;
 	hardware.bluetooth.enable = true;
 	programs.gamemode.enable = true;
-	programs.hyprland.enable = true;
-	xdg.portal.enable = true;
-        xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
 		
 
 	services.plex = {
@@ -36,14 +33,14 @@ environment.systemPackages = [
 #               xterm.enable = false;
 #               xfce.enable = true;
 #               lxqt.enable = true;
-#               plasma5.enable = true;
+               plasma5.enable = true;
 #               gnome.enable = true;
  };
         displayManager.sddm.enable = true;
 };
 
 
-services.xserver.windowManager.awesome.enable = true;
+
 
 # Configure keymap in X11
   services.xserver = {
