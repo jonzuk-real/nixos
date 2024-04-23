@@ -9,13 +9,13 @@
   imports =
     [ # Include the results of the hardware scan.
 ./hyprland.nix
+./firefox/firefox.nix
 ./hardware-configuration.nix
 ./hardware/amdgpu.nix
 #./hardware/nvidia.nix
 #./hardware/X11.nix
  ./user/jon.nix
  ./user/chromium.nix
- ./user/firefox.nix
   ./system/applications.nix
   ./system/services.nix
   ./system/pipewire.nix

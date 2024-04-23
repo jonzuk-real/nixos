@@ -69,7 +69,7 @@ SearchBar = "unified"; # alternative: "separate"
 
 # Preferences
        # Check about:config for options.
- Preferences = import preferences.nix
+ Preferences = import /home/jon/nixos/firefox/preferences.nix;
  
  
  
