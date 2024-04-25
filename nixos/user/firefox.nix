@@ -38,7 +38,7 @@
 #          (extension "steam-url-opener" "{85252760-c586-4180-8788-c50234c0ac08}")
 #          (extension "steam-database" "firefox-extension@steamdb.info")
 	  (extension "soundfixer" "soundfixer@unrelenting.technology")
-	  (extension "enhancer-for-youtube" "660d550a-2cff-40a8-b611-2e10b52fb49c")
+	  (extension "enhancer-for-youtube" "enhancerforyoutube@maximerf.addons.mozilla.org")
 	  (extension "return-youtube-dislikes" "{762f9885-5a13-4abd-9c77-433dcd38b8fd}")
         ];
         # To add additional extensions, find it on addons.mozilla.org, find
