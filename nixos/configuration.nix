@@ -8,6 +8,7 @@
 {
   imports =
     [ # Include the results of the hardware scan.
+#./system/home-manager.nix
 ./hyprland.nix
 ./hardware-configuration.nix
 ./hardware/amdgpu.nix
