@@ -46,7 +46,10 @@
 
   # Add stuff for your user as you see fit:
   # programs.neovim.enable = true;
-  # home.packages = with pkgs; [ steam ];
+  home.packages = with pkgs; [ 
+	#chromium
+
+ ];
 
   # Enable home-manager and git
   programs.home-manager.enable = true;
@@ -57,5 +60,8 @@
 
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
   home.stateVersion = "23.05";
+  
+  # Mismatched nixpkgs and home manager versions warning remover
+  home.enableNixpkgsReleaseCheck = false;
 }
 
