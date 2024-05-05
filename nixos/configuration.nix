@@ -20,6 +20,7 @@
   ./system/applications.nix
   ./system/services.nix
   ./system/pipewire.nix
+  ./system/searx.nix
    ./virtualization.nix
   ./vfio.nix
  ./unstable.nix

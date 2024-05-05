@@ -24,3 +24,4 @@ xhost +local:&
 
 kitty&
 audacious
+& clematis
