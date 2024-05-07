@@ -40,6 +40,7 @@
 	  (extension "soundfixer" "soundfixer@unrelenting.technology")
 	  (extension "enhancer-for-youtube" "enhancerforyoutube@maximerf.addons.mozilla.org")
 	  (extension "return-youtube-dislikes" "{762f9885-5a13-4abd-9c77-433dcd38b8fd}")
+	  (extension "youtubelivestreamstheatermode" "{de621c74-2aa6-4c91-a2da-28d445b66bab}")
         ];
         # To add additional extensions, find it on addons.mozilla.org, find
         # the short ID in the url (like https://addons.mozilla.org/en-US/firefox/addon/!SHORT_ID!/)

@@ -13,7 +13,7 @@
 
 
 	defaultSearchProviderEnabled = true;
-	defaultSearchProviderSearchURL = "https://duckduckgo.com/?t=h_&q={searchTerms}";
+	defaultSearchProviderSearchURL = "https://yandex.com/search/?text={searchTerms}";
 	homepageLocation = "https://nixos.org";
  };
      

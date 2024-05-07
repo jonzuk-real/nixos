@@ -1,2 +1,2 @@
-sudo ntfs-3g /dev/sda1 .mount &&
-sudo mount /dev/sdc2 /home/jon/mounts/Game\ Installers/
+sudo ntfs-3g /dev/sdc1 .mount &&
+sudo mount /dev/sdb2 /home/jon/mounts/Game\ Installers/
