@@ -3,8 +3,8 @@
 #List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
+	openjdk
 	font-awesome
-	clematis
 	xorg.xhost
 	lxqt.lxqt-policykit
 	waybar-mpris

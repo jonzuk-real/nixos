@@ -14,7 +14,6 @@
 ./hardware/amdgpu.nix
 #./hardware/nvidia.nix
 #./hardware/X11.nix
- ./user/jon.nix
  ./user/firefox.nix
  ./user/chromium.nix
   ./system/applications.nix
@@ -25,6 +24,12 @@
   ./vfio.nix
  ./unstable.nix
  ];
+
+users.users.jon = {
+    isNormalUser = true;
+    description = "jon";
+    extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
+};
 
 services.flatpak.enable = true;
 nixpkgs.config.allowUnfree = true;
