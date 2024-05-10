@@ -38,7 +38,6 @@
 	pkgs.adguardhome
 	pkgs.opensnitch
 	pkgs.opensnitch-ui
-	pkgs.home-manager
 	pkgs.nettools
 	pkgs.linuxKernel.packages.linux_5_4.wireguard
 	pkgs.networkmanager

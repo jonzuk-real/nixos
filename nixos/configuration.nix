@@ -26,14 +26,12 @@
  ./unstable.nix
  ];
 
-users.users.jon = {
-    isNormalUser = true;
-    description = "jon";
-    extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
-};
-
 services.flatpak.enable = true;
 nixpkgs.config.allowUnfree = true;
+
+
+
+
 
 #Steam
 programs.steam = {
@@ -122,7 +120,6 @@ system.autoUpgrade = {
   # this value at the release version of the first install of this system.
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
-
 
 
 
