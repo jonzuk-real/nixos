@@ -1,6 +1,6 @@
 { config, pkgs, user, ... }: {
 	programs.firefox = {
-
+# EDIT ALL THESE TO REMOVE RANDOM BOOKMARKS 
 		# TODO: Test this by disabling it while in gnome and seeing if anything changes.
 		profiles = {
 			"default" = {
