@@ -14,7 +14,8 @@
 
     # You can also split up your configuration and import pieces of it here:
     # ./nvim.nix
-  ];
+     ./firefox/default.nix 
+ ];
 
   nixpkgs = {
     # You can add overlays here
@@ -89,7 +90,6 @@
         keepassxc # Password Manager
         lite # A lightweight text editor written in Lua
         nox # Tools to make nix nicer to use
-#        openjdk # Java
         qalculate-qt # The ultimate desktop calculator
         pcsx2 # Playstation 2 emulator
         dolphin-emu # Gamecube/Wii/Triforce emulator for x86_64 and ARMv8
