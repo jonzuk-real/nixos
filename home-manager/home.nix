@@ -14,7 +14,9 @@
 
     # You can also split up your configuration and import pieces of it here:
     # ./nvim.nix
-     ./firefox/default.nix 
+     ./firefox/default.nix
+    ./firefox/bookmarks.nix 
+#     ./chromium/default.nix
  ];
 
   nixpkgs = {
