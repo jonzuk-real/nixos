@@ -48,7 +48,7 @@
   # programs.neovim.enable = true;
   home.packages = with pkgs; [ 
 	#chromium
-
+ 
  ];
 
   # Enable home-manager and git
@@ -65,6 +65,11 @@
   home.enableNixpkgsReleaseCheck = false;
 
   # Fix Virtual Machine
-  home.pointerCursor.gtk.enable = true;
+  home.pointerCursor = {
+  gtk.enable = true;
+  package = pkgs.vanilla-dmz;
+  name = "Vanilla-DMZ";
+};
 }
+
 

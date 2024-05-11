@@ -10,7 +10,7 @@
 	lxqt.lxqt-policykit
 	waybar-mpris
 	swaynotificationcenter
-#	pkgs.nerdfonts
+	pkgs.nerdfonts
 	xfce.thunar
 	xfce.thunar-volman
 	gvfs
@@ -60,6 +60,7 @@
 	virtio-win
 	pkgs.xfce.xfce4-whiskermenu-plugin
 	pkgs.xfce.xfce4-settings	
-
+#	gnome3.adwaita-icon-theme # default gnome cursors
+#	glib 
 ];
 }
