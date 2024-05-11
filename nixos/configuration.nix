@@ -29,7 +29,8 @@
 services.flatpak.enable = true;
 nixpkgs.config.allowUnfree = true;
 
-
+#Flakes and nix command
+nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
 
 

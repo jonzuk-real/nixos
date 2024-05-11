@@ -3,13 +3,14 @@
 #List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
+	home-manager
 	openjdk
 	font-awesome
 	xorg.xhost
 	lxqt.lxqt-policykit
 	waybar-mpris
 	swaynotificationcenter
-	pkgs.nerdfonts
+#	pkgs.nerdfonts
 	xfce.thunar
 	xfce.thunar-volman
 	gvfs
@@ -30,7 +31,7 @@
 	pkgs.virtiofsd
 	pkgs.blender-hip
 	pkgs.gparted
-	pkgs.vmware-workstation
+#	pkgs.vmware-workstation
 	pkgs.htop
 	pkgs.pcsclite
 	pkgs.reaper
