@@ -32,7 +32,12 @@ nixpkgs.config.allowUnfree = true;
 #Flakes and nix command
 nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-
+#Add My User account
+users.users.jon = {
+    isNormalUser = true;
+    description = "jon";
+    extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
+};
 
 #Steam
 programs.steam = {
