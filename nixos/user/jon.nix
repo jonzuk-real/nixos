@@ -6,7 +6,7 @@ users.users.jon = {
     description = "jon";
     extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
     packages = with pkgs; [
-	       clematis # Discord rich presence for MPRIS music players.
+       clematis # Discord rich presence for MPRIS music players.
 #       obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files
         process-viewer # A process viewer GUI in rust
         gammastep # Screen color temperature manager

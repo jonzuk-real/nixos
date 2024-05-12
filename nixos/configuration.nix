@@ -1,7 +1,7 @@
  # Edit this configuration file to define what should be installed on
  # your system.  Help is available in the configuration.nix(5) man page
  # and in the NixOS manual (accessible by running ‘nixos-help’).
-
+ #
 { config, pkgs, ... }:
 
 
@@ -14,7 +14,7 @@
 ./hardware/amdgpu.nix
 #./hardware/nvidia.nix
 #./hardware/X11.nix
-# ./user/jon.nix
+ ./user/jon.nix
  ./user/firefox.nix
  ./user/chromium.nix
   ./system/applications.nix
