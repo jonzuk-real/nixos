@@ -25,3 +25,5 @@ xhost +local:&
 kitty&
 audacious
 & clematis
+& discord
+& steam
