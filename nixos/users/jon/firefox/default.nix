@@ -4,18 +4,10 @@
 			    ./policies.nix
 			    ./extensions.nix
 			    ./preferences.nix
-			    
+			    ./bookmarks			    
 			    ];
-	programs.firefox = {
-		enable = true;
-		profiles.default = {
-		bookmarks = [
-	 	{
-	 		name  = "wiki";
-	 		url = "https://wikipedia.org";
-	 	}
-	 ];
+	programs.firefox.enable = true;
 	 
-	 };
-	};
-	}
+}
+
+
