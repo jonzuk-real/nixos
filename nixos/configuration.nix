@@ -15,7 +15,6 @@
 #./hardware/nvidia.nix
 #./hardware/X11.nix
 ./user/jon.nix
-./user/firefox.nix
  ./user/chromium.nix
 ./system/applications.nix
   ./system/services.nix

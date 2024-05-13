@@ -1,5 +1,11 @@
 {
-	imports = [ ./settings.nix ];
+	imports = [ ./settings.nix 
+			    ./search.nix 
+			    ./policies.nix
+			    ./extensions.nix
+			    ./preferences.nix
+			    
+			    ];
 	programs.firefox = {
 		enable = true;
 		profiles.default = {
