@@ -22,14 +22,12 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = [
-    # # Adds the 'hello' command to your environment. It prints a friendly
-    # # "Hello, world!" when run.
-    # pkgs.hello
-    #       pkgs.obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files
+#     pkgs.hello
+#     pkgs.obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files
         pkgs.process-viewer # A process viewer GUI in rust
         pkgs.gammastep # Screen color temperature manager
         pkgs.darkman # Framework for dark-mode and light-mode transitions on Linux desktop
-#       pkgs.vesktop # An alternate client for Discord with Vencord built-in
+#     pkgs.vesktop # An alternate client for Discord with Vencord built-in
         pkgs.discord # All-in-one cross-platform voice and text chat for gamers
         pkgs.obs-studio # Free and open source software for video recording and live streaming
         pkgs.path-of-building # Offline build planner for Path of Exile
@@ -37,8 +35,8 @@
         pkgs.libreoffice-qt # Comprehensive, professional-quality productivity suite, a variant of openoffice.org
         pkgs.aspell # Spell checker for many languages
         pkgs.aspellDicts.en # Aspell dictionary for English
-#       pkgs.hunspell # Spell checker
-#       pkgs.hunspellDicts.en_US # Hunspell dictionary for English (United States) from Wordlist
+#     pkgs.hunspell # Spell checker
+#     pkgs.hunspellDicts.en_US # Hunspell dictionary for English (United States) from Wordlist
         pkgs.gedit # Former GNOME text editor
         pkgs.lutris # Open Source gaming platform for GNU/Linux
         pkgs.gamemode # Optimise Linux system performance on demand
@@ -74,7 +72,7 @@
         pkgs.git # Distributed version control system
         pkgs.syncthing # Open Source Continuous File Synchronization
         pkgs.gdrive3 # Google Drive CLI Client
-#       pkgs.chromium # Chromium Browser
+#     pkgs.chromium # Chromium Browser
         pkgs.brave # Privacy-oriented browser for Desktop and Laptop computers
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
