@@ -9,7 +9,22 @@ programs.firefox.profiles.default.bookmarks = [
 							{
 								name = "YouTube";
 								url = "https://www.youtube.com/";
-								tags = [ "yt" ];
+								tags = [ "yt" "youtube" ];
+							}
+							{
+								name = "Cronometer";
+								url = "https://cronometer.com/#diary";
+								tags = [ "cronometer" ];
+							}
+							{
+								name = "Plex";
+								url = "localhost:32400";
+								tags = [ "plex" ];
+							}
+							{
+								name = "Weather";
+								url = "https://forecast.weather.gov/MapClick.php?lat=42.7619&lon=-71.4353&unit=0&lg=english&FcstType=graphical";
+								tags = [ "weather" ];
 							}
 							{
 								name = "Code";
