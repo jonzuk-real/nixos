@@ -1,8 +1,8 @@
 {
+	imports = [ ./settings.nix ];
 	programs.firefox = {
 		enable = true;
 		profiles.default = {
-		settings = [ imports = ./settings.nix; ];
 		bookmarks = [
 	 	{
 	 		name  = "wiki";
