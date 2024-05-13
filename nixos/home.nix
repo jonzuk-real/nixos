@@ -3,6 +3,8 @@
 {
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
+  imports = [ ./user/bookmarks.nix ];
+
   home.username = "jon";
   home.homeDirectory = "/home/jon";
 
@@ -73,4 +75,8 @@
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
+
+  
 }
+
+

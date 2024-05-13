@@ -96,6 +96,6 @@ SearchBar = "unified"; # alternative: "separate"
   };
  };
 };
-# imports = ./firefox/bookmarks.nix;
+#imports = ./user/bookmarks.nix;
 
 }

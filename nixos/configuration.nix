@@ -17,7 +17,7 @@
  ./user/jon.nix
  ./user/firefox.nix
  ./user/chromium.nix
-  ./system/applications.nix
+ ./system/applications.nix
   ./system/services.nix
   ./system/pipewire.nix
   ./system/searx.nix
