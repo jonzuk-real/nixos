@@ -17,23 +17,20 @@
       system = "x86_64-linux";
       modules = [
         ./configuration.nix
+        ./hardware-configuration.nix
 	./users.nix
 	./chromium.nix
-#./system/home-manager.nix
 	./hyprland.nix
-	./hardware-configuration.nix
 	./hardware/amdgpu.nix
-#./hardware/nvidia.nix
-#./hardware/X11.nix
 	./system/applications.nix
   	./system/services.nix
   	./system/pipewire.nix
-  	./system/searx.nix
  	 ./virtualization.nix
   	./vfio.nix
  	./unstable.nix
-         # make home-manager as a module of nixos
-          # so that home-manager configuration will be deployed automatically when executing `nixos-rebuild switch`
+ 	#./hardware/nvidia.nix
+# make home-manager as a module of nixos
+# so that home-manager configuration will be deployed automatically when executing `nixos-rebuild switch`
           home-manager.nixosModules.home-manager
           {
             home-manager.useGlobalPkgs = true;
