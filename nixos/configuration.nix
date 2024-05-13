@@ -1,4 +1,3 @@
- # Edit this configuration file to define what should be installed on
  # your system.  Help is available in the configuration.nix(5) man page
  # and in the NixOS manual (accessible by running ‘nixos-help’).
  #
@@ -8,21 +7,7 @@
 {
   imports =
     [ # Include the results of the hardware scan.
-#./system/home-manager.nix
-./hyprland.nix
-./hardware-configuration.nix
-./hardware/amdgpu.nix
-#./hardware/nvidia.nix
-#./hardware/X11.nix
-./user/jon.nix
- ./user/chromium.nix
-./system/applications.nix
-  ./system/services.nix
-  ./system/pipewire.nix
-  ./system/searx.nix
-   ./virtualization.nix
-  ./vfio.nix
- ./unstable.nix
+
  ];
 
 services.flatpak.enable = true;
