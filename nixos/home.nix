@@ -3,7 +3,7 @@
 {
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
-  imports = [ ./user/bookmarks.nix ];
+  imports = [ ./firefox/default.nix ];
 
   home.username = "jon";
   home.homeDirectory = "/home/jon";

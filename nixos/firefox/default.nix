@@ -2,8 +2,8 @@
 	programs.firefox = {
 		enable = true;
 		profiles.default = {
-		
-	 bookmarks = [
+		settings = [ imports = ./settings.nix; ];
+		bookmarks = [
 	 	{
 	 		name  = "wiki";
 	 		url = "https://wikipedia.org";
