@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs,  ... }:
 
 {
   # Home Manager needs a bit of information about you and the paths it should
@@ -21,9 +21,14 @@
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
+#  home.packages.unstable = [
+# pkgs.minetest
+#];
+ 
   home.packages = [
 #     pkgs.hello
 #     pkgs.obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files
+	pkgs.clematis # Discord music shit
         pkgs.process-viewer # A process viewer GUI in rust
         pkgs.gammastep # Screen color temperature manager
         pkgs.darkman # Framework for dark-mode and light-mode transitions on Linux desktop
@@ -57,7 +62,7 @@
         pkgs.heroic #Games Launcher
         pkgs.xarchiver # GTK frontend to 7z,zip,rar,tar,bzip2, gzip,arj, lha, rpm and deb (open and extract only)
         pkgs.airshipper # Provides automatic updates for the voxel RPG Veloren.
-        pkgs.minetest # Infinite-world block sandbox game
+	pkgs.minetest # Infinite-world block sandbox game
         pkgs.prismlauncher # A free, open source launcher for Minecraft
         pkgs.mari0 # Mario and Portal Combined
         pkgs.superTux # Classic 2D jump'n run sidescroller game
@@ -88,7 +93,7 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
   ];
-
+ 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
   home.file = {
@@ -125,8 +130,10 @@
   };
 
   # Let Home Manager install and manage itself.
-  programs.home-manager.enable = true;
+    programs.home-manager.enable = true;
 
+    
+  
   
 }
 

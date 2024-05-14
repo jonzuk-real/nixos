@@ -7,8 +7,5 @@ users.users.jon = {
     extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
    };
 
-  # Allow unfree packages
-nixpkgs.config = {  
-  allowUnfree = true;
-};
+ 
 }

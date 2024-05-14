@@ -1,7 +1,7 @@
  # your system.  Help is available in the configuration.nix(5) man page
  # and in the NixOS manual (accessible by running ‘nixos-help’).
  #
-{ config, pkgs, ... }:
+{ config, pkgs,  ... }:
 
 
 {
@@ -11,7 +11,6 @@
  ];
 
 services.flatpak.enable = true;
-nixpkgs.config.allowUnfree = true;
 
 #Flakes and nix command
 nix.settings.experimental-features = [ "nix-command" "flakes" ];
@@ -45,7 +44,7 @@ environment.systemPackages = [
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
-  # Configure network proxy if necessary
+  # ure network proxy if necessary
   # networking.proxy.default = "http://user:password@proxy:port/";
   # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
   # Enable networking
@@ -69,16 +68,7 @@ environment.systemPackages = [
     LC_TIME = "en_US.UTF-8";
   };
 
-system.autoUpgrade = {
-  enable = true;
-   flags = [
-    "--update-input"
-    "nixpkgs"
-    "-L" # print build logs
-  ];
-  dates = "02:00";
-  randomizedDelaySec = "45min";
-};
+
 
 #Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
