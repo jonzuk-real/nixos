@@ -11,6 +11,9 @@
 
 {
  programs.firefox.policies.preferences =  {
+#	  "browser.startup.homepage" = "about:blank";
+ #         "browser.aboutConfig.showWarning" = false;
+#          "browser.compactmode.show" = true;   
           "browser.contentblocking.category" = { Value = "strict"; Status = "locked"; };
           "extensions.pocket.enabled" = lock-false;
           "extensions.screenshots.disabled" = lock-true;

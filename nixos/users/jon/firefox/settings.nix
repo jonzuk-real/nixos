@@ -3,7 +3,8 @@
  
  
 	    "browser.startup.homepage" = "about:blank";
-         
+	    "browser.aboutConfig.showWarning" = false;
+	    "browser.compactmode.show" = true;         
            
  	 };
   }
