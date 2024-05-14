@@ -413,6 +413,71 @@ programs.firefox.profiles.default.bookmarks = [
 									}
 								];
 							}
+							{
+								name = "Clothes";
+								bookmarks = [
+									{
+										name = "Pact";
+										url = "https://wearpact.com/men";
+										tags = [ "organic" "cotton" "clothes" ];	
+									}
+									{
+										name = "Royal Apparel";
+										url = "https://royalapparel.com/";
+										tags = [ "organic" "cotton" "clothes" ];	
+									}
+									{
+										name = "Patagonia";
+										url = "https://www.patagonia.com/home/";
+										tags = [ "organic" "cotton" "clothes" ];	
+									}
+									{
+										name = "Christy Dawn";
+										url = "https://christydawn.com/collections/unisex";
+										tags = [ "organic" "cotton" "clothes" ];
+									}
+									{
+										name = "Organic Basics";
+										url = "https://us.organicbasics.com/";
+										tags = [ "organic" "cotton" "clothes" ];
+									}
+									{
+										name = "Socks";
+										bookmarks = [
+											{
+												name = "Harvest and Mil Mens Socks";
+												url = "https://harvestandmill.com/collections/menshop-socks";
+												tags = ["organic" "cotton" "socks" ];
+											}
+										
+										];
+									}
+									{
+										name = "Underwear";
+										bookmarks = [
+											{
+												name = "Toad and Co Mens Underwear";
+												url = "https://www.toadandco.com/collections/mens-sale-accessories";
+												tags = ["organic" "cotton" "underwear" ];
+											}
+										];
+									}
+									{
+										name = "Sales";
+										bookmarks = [
+											{
+												name = "Madetrade";
+												url = "https://www.madetrade.com/collections/mens-clothing?filter.v.price.gte=&filter.v.price.lte=&filter.p.m.Sale.Sale=On+Sale&sort_by=manual";
+												tags = [ "organic" "cotton" "clothes" "sales" ];	
+											}
+											{
+												name = "Komodo UK";
+												url = "https://www.komodo.co.uk/collections/mens-sale";
+											}
+										];
+									}
+								];
+							}
 						];
 					}
 				];
