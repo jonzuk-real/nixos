@@ -442,6 +442,11 @@ programs.firefox.profiles.default.bookmarks = [
 										tags = [ "organic" "cotton" "clothes" ];
 									}
 									{
+										name = "Armed Angels";
+										url = "https://www.armedangels.com/wo-en";
+										tags = [ "organic" "cotton" "clothes" ];
+									}
+									{
 										name = "Socks";
 										bookmarks = [
 											{
@@ -473,6 +478,12 @@ programs.firefox.profiles.default.bookmarks = [
 											{
 												name = "Komodo UK";
 												url = "https://www.komodo.co.uk/collections/mens-sale";
+												tags = [ "organic" "cotton" "clothes" "sales" ];
+											}
+											{
+												name = "Weare Thought";
+												url = "https://www.wearethought.com/en-us/collections/clothing-sale?pf_t_gender=categoryfields%3AMENS";
+												tags = [ "organic" "cotton" "clothes" "sales" ];	
 											}
 										];
 									}
