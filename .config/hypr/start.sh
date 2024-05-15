@@ -25,3 +25,4 @@ xhost +local:&
 kitty&
 audacious
 & steam
+& signal-desktop

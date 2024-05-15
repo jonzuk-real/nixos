@@ -1,7 +1,6 @@
 {
   description = "A simple NixOS flake";
 
-
 	
 
 
