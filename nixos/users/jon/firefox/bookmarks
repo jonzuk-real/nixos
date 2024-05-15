@@ -97,9 +97,20 @@ programs.firefox.profiles.default.bookmarks = [
 												url = "https://www.wearethought.com/en-us/collections/clothing-sale?pf_t_gender=categoryfields%3AMENS";
 												tags = [ "organic" "cotton" "clothes" "sales" ];	
 											}
-										];
+													];
 									}
-								];
+											];
+							}
+							{
+								name = "Supplements";
+								bookmarks = [
+									{
+									 	name = "iHerb";
+									 	url = "https://www.iherb.com";
+									 	tags = [ "vitamins" "supplements" "pantry" ];
+									}
+								
+											];
 							}
 							{
 								name = "Code";
