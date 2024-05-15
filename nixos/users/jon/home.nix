@@ -21,13 +21,12 @@
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
-#  home.packages.unstable = [
-# pkgs.minetest
-#];
+
  
   home.packages = [
 #     pkgs.hello
 #     pkgs.obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files
+	pkgs.cloudflare-warp # Replaces the connection between your device and the Internet with a modern, optimized, protocol
 	pkgs.clematis # Discord music shit
         pkgs.process-viewer # A process viewer GUI in rust
         pkgs.gammastep # Screen color temperature manager
