@@ -30,17 +30,16 @@ programs.firefox.profiles.default.bookmarks = [
 								name = "Clothes";
 								bookmarks = [
 									{
-										name = "Pact";
-										url = "https://wearpact.com/men";
-										tags = [ "organic" "cotton" "clothes" ];	
-									}
-									{
 										name = "Royal Apparel";
 										url = "https://royalapparel.com/";
 										tags = [ "organic" "cotton" "clothes" ];	
 									}
 									{
-										name = "Patagonia";
+										name = "Pact";
+										url = "https://wearpact.com/men";
+										tags = [ "organic" "cotton" "clothes" ];	
+									}
+									{	name = "Patagonia";
 										url = "https://www.patagonia.com/home/";
 										tags = [ "organic" "cotton" "clothes" ];	
 									}
