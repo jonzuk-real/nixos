@@ -26,13 +26,9 @@
   home.packages = [
 #     pkgs.hello
 #     pkgs.obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files
-	pkgs.cloudflare-warp # Replaces the connection between your device and the Internet with a modern, optimized, protocol
-	pkgs.clematis # Discord music shit
         pkgs.process-viewer # A process viewer GUI in rust
         pkgs.gammastep # Screen color temperature manager
         pkgs.darkman # Framework for dark-mode and light-mode transitions on Linux desktop
-#     pkgs.vesktop # An alternate client for Discord with Vencord built-in
-        pkgs.discord # All-in-one cross-platform voice and text chat for gamers
         pkgs.obs-studio # Free and open source software for video recording and live streaming
         pkgs.path-of-building # Offline build planner for Path of Exile
         pkgs.wordbook # Offline English-English dictionary application built for GNOME
