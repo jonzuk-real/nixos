@@ -1,8 +1,11 @@
 { pkgs, config, libs, ... }:
- {
+{
+
+
 #List packages installed in system profile. To search, run:
   # $ nix search wget
-  environment.systemPackages = with pkgs; [
+
+environment.systemPackages = with pkgs; [
 #	tofi
 	home-manager
 	openjdk
@@ -65,3 +68,4 @@
 #	glib 
 ];
 }
+

@@ -4,6 +4,7 @@
 
 	
 
+
   outputs = inputs@{ nixpkgs, home-manager, nixpkgs-unstable, ... }: {
    
     nixosConfigurations = {
@@ -33,6 +34,7 @@ modules = [
 	    home-manager.extraSpecialArgs = {inherit inputs;};
 	}
      ];
+      
        };
          };
          };
