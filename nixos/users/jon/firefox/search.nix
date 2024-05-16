@@ -57,12 +57,12 @@
                 updateInterval = 24 * 60 * 60 * 1000; # every day
                 definedAliases = [ "@DuckDuckGo" ];
               };
-#                "Brave Searcg" = {
-#                urls = [{ template = "https://search.brave.com/search?q={searchTerms}"; }];
-#                iconUpdateURL = "https://nixos.wiki/favicon.png";
-#                updateInterval = 24 * 60 * 60 * 1000; # every day
-#                definedAliases = [ "@Brave" ];
-#              };
+                "Brave Search" = {
+                urls = [{ template = "https://search.brave.com/search?q={searchTerms}"; }];
+                iconUpdateURL = "https://nixos.wiki/favicon.png";
+                updateInterval = 24 * 60 * 60 * 1000; # every day
+                definedAliases = [ "@Brave" ];
+              };
               "Bing".metaData.hidden = true;
               "Google".metaData.alias = "@g"; # builtin engines only support specifying one additional alias
             };

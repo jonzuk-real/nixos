@@ -5,12 +5,7 @@ programs.firefox.profiles.default.bookmarks = [
 	 {
 						name = "Bookmarks Toolbar";
 						toolbar = true;
-						bookmarks = [
-							{
-								name = "YouTube";
-								url = "https://www.youtube.com/";
-								tags = [ "yt" "youtube" ];
-							}
+						bookmarks = [	
 							{
 								name = "Cronometer";
 								url = "https://cronometer.com/#diary";
@@ -25,6 +20,36 @@ programs.firefox.profiles.default.bookmarks = [
 								name = "Weather";
 								url = "https://forecast.weather.gov/MapClick.php?lat=42.7619&lon=-71.4353&unit=0&lg=english&FcstType=graphical";
 								tags = [ "weather" ];
+							}
+							{
+								name = "Entertainment";
+								bookmarks= [
+									{
+										name = "YouTube";
+										url = "https://www.youtube.com/";
+										tags = [ "yt" "youtube" ];
+									}
+									{
+										name = "Odysee";
+										url = "https://odysee.com/";
+										tags = [ "odysee" ];
+									}
+									{
+										name = "Rumble";
+										url = "https://rumble.com/";
+										tags = [ "rumble" ];
+									}
+									{
+										name = "BitChute";
+										url = "https://bitchute.com/";
+										tags = [ "bitchute" ];
+									}
+									{
+										name = "Gab";
+										url = "https://gab.com/";
+										tags = [ "gab" ];
+									}
+			  				];
 							}
 							{
 								name = "Clothes";
@@ -115,6 +140,11 @@ programs.firefox.profiles.default.bookmarks = [
 							{
 								name = "Code";
 								bookmarks = [
+									{
+														name = "GitHub";
+														url = "https://github.com/";
+														tags = [ "git" "code" "posix" "shell" "article" "info" ];
+									}									
 									{
 										name = "POSIX_Shell";
 										bookmarks = [
