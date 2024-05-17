@@ -29,6 +29,7 @@
   home.packages = [
 #     pkgs.hello
 #     pkgs.obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files
+#	pkgs.thunderbird-unwrapped - BROKENx
         pkgs.process-viewer # A process viewer GUI in rust
         pkgs.gammastep # Screen color temperature manager
         pkgs.darkman # Framework for dark-mode and light-mode transitions on Linux desktop

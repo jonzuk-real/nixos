@@ -84,6 +84,16 @@ programs.firefox.profiles.default.bookmarks = [
 										tags = [ "organic" "cotton" "clothes" ];
 									}
 									{
+										name = "Earth Creations";
+										url = "https://www.earthcreations.net/index.php?main_page=index&cPath=28&products_page=1";
+										tags = [ "organic" "cotton" "clothes" ];
+									}
+									{
+                                                                                name = "Earth Wardrobe";
+                                                                                url = "https://earthwardrobe.com/";
+                                                                                tags = [ "organic" "cotton" "clothes" ];
+                                                                        }
+									{
 										name = "Socks";
 										bookmarks = [
 											{
@@ -91,7 +101,16 @@ programs.firefox.profiles.default.bookmarks = [
 												url = "https://harvestandmill.com/collections/menshop-socks";
 												tags = ["organic" "cotton" "socks" ];
 											}
-										
+											{
+                                                                                                name = "Natural Clothing Company";
+                                                                                                url = "https://naturalclothingcompany.com/collections/men/products/organic-mens-socks-large-1013?variant=5444565569";
+                                                                                                tags = ["organic" "cotton" "socks" ];
+                                                                                        }
+											{
+                                                                                                name = "QforQuinn";
+                                                                                                url = "https://www.qforquinn.com/collections/unisex-cotton-socks-for-men-and-women";
+                                                                                                tags = ["organic" "cotton" "socks" ];
+                                                                                        }
 										];
 									}
 									{
@@ -118,10 +137,30 @@ programs.firefox.profiles.default.bookmarks = [
 												tags = [ "organic" "cotton" "clothes" "sales" ];
 											}
 											{
-												name = "Weare Thought";
-												url = "https://www.wearethought.com/en-us/collections/clothing-sale?pf_t_gender=categoryfields%3AMENS";
+												name = "Spiritex";
+												url = "https://www.spiritex.net/collections/mens-sale";
 												tags = [ "organic" "cotton" "clothes" "sales" ];	
 											}
+											{
+												name = "Green Label Organic";
+												url = "https://greenlabelorganic.com/";
+												tags = [ "organic" "cotton" "clothes" "sales" ];
+											}
+											{
+												name = "tentree";
+												url = "https://www.tentree.com/collections/mens-sale?page=1&sort=asc";
+												tags = [ "organic" "cotton" "clothes" "sales" ];
+											}
+											{
+												name = "Sherpa Adventure Gear";
+												url = "https://www.sherpaadventuregear.com/men/sale#filters.sustainability=Organic%20Cotton&sort=price";
+												tags = [ "organic" "cotton" "clothes" "sales" ];
+											}
+											{
+                                                                                                name = "SUPERDRY";
+                                                                                                url = "https://www.superdry.com/us/sale/mens/view-all?page=1&scrollYPos=0&sort=price%7Easc";
+                                                                                                tags = [ "organic" "cotton" "clothes" "sales" ];
+                                                                                        }
 													];
 									}
 											];
