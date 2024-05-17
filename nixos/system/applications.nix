@@ -6,6 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	nerdfonts
 #	tofi
 	home-manager
 	openjdk
@@ -41,8 +42,8 @@ environment.systemPackages = with pkgs; [
 	pkgs.reaper
 	pkgs.xboxdrv
 	pkgs.adguardhome
-	pkgs.opensnitch
-	pkgs.opensnitch-ui
+#	pkgs.opensnitch
+#	pkgs.opensnitch-ui
 	pkgs.nettools
 	pkgs.linuxKernel.packages.linux_5_4.wireguard
 	pkgs.networkmanager
