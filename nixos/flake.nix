@@ -20,8 +20,6 @@ modules = [
 	./system/applications.nix
   	./system/services.nix
   	./system/pipewire.nix
-        ./virtualization.nix
-  	./vfio.nix
  	#./hardware/nvidia.nix
 # make home-manager as a module of nixos
 # so that home-manager configuration will be deployed automatically when executing `nixos-rebuild switch`

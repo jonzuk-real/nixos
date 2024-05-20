@@ -14,7 +14,8 @@
  	services.printing.enable = true;
 	hardware.bluetooth.enable = true;
 	programs.gamemode.enable = true;
-		
+	virtualisation.libvirtd.enable = true;
+	programs.virt-manager.enable = true;		
 
 	services.plex = {
 	enable = true;
