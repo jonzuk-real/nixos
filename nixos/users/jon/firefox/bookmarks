@@ -12,6 +12,11 @@ programs.firefox.profiles.default.bookmarks = [
 								tags = [ "cronometer" ];
 							}
 							{
+                                                                name = "AdGuard";
+                                                                url = "http://localhost/#";
+                                                                tags = [ "adguard" ];
+                                                        }
+							{
 								name = "Plex";
 								url = "localhost:32400";
 								tags = [ "plex" ];

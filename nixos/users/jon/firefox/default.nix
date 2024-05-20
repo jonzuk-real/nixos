@@ -1,6 +1,5 @@
 {
-	imports = [ 	    ./settings.nix 
-			    ./search.nix 
+	imports = [ 	    ./search.nix 
 			    ./policies.nix
 			    ./extensions.nix
 			    ./preferences.nix

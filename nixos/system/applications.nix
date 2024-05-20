@@ -33,6 +33,7 @@ environment.systemPackages = with pkgs; [
 	pkgs.sway
 	pkgs.linuxHeaders
 	pkgs.looking-glass-client
+	libguestfs
 	pkgs.virtiofsd
 	pkgs.blender-hip
 	pkgs.gparted
