@@ -8,21 +8,27 @@
 # network applet
 nm-applet --indicator &
 
+
 #notifications
 swaync &
+swaynoficationcenter &
+
 
 # top bar
 waybar &
+ 
 
-
-swaynoficationcenter& 
-
+#night light
 darkman run& 
-gammastep -t 5000k:2700k&
-lxqt-policykit-agent&
-xhost +local:&
+gammastep -t 5000k:2700k &
+lxqt-policykit-agent &
+xhost +local: &
 
-kitty&
-audacious
-& steam
-& signal-desktop
+
+#apps 
+signal-desktop &
+steam & 
+firefox & 
+audacious &
+kitty &
+

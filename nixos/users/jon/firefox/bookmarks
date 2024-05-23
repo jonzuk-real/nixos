@@ -12,6 +12,11 @@ programs.firefox.profiles.default.bookmarks = [
 								tags = [ "cronometer" ];
 							}
 							{
+														name = "Gmail";
+														url = "https://gmail.com/";
+														tags = [ "google" "mail" ];
+							}
+							{
                                                                 name = "AdGuard";
                                                                 url = "http://localhost/#";
                                                                 tags = [ "adguard" ];
@@ -180,7 +185,7 @@ programs.firefox.profiles.default.bookmarks = [
 									}
 								
 											];
-							}
+							}	
 							{
 								name = "Code";
 								bookmarks = [

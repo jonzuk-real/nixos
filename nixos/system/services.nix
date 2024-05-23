@@ -6,7 +6,7 @@
 	virtualisation.waydroid.enable = true;
 	security.polkit.enable = true;
         services.adguardhome.enable = true;
-        services.opensnitch.enable = true;
+#        services.opensnitch.enable = true;
         services.geoclue2.enable = true;
 	services.flatpak.enable = true;
 	services.blueman.enable = true;
