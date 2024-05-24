@@ -6,6 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	gimp
 	mpvpaper
 	hyprland-autoname-workspaces # trying this out 
 	hyprland-protocols #wtf does this do 

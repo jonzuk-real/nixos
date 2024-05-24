@@ -79,11 +79,11 @@ environment.systemPackages = [
       corefonts
       dejavu_fonts
       inconsolata
-      source-han-sans-japanese
-      source-han-sans-korean
-      source-han-sans-simplified-chinese
-      source-han-sans-traditional-chinese
-      ubuntu_font_family
+#     source-han-sans-japanese
+#     source-han-sans-korean
+#     source-han-sans-simplified-chinese
+#     source-han-sans-traditional-chinese
+#     ubuntu_font_family
       font-awesome
       nerdfonts
     ];

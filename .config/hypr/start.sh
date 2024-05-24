@@ -27,9 +27,9 @@ xhost +local: &
 firefox & 
 audacious &
 kitty &
-
+hyprland-autoname-workspaces & 
 
 # wallpaper daemon
-mpvpaper -vs -o "no-audio loop" DP-2 /home/jon/nixos/wallpaper/mylivewallpapers-com-Pebbles-4K.mp4
+mpvpaper -vs -o "no-audio loop" --slideshow 300 DP-2 /home/jon/nixos/wallpaper/
 #swww init &
 #swww /home/jon/Pictures/pixelcity.gif &
