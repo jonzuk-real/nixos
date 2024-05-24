@@ -24,6 +24,8 @@ environment.systemPackages = with pkgs; [
 	pkgs.wl-clipboard
 	swww
 	rofi-wayland
+	rofimoji
+	rofi-vpn
 	kitty
 	pkgs.dunst
 	libnotify
