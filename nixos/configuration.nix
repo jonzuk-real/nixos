@@ -69,6 +69,25 @@ environment.systemPackages = [
   };
 
 
+# Fonts
+
+ fonts = {
+    fontconfig.enable = true;
+    enableFontDir = true;
+    enableGhostscriptFonts = true;
+    packages = with pkgs; [
+      corefonts
+      dejavu_fonts
+      inconsolata
+      source-han-sans-japanese
+      source-han-sans-korean
+      source-han-sans-simplified-chinese
+      source-han-sans-traditional-chinese
+      ubuntu_font_family
+      font-awesome
+      nerdfonts
+    ];
+  };
 
 #Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;

@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-# wallpaper daemon
-#swww init &
-#swww img &
-
 
 # network applet
 nm-applet --indicator &
@@ -26,9 +22,14 @@ xhost +local: &
 
 
 #apps 
-signal-desktop &
-steam & 
+#signal-desktop &
+#steam & 
 firefox & 
 audacious &
 kitty &
 
+
+# wallpaper daemon
+mpvpaper -vs -o "no-audio loop" DP-2 /home/jon/Downloads/mylivewallpapers-com-Pebbles-4K.mp4
+#swww init &
+#swww /home/jon/Pictures/pixelcity.gif &

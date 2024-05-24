@@ -6,16 +6,16 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
-	nerdfonts
-#	tofi
+	mpvpaper
+	hyprland-autoname-workspaces # trying this out 
+	hyprland-protocols #wtf does this do 
+	#tofi
 	home-manager
 	openjdk
-	font-awesome
 	xorg.xhost
 	lxqt.lxqt-policykit
 	waybar-mpris
 	swaynotificationcenter
-	pkgs.nerdfonts
 	xfce.thunar
 	xfce.thunar-volman
 	gvfs
@@ -26,6 +26,7 @@ environment.systemPackages = with pkgs; [
 	rofi-wayland
 	rofimoji
 	rofi-vpn
+#	rofi-calc
 	kitty
 	pkgs.dunst
 	libnotify
