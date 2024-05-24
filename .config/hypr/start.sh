@@ -30,6 +30,6 @@ kitty &
 
 
 # wallpaper daemon
-mpvpaper -vs -o "no-audio loop" DP-2 /home/jon/Downloads/mylivewallpapers-com-Pebbles-4K.mp4
+mpvpaper -vs -o "no-audio loop" DP-2 /home/jon/nixos/wallpaper/mylivewallpapers-com-Pebbles-4K.mp4
 #swww init &
 #swww /home/jon/Pictures/pixelcity.gif &
