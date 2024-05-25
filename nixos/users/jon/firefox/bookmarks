@@ -32,6 +32,41 @@ programs.firefox.profiles.default.bookmarks = [
 								tags = [ "weather" ];
 							}
 							{
+								name = "Gaming";
+								bookmarks = [
+										{
+										name = "Team Fortress 2";
+										bookmarks = [
+											{
+												name = "Marketplace.tf";
+												url = "https://marketplace.tf/";
+												tags = [ "tf2" ];
+											}
+											{
+												name = "Scrap.tf";
+												url = "https://scrap.tf/";
+												tags = [ "tf2" ];
+											}
+											{
+												name = "backpack.tf";
+												url = "https://backpack.tf/";
+												tags = [ "tf2" ];
+											}
+											{
+												name = "Teamwork.tf";
+												url = "https://teamwork.tf/";
+												tags = [ "tf2" ];
+											}
+											{
+												name = "item.tf";
+												url = "https://item.tf/";
+												tags = [ "tf2" ];
+											}									
+													];								
+										}
+											];
+							}
+							{
 								name = "Entertainment";
 								bookmarks= [
 									{
