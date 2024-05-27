@@ -73,8 +73,8 @@ environment.systemPackages = [
 
  fonts = {
     fontconfig.enable = true;
-    enableDefaultFonts = true;
-    enableFontDir = true;
+    enableDefaultPackages = true;
+    fontDir.enable = true;
     enableGhostscriptFonts = true;
     packages = with pkgs; [
       corefonts
