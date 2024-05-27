@@ -1,1 +1,2 @@
+./.updategit
 sudo nixos-rebuild switch

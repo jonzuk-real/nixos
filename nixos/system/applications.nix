@@ -8,7 +8,7 @@
 environment.systemPackages = with pkgs; [
 	gimp
 	mpvpaper
-	hyprland-autoname-workspaces # trying this out 
+#	hyprland-autoname-workspaces # trying this out 
 	hyprdim
 	hyprland-protocols #wtf does this do 
 	#tofi
