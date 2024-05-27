@@ -1,4 +1,7 @@
 # GitHub and Git is great
+git add .config/waybar
+git add .config/hyprland-autoname-workspaces/
+git add .config/hypr
 git add nixos/
 git commit -a
 git push 
