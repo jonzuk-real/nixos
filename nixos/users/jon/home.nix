@@ -27,6 +27,7 @@
 
  
   home.packages = [
+      pkgs.steamtinkerlaunch #Steam Tinker
 #     pkgs.hello
 #     pkgs.obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files
         pkgs.process-viewer # A process viewer GUI in rust

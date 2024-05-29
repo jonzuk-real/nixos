@@ -6,6 +6,14 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+# 	Steam Tinker Apps
+	wtype
+	unzip 
+	wget 
+	xdotool 
+	xorg.xwininfo 
+	xxd
+#
 	wayfire #3D wayland
 	gimp
 	mpvpaper
@@ -47,7 +55,7 @@ environment.systemPackages = with pkgs; [
 	pkgs.htop
 	pkgs.pcsclite
 	pkgs.reaper
-	pkgs.xboxdrv
+	pkgs.xboxdrv # Xbox Controller Compat
 	pkgs.adguardhome
 #	pkgs.opensnitch
 #	pkgs.opensnitch-ui
