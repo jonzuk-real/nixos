@@ -6,6 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	wayfire #3D wayland
 	gimp
 	mpvpaper
 #	hyprland-autoname-workspaces # trying this out 

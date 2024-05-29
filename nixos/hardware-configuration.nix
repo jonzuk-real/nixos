@@ -23,6 +23,18 @@
       fsType = "vfat";
     };
 
+#  fileSystems."/home/jon/.mount/" =
+#    { device = "/dev/disk/by-uuid/FE56CD4356CCFD81";
+#      fsType = "ntfs-3g";
+#      options = [ "rw" "uid=1000"];
+#    };
+
+#  fileSystems."/boot" =
+#    { device = "/dev/disk/by-uuid/BC13-EE69";
+#      fsType = "vfat";
+#    };
+
+
 
   # Enables DHCP on each ethernet and wireless interface. In case of scripted networking
   # (the default) this is the recommended approach. When using systemd-networkd it's
