@@ -54,7 +54,6 @@
         pkgs.steamPackages.steam-runtime
 	pkgs.mangohud # A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more
         pkgs.yubioath-flutter # Yubico Authenticator for Desktop
-        pkgs.signal-desktop # Private, simple, and secure messenger
 #        pkgs.gimp # Photo Editor
         pkgs.rpcs3 # PS3 Emulator
         pkgs.qbittorrent # Featureful free software BitTorrent client
