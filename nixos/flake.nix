@@ -4,7 +4,7 @@
 	
 
 
-  outputs = inputs@{ nixpkgs, home-manager, nixpkgs-unstable, ... }: {
+  outputs = inputs@{ nixpkgs, home-manager, nixpkgs-unstable, nur, ... }: {
    
     nixosConfigurations = {
         nixos = nixpkgs.lib.nixosSystem {
