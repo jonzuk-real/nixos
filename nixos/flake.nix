@@ -4,7 +4,7 @@
 	
 
 
-  outputs = inputs@{ nixpkgs, home-manager, nixpkgs-unstable, nur, ... }: {
+  outputs = inputs@{ nixpkgs, home-manager, nixpkgs-stable, nur, ... }: {
    
     nixosConfigurations = {
         nixos = nixpkgs.lib.nixosSystem {
@@ -38,11 +38,11 @@ modules = [
 inputs = {
   
    nixpkgs = {
-    url = "github:NixOS/nixpkgs/nixos-23.11";
+    url = "github:NixOS/nixpkgs/nixos-unstable";
 		     };	
 
-  nixpkgs-unstable = {
-    url = "github:NixOS/nixpkgs/nixos-unstable";
+  nixpkgs-stable = {
+    url = "github:NixOS/nixpkgs/nixos-23.11";
 				   };	
  
   home-manager = {   
@@ -66,4 +66,3 @@ inputs = {
 
 
 }
-

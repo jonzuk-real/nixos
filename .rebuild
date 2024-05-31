@@ -1,3 +1,2 @@
 clear &&
-sudo nixos-rebuild switch && 
-./.updategit
+sudo nixos-rebuild switch 

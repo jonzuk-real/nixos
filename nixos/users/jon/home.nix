@@ -1,4 +1,5 @@
 { config, pkgs,  ... }:
+
 {
 
 
@@ -26,69 +27,69 @@
   # environment.
 
  
-  home.packages = [
-      pkgs.steamtinkerlaunch #Steam Tinker
-#     pkgs.hello
-#     pkgs.obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files
-        pkgs.process-viewer # A process viewer GUI in rust
-        pkgs.gammastep # Screen color temperature manager
-        pkgs.darkman # Framework for dark-mode and light-mode transitions on Linux desktop
-        pkgs.obs-studio # Free and open source software for video recording and live streaming
-        pkgs.path-of-building # Offline build planner for Path of Exile
-        pkgs.wordbook # Offline English-English dictionary application built for GNOME
-        pkgs.libreoffice-qt # Comprehensive, professional-quality productivity suite, a variant of openoffice.org
-        pkgs.aspell # Spell checker for many languages
-        pkgs.aspellDicts.en # Aspell dictionary for English
-#     pkgs.hunspell # Spell checker
-#     pkgs.hunspellDicts.en_US # Hunspell dictionary for English (United States) from Wordlist
-        pkgs.gedit # Former GNOME text editor
-        pkgs.lutris # Open Source gaming platform for GNU/Linux
-        pkgs.gamemode # Optimise Linux system performance on demand
-        pkgs.yt-dlp # YouTube CMD Downloader
-        pkgs.strawberry # Music Player
-        pkgs.gamescope # SteamOS session compositing window manager
-        pkgs.pavucontrol # PulseAudio Volume Control
-        pkgs.librewolf # Privacy Browser
-        pkgs.steam # Steam Client
-        pkgs.steam-run # Run commands in the same FHS environment that is used for Steam
-        pkgs.steamPackages.steam-runtime
-	pkgs.mangohud # A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more
-        pkgs.yubioath-flutter # Yubico Authenticator for Desktop
-#        pkgs.gimp # Photo Editor
-        pkgs.rpcs3 # PS3 Emulator
-        pkgs.qbittorrent # Featureful free software BitTorrent client
-        pkgs.mpv # Media Player
-        pkgs.heroic #Games Launcher
-        pkgs.xarchiver # GTK frontend to 7z,zip,rar,tar,bzip2, gzip,arj, lha, rpm and deb (open and extract only)
-        pkgs.airshipper # Provides automatic updates for the voxel RPG Veloren.
-	pkgs.minetest # Infinite-world block sandbox game
-        pkgs.prismlauncher # A free, open source launcher for Minecraft
-        pkgs.mari0 # Mario and Portal Combined
-        pkgs.superTux # Classic 2D jump'n run sidescroller game
-        pkgs.keepassxc # Password Manager
-        pkgs.lite # A lightweight text editor written in Lua
-        pkgs.nox # Tools to make nix nicer to use
-        pkgs.qalculate-qt # The ultimate desktop calculator
-        pkgs.pcsx2 # Playstation 2 emulator
-        pkgs.dolphin-emu # Gamecube/Wii/Triforce emulator for x86_64 and ARMv8
-        pkgs.jdk17 # The open-source Java Development Kit
-        pkgs.maestral-gui # GUI front-end for maestral (an open-source Dropbox client) for Linux
-        pkgs.git # Distributed version control system
-        pkgs.syncthing # Open Source Continuous File Synchronization
-        pkgs.gdrive3 # Google Drive CLI Client
-#     pkgs.chromium # Chromium Browser
-        pkgs.brave # Privacy-oriented browser for Desktop and Laptop computers
+  home.packages = with pkgs; [ 
+      steamtinkerlaunch #Steam Tinker
+#     hello
+#     obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files
+        process-viewer # A process viewer GUI in rust
+        gammastep # Screen color temperature manager
+        darkman # Framework for dark-mode and light-mode transitions on Linux desktop
+        obs-studio # Free and open source software for video recording and live streaming
+        path-of-building # Offline build planner for Path of Exile
+        wordbook # Offline English-English dictionary application built for GNOME
+        libreoffice-qt # Comprehensive, professional-quality productivity suite, a variant of openoffice.org
+        aspell # Spell checker for many languages
+        aspellDicts.en # Aspell dictionary for English
+#     hunspell # Spell checker
+#     hunspellDicts.en_US # Hunspell dictionary for English (United States) from Wordlist
+        gedit # Former GNOME text editor
+        lutris # Open Source gaming platform for GNU/Linux
+        gamemode # Optimise Linux system performance on demand
+        yt-dlp # YouTube CMD Downloader
+        strawberry # Music Player
+        gamescope # SteamOS session compositing window manager
+        pavucontrol # PulseAudio Volume Control
+        librewolf # Privacy Browser
+        steam # Steam Client
+        steam-run # Run commands in the same FHS environment that is used for Steam
+        steamPackages.steam-runtime
+	mangohud # A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more
+        yubioath-flutter # Yubico Authenticator for Desktop
+#        gimp # Photo Editor
+        rpcs3 # PS3 Emulator
+        qbittorrent # Featureful free software BitTorrent client
+        mpv # Media Player
+        heroic #Games Launcher
+        xarchiver # GTK frontend to 7z,zip,rar,tar,bzip2, gzip,arj, lha, rpm and deb (open and extract only)
+        airshipper # Provides automatic updates for the voxel RPG Veloren.
+	minetest # Infinite-world block sandbox game
+        prismlauncher # A free, open source launcher for Minecraft
+        mari0 # Mario and Portal Combined
+        superTux # Classic 2D jump'n run sidescroller game
+        keepassxc # Password Manager
+        lite # A lightweight text editor written in Lua
+        nox # Tools to make nix nicer to use
+        qalculate-qt # The ultimate desktop calculator
+        pcsx2 # Playstation 2 emulator
+        dolphin-emu # Gamecube/Wii/Triforce emulator for x86_64 and ARMv8
+        jdk17 # The open-source Java Development Kit
+        maestral-gui # GUI front-end for maestral (an open-source Dropbox client) for Linux
+        git # Distributed version control system
+        syncthing # Open Source Continuous File Synchronization
+        gdrive3 # Google Drive CLI Client
+#     chromium # Chromium Browser
+        brave # Privacy-oriented browser for Desktop and Laptop computers
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
     # # parentheses. Maybe you want to install Nerd Fonts with a limited number of
     # # fonts?
-    # (pkgs.nerdfonts.override { fonts = [ "FantasqueSansMono" ]; })
+    # (nerdfonts.override { fonts = [ "FantasqueSansMono" ]; })
 
     # # You can also create simple shell scripts directly inside your
     # # configuration. For example, this adds a command 'my-hello' to your
     # # environment:
-    # (pkgs.writeShellScriptBin "my-hello" ''
+    # (writeShellScriptBin "my-hello" ''
     #   echo "Hello, ${config.home.username}!"
     # '')
   ];

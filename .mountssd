@@ -1,1 +1,1 @@
-sudo ntfs-3g /dev/sda1 .mount -o rw
+sudo ntfs-3g /dev/sdc1 .mount -o rw
