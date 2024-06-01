@@ -30,6 +30,6 @@ kitty &
 #hyprland-autoname-workspaces & 
 #hyprdim &
 # wallpaper daemon
-mpvpaper -f -vs -o "no-audio loop shuffle" --slideshow 60 DP-2 /home/jon/Pictures/wallpaper
+#mpvpaper -f -vs -o "no-audio loop shuffle" --slideshow 60 DP-2 /home/jon/Pictures/wallpaper
 #swww init &
 #swww /home/jon/Pictures/pixelcity.gif &

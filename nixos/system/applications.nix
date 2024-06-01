@@ -6,20 +6,19 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+
 # 	Steam Tinker Apps
-	wtype
-	unzip 
-	wget 
-	xdotool 
-	xorg.xwininfo 
-	xxd
+#	wtype
+#	unzip 
+#	wget 
+#	xdotool 
+#	xorg.xwininfo 
+#	xxd
 #
-	wayfire #3D wayland
+#	wayfire #3D wayland
 	gimp
 	mpvpaper
 #	hyprland-autoname-workspaces # trying this out 
-	hyprdim
-	hyprland-protocols #wtf does this do 
 	#tofi
 	home-manager
 	openjdk

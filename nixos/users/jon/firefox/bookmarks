@@ -221,6 +221,26 @@ programs.firefox.profiles.default.bookmarks = [
 								
 											];
 							}	
+ 							{
+                                                                name = "3D Prints";
+                                                                bookmarks = [
+                                                                        {
+                                                                                name = "Thingiverse";
+                                                                                url = "https://www.thingiverse.com/";
+                                                                                tags = [ "print" "3d" ];
+                                                                        }
+							  		{
+                                                                                name = "THANGS";
+                                                                                url = "https://thangs.com/?sort=trending";
+                                                                                tags = [ "print" "3d" ];
+                                                                        }
+                                                                        {
+                                                                                name = "Printables";
+                                                                                url = "https://www.printables.com/";
+                                                                                tags = [ "print" "3d" ];
+                                                                        }
+                                                                                        ];
+                                                        }  
 							{
 								name = "Code";
 								bookmarks = [

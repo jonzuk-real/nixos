@@ -2,7 +2,7 @@
  {
  # List services that you want to enable:
 
-
+	programs.hyprland.enable = true;
 	virtualisation.waydroid.enable = true;
 	security.polkit.enable = true;
         services.adguardhome.enable = true;

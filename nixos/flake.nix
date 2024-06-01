@@ -1,5 +1,5 @@
 {
-  description = "A simple NixOS flake";
+  description = "A retarded NixOS flake";
 
 	
 
@@ -15,7 +15,7 @@ modules = [
         ./hardware-configuration.nix
 	./users.nix
 	./chromium.nix
-	./hyprland.nix
+#	./hyprland.nix
 	./hardware/amdgpu.nix
 	./system/applications.nix
   	./system/services.nix
@@ -46,7 +46,7 @@ inputs = {
 				   };	
  
   home-manager = {   
-    url = "github:nix-community/home-manager/release-23.11";
+    url = "github:nix-community/home-manager/"; #release-24.05";
     inputs.nixpkgs.follows = "nixpkgs";   
 				};    
  
