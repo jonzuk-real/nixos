@@ -1,4 +1,16 @@
-{ config, pkgs,  ... }:
+{ config, pkgs, inputs,  ... }:
+
+
+
+let
+
+  stable = import inputs.nixpkgs-stable {
+    system = pkgs.system;
+  };
+
+in
+
+
 
 {
 
@@ -27,6 +39,7 @@
   # environment.
 
  
+
   home.packages = with pkgs; [ 
       steamtinkerlaunch #Steam Tinker
 #     hello
@@ -54,7 +67,7 @@
         steam-run # Run commands in the same FHS environment that is used for Steam
         steamPackages.steam-runtime
 	mangohud # A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more
-        yubioath-flutter # Yubico Authenticator for Desktop
+        stable.yubioath-flutter # Yubico Authenticator for Desktop
 #        gimp # Photo Editor
         rpcs3 # PS3 Emulator
         qbittorrent # Featureful free software BitTorrent client

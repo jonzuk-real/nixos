@@ -1,7 +1,6 @@
 {
-  description = "A retarded NixOS flake";
+ description = "A retarded NixOS flake";
 
-	
 
 
   outputs = inputs@{ nixpkgs, home-manager, nixpkgs-stable, nur, ... }: {
@@ -46,7 +45,7 @@ inputs = {
 				   };	
  
   home-manager = {   
-    url = "github:nix-community/home-manager/"; #release-24.05";
+    url = "github:nix-community/home-manager";
     inputs.nixpkgs.follows = "nixpkgs";   
 				};    
  
