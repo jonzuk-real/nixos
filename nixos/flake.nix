@@ -3,13 +3,15 @@
 
 
 
-  outputs = inputs@{ nixpkgs, home-manager, nixpkgs-stable, nur, ... }: {
+  outputs = inputs@{ nixpkgs, home-manager, nixpkgs-stable, nur, hyprland, ... }: {
    
     nixosConfigurations = {
         nixos = nixpkgs.lib.nixosSystem {
       pkgs = import nixpkgs { system = "x86_64-linux"; config.allowUnfree = true; };
 	specialArgs = {inherit inputs;};      
 modules = [ 
+	hyprland.nixosModules.default
+        {programs.hyprland.enable = true;}
         ./configuration.nix
         ./hardware-configuration.nix
 	./users.nix
@@ -35,20 +37,18 @@ modules = [
          };
          };
 inputs = {
-  
-   nixpkgs = {
+  hyprland.url = "github:hyprwm/Hyprland";
+
+  nixpkgs = {
     url = "github:NixOS/nixpkgs/nixos-unstable";
 		     };	
-
   nixpkgs-stable = {
     url = "github:NixOS/nixpkgs/nixos-23.11";
 				   };	
- 
   home-manager = {   
     url = "github:nix-community/home-manager";
     inputs.nixpkgs.follows = "nixpkgs";   
 				};    
- 
   nur = {
       url = "gitlab:rycee/nur-expressions?dir=pkgs/firefox-addons";
       inputs.nixpkgs.follows = "nixpkgs";

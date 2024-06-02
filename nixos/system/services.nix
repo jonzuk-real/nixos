@@ -1,12 +1,12 @@
 { pkgs, config, libs, ... }:
  {
  # List services that you want to enable:
-
-	programs.hyprland.enable = true;
+	programs.wayfire.enable = true;
+#	programs.stable.hyprland.enable = true;
 	virtualisation.waydroid.enable = true;
 	security.polkit.enable = true;
         services.adguardhome.enable = true;
-#        services.opensnitch.enable = true;
+#       services.opensnitch.enable = true;
         services.geoclue2.enable = true;
 	services.flatpak.enable = true;
 	services.blueman.enable = true;
