@@ -21,12 +21,13 @@ lxqt-policykit-agent &
 xhost +local: &
 
 
-#apps 
+#APPS 
+
 #signal-desktop &
 #steam & 
-firefox & 
-audacious &
-kitty &
+#firefox & 
+#audacious &
+#kitty &
 #hyprland-autoname-workspaces & 
 #hyprdim &
 # wallpaper daemon

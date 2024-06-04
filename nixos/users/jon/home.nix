@@ -41,7 +41,8 @@ in
  
 
   home.packages = with pkgs; [ 
-      steamtinkerlaunch #Steam Tinker
+        mealie
+	steamtinkerlaunch #Steam Tinker
 #     hello
 #     obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files
         process-viewer # A process viewer GUI in rust

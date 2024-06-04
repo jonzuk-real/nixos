@@ -76,8 +76,8 @@ environment.systemPackages = with pkgs; [
 	bluez
 	virglrenderer
 	virtio-win
-	pkgs.xfce.xfce4-whiskermenu-plugin
-	pkgs.xfce.xfce4-settings	
+#	pkgs.xfce.xfce4-whiskermenu-plugin
+#	pkgs.xfce.xfce4-settings	
 #	gnome3.adwaita-icon-theme # default gnome cursors
 #	glib 
 ];
