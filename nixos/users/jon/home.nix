@@ -41,10 +41,9 @@ in
  
 
   home.packages = with pkgs; [ 
-        mealie
-	steamtinkerlaunch #Steam Tinker
-#     hello
-#     obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files
+        mealie # A self hosted recipe manager and meal planner
+	steamtinkerlaunch # Steam Tinker
+#      	 obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files
         process-viewer # A process viewer GUI in rust
         gammastep # Screen color temperature manager
         darkman # Framework for dark-mode and light-mode transitions on Linux desktop
@@ -54,8 +53,8 @@ in
         libreoffice-qt # Comprehensive, professional-quality productivity suite, a variant of openoffice.org
         aspell # Spell checker for many languages
         aspellDicts.en # Aspell dictionary for English
-#     hunspell # Spell checker
-#     hunspellDicts.en_US # Hunspell dictionary for English (United States) from Wordlist
+# 	 hunspell # Spell checker
+#        hunspellDicts.en_US # Hunspell dictionary for English (United States) from Wordlist
         gedit # Former GNOME text editor
         lutris # Open Source gaming platform for GNU/Linux
         gamemode # Optimise Linux system performance on demand
@@ -66,10 +65,11 @@ in
         librewolf # Privacy Browser
         steam # Steam Client
         steam-run # Run commands in the same FHS environment that is used for Steam
-        steamPackages.steam-runtime
+        steamPackages.steam-runtime # The official runtime used by Steam
 	mangohud # A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more
         stable.yubioath-flutter # Yubico Authenticator for Desktop
 #        gimp # Photo Editor
+	ppsspp # A HLE Playstation Portable emulator, written in C++ (SDL + headless)
         rpcs3 # PS3 Emulator
         qbittorrent # Featureful free software BitTorrent client
         mpv # Media Player
@@ -91,7 +91,7 @@ in
         git # Distributed version control system
         syncthing # Open Source Continuous File Synchronization
         gdrive3 # Google Drive CLI Client
-#     chromium # Chromium Browser
+#        chromium # Chromium Browser
         brave # Privacy-oriented browser for Desktop and Laptop computers
 
     # # It is sometimes useful to fine-tune packages, for example, by applying

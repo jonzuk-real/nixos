@@ -1,6 +1,7 @@
 { pkgs, config, libs, ... }:
  {
  # List services that you want to enable:
+	services.resolved.enable = true;
 	programs.wayfire.enable = true;
 #	programs.stable.hyprland.enable = true;
 	virtualisation.waydroid.enable = true;

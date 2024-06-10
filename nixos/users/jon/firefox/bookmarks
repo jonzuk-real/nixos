@@ -96,6 +96,9 @@ programs.firefox.profiles.default.bookmarks = [
 									}
 			  				];
 							}
+						{
+							name = "Shopping";
+							bookmarks = [
 							{
 								name = "Clothes";
 								bookmarks = [
@@ -209,7 +212,7 @@ programs.firefox.profiles.default.bookmarks = [
 													];
 									}
 											];
-							}
+								}
 							{
 								name = "Supplements";
 								bookmarks = [
@@ -220,7 +223,40 @@ programs.firefox.profiles.default.bookmarks = [
 									}
 								
 											];
+							}
+							{
+								name = "Olive Oil";
+								bookmarks = [
+									{
+									 	name = "Amphora nueva";
+									 	url = "https://amphoranueva.com/marin/product-category/premium-extra-virgin-olive-oil/";
+									 	tags = [ "olive" "oil" "pantry" ];
+									}
+									{
+										name = "kali-agri";
+										url = "https://www.kaliagri.it/";
+										tags = [ "olive" "oil" "pantry" ];
+									}
+									{
+										name = "Monadnock Oil & Vinegar";
+										url = "https://www.monadnockoilandvinegar.com/store/c52/Extra_Virgin_Olive_Oils.html";
+										tags = [ "olive" "oil" "pantry" ];
+									}
+								
+											];
 							}	
+							{
+								name = "Cooking Supplies";
+								bookmarks = [
+										{
+										name = "Websturaunt";
+										url = "https://www.webstaurantstore.com/";
+										tags = ["cooking" "chef" "supplies" "food" ];
+										}
+								];
+							}
+										];
+							}
  							{
                                                                 name = "3D Prints";
                                                                 bookmarks = [
