@@ -32,41 +32,6 @@ programs.firefox.profiles.default.bookmarks = [
 								tags = [ "weather" ];
 							}
 							{
-								name = "Gaming";
-								bookmarks = [
-										{
-										name = "Team Fortress 2";
-										bookmarks = [
-											{
-												name = "Marketplace.tf";
-												url = "https://marketplace.tf/";
-												tags = [ "tf2" ];
-											}
-											{
-												name = "Scrap.tf";
-												url = "https://scrap.tf/";
-												tags = [ "tf2" ];
-											}
-											{
-												name = "backpack.tf";
-												url = "https://backpack.tf/";
-												tags = [ "tf2" ];
-											}
-											{
-												name = "Teamwork.tf";
-												url = "https://teamwork.tf/";
-												tags = [ "tf2" ];
-											}
-											{
-												name = "item.tf";
-												url = "https://item.tf/";
-												tags = [ "tf2" ];
-											}									
-													];								
-										}
-											];
-							}
-							{
 								name = "Entertainment";
 								bookmarks= [
 									{
@@ -219,7 +184,7 @@ programs.firefox.profiles.default.bookmarks = [
 									{
 									 	name = "iHerb";
 									 	url = "https://www.iherb.com";
-									 	tags = [ "vitamins" "supplements" "pantry" ];
+									 	tags = [ "vitamins" "supplements" "pantry" "store"];
 									}
 								
 											];
@@ -230,17 +195,17 @@ programs.firefox.profiles.default.bookmarks = [
 									{
 									 	name = "Amphora nueva";
 									 	url = "https://amphoranueva.com/marin/product-category/premium-extra-virgin-olive-oil/";
-									 	tags = [ "olive" "oil" "pantry" ];
+									 	tags = [ "olive" "oil" "pantry" "store"];
 									}
 									{
 										name = "kali-agri";
 										url = "https://www.kaliagri.it/";
-										tags = [ "olive" "oil" "pantry" ];
+										tags = [ "olive" "oil" "pantry" "store"];
 									}
 									{
 										name = "Monadnock Oil & Vinegar";
 										url = "https://www.monadnockoilandvinegar.com/store/c52/Extra_Virgin_Olive_Oils.html";
-										tags = [ "olive" "oil" "pantry" ];
+										tags = [ "olive" "oil" "pantry" "store"];
 									}
 								
 											];
@@ -251,11 +216,51 @@ programs.firefox.profiles.default.bookmarks = [
 										{
 										name = "Websturaunt";
 										url = "https://www.webstaurantstore.com/";
-										tags = ["cooking" "chef" "supplies" "food" ];
+										tags = ["cooking" "chef" "supplies" "food" "store" ];
 										}
 								];
 							}
 										];
+							}
+							{
+								name = "Gaming";
+								bookmarks = [
+										{
+											name = "Steam";
+											url = "https://store.steampowered.com/";
+											tags = [ "steam" "store" "gaming"];
+										}
+										{
+										name = "Team Fortress 2";
+										bookmarks = [
+											{
+												name = "Marketplace.tf";
+												url = "https://marketplace.tf/";
+												tags = [ "tf2" ];
+											}
+											{
+												name = "Scrap.tf";
+												url = "https://scrap.tf/";
+												tags = [ "tf2" ];
+											}
+											{
+												name = "backpack.tf";
+												url = "https://backpack.tf/";
+												tags = [ "tf2" ];
+											}
+											{
+												name = "Teamwork.tf";
+												url = "https://teamwork.tf/";
+												tags = [ "tf2" ];
+											}
+											{
+												name = "item.tf";
+												url = "https://item.tf/";
+												tags = [ "tf2" ];
+											}									
+													];								
+										}
+											];
 							}
  							{
                                                                 name = "3D Prints";
