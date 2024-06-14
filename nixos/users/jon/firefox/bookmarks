@@ -65,6 +65,43 @@ programs.firefox.profiles.default.bookmarks = [
 							name = "Shopping";
 							bookmarks = [
 							{
+									name = "Food";
+									bookmarks = [
+										{
+									name = "Grocery Stores";
+									bookmarks = [
+										{
+										name = "Whole Foods Market";
+										url = "https://www.wholefoodsmarket.com/";
+										tags = ["cooking" "chef" "supplies" "food" "store" ];
+										}
+										{
+										name = "Hannaford";
+										url = "https://www.hannaford.com/";
+										tags = ["cooking" "chef" "supplies" "food" "store" ];
+										}
+										{
+										name = "Market Basket";
+										url = "https://www.shopmarketbasket.com/";
+										tags = ["cooking" "chef" "supplies" "food" "store" ];
+										}
+										{
+										name = "Shaws";
+										url = "https://www.shaws.com/";
+										tags = ["cooking" "chef" "supplies" "food" "store" ];
+										}
+										{
+										name = "ALDI";
+										url = "https://www.aldi.us/";
+										tags = ["cooking" "chef" "supplies" "food" "store" ];
+										}
+									];
+									}
+									];
+							}
+								];
+							}
+							{
 								name = "Clothes";
 								bookmarks = [
 									{
@@ -676,6 +713,6 @@ programs.firefox.profiles.default.bookmarks = [
 							}
 						];
 					}
-				];
-}
+			
+
 
