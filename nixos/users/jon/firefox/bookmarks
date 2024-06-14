@@ -99,8 +99,6 @@ programs.firefox.profiles.default.bookmarks = [
 									}
 									];
 							}
-								];
-							}
 							{
 								name = "Clothes";
 								bookmarks = [
@@ -713,6 +711,6 @@ programs.firefox.profiles.default.bookmarks = [
 							}
 						];
 					}
-			
+			];
 
-
+}
