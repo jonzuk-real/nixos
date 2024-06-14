@@ -41,6 +41,8 @@ in
  
 
   home.packages = with pkgs; [ 
+	stable.rofi-wayland 
+	wootility # A customization and management software for Wooting keyboards
         mealie # A self hosted recipe manager and meal planner
 	steamtinkerlaunch # Steam Tinker
 #      	 obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files

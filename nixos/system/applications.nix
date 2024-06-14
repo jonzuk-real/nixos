@@ -1,6 +1,6 @@
 { pkgs, config, libs, ... }:
-{
 
+{
 
 #List packages installed in system profile. To search, run:
   # $ nix search wget
@@ -32,7 +32,6 @@ environment.systemPackages = with pkgs; [
 	pkgs.slurp
 	pkgs.wl-clipboard
 	swww
-	rofi-wayland
 	rofimoji
 	rofi-vpn
 #	rofi-calc
