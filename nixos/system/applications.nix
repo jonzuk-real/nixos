@@ -18,6 +18,7 @@ environment.systemPackages = with pkgs; [
 	mpvpaper
 #	hyprland-autoname-workspaces # trying this out 
 	#tofi
+	hyprlock
 	hyprcursor
 	home-manager
 	openjdk
