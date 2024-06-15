@@ -18,7 +18,7 @@ environment.systemPackages = with pkgs; [
 	mpvpaper
 #	hyprland-autoname-workspaces # trying this out 
 	#tofi
-
+	hyprcursor
 	home-manager
 	openjdk
 	xorg.xhost
