@@ -54,7 +54,7 @@ environment.systemPackages = with pkgs; [
 	pkgs.pcsclite
 	pkgs.reaper
 	pkgs.xboxdrv # Xbox Controller Compat
-	pkgs.adguardhome
+#	pkgs.adguardhome
 #	pkgs.opensnitch
 #	pkgs.opensnitch-ui
 	pkgs.nettools
