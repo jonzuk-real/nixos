@@ -11,6 +11,7 @@
 
 {
  programs.firefox.policies.preferences =  {   
+	  "browser.tabs.firefox-view" = lock-false;
 	  "browser.startup.page" = "3"; 
           "browser.startup.homepage" = "about:blank";
           "browser.aboutConfig.showWarning" = false;
