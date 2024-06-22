@@ -44,7 +44,7 @@ in
 	gqview
 	strawberry
 	wofi
-#	stable.rofi-wayland 
+	stable.rofi-wayland 
 	wootility # A customization and management software for Wooting keyboards
         mealie # A self hosted recipe manager and meal planner
 	steamtinkerlaunch # Steam Tinker
