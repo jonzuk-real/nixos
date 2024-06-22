@@ -43,7 +43,8 @@ in
   home.packages = with pkgs; [ 
 	gqview
 	strawberry
-	stable.rofi-wayland 
+	wofi
+#	stable.rofi-wayland 
 	wootility # A customization and management software for Wooting keyboards
         mealie # A self hosted recipe manager and meal planner
 	steamtinkerlaunch # Steam Tinker
