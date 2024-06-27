@@ -43,7 +43,6 @@ in
   home.packages = with pkgs; [ 
 	stable.audacious
 	gqview
-	strawberry
 	wofi
 	stable.rofi-wayland 
 	wootility # A customization and management software for Wooting keyboards
