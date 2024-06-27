@@ -41,6 +41,7 @@ in
  
 
   home.packages = with pkgs; [ 
+	stable.audacious
 	gqview
 	strawberry
 	wofi
