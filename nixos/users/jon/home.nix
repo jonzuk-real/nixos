@@ -41,7 +41,7 @@ in
  
 
   home.packages = with pkgs; [ 
-	workout-tracker
+#	workout-tracker
 	stable.audacious
 	gqview
 	wofi
