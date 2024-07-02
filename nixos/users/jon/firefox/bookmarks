@@ -266,6 +266,11 @@ programs.firefox.profiles.default.bookmarks = [
 											tags = [ "steam" "store" "gaming"];
 										}
 										{
+											name = "G2A";
+											url = "https://www.g2a.com/";
+											tags = [ "g2a" "store" "gaming"];
+										}
+										{
 										name = "Team Fortress 2";
 										bookmarks = [
 											{
