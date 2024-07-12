@@ -6,7 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
-	gvfs
+	mtpfs
 # 	Steam Tinker Apps
 #	wtype
 #	unzip 
