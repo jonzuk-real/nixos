@@ -6,7 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
-	android-utils
+	android-tools
 	usb-modeswitch
 	usbutils
 	dhclient
