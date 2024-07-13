@@ -1,11 +1,5 @@
 { pkgs, config, libs, ... }:
  {
-
-
-
-	security.wrappers.spice-client-glib-usb-acl-helper.source = "${pkgs.spice-gtk}/bin/spice-client-glib-usb-acl-helper";
-
-
  # List services that you want to enable:
 	services.resolved.enable = true;
 	programs.wayfire.enable = true;
