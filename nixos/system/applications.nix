@@ -10,7 +10,7 @@ environment.systemPackages = with pkgs; [
 	android-tools
 	usb-modeswitch
 	usbutils
-	dhclient
+#	dhclient
 	iptables
 	#Android Internet 
 	mtpfs
