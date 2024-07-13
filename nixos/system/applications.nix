@@ -6,6 +6,11 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	usb-modeswitch
+	usbutils
+	dhclient
+	iptables
+	#Android Internet 
 	mtpfs
 # 	Steam Tinker Apps
 #	wtype
