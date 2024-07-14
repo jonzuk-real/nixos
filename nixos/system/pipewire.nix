@@ -12,4 +12,14 @@
     # If you want to use JACK applications, uncomment this
     jack.enable = true;
   };
+
+
+services.pipewire.extraConfig.pipewire."92-low-latency" = {
+  context.properties = {
+    default.clock.rate = 48000;
+    default.clock.quantum = 32;
+    default.clock.min-quantum = 32;
+    default.clock.max-quantum = 32;
+  };
+};
 }

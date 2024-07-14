@@ -6,7 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
-	stable.spice-gtk
+	spice-gtk
 	android-tools
 	usb-modeswitch
 	usbutils
