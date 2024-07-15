@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, ... }: {
 
 
 
@@ -43,4 +43,5 @@ environment.systemPackages = [
 ];
 
 
+}
 }
