@@ -24,7 +24,7 @@
   };
 }
 
-
+{
   # Define a user account
   users.extraUsers.kodi.isNormalUser = true;
   services.cage.user = "kodi";
