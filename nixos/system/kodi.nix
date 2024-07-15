@@ -1,3 +1,4 @@
+{
 { config, pkgs, ... }:
 
 
@@ -39,3 +40,4 @@ environment.systemPackages = [
 	]))
 ];
 
+}
