@@ -31,9 +31,10 @@
   services.cage.program = "${pkgs.kodi-wayland}/bin/kodi-standalone";
   services.cage.enable = true;
 }
-
+{
 nixpkgs.config.kodi.enableAdvancedLauncher = true;
-
+}
+{
 environment.systemPackages = [
 	(pkgs.kodi.passthru.withPackages (kodiPkgs: with kodiPkgs; [
 		jellyfin
@@ -41,3 +42,4 @@ environment.systemPackages = [
 ];
 
 
+}
