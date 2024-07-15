@@ -21,6 +21,7 @@ in
   # manage.
   imports = [ 
   ./firefox/default.nix 
+  ./system/kodi.nix
   ];
 
   home.username = "jon";

@@ -26,7 +26,8 @@ xhost +local: &
 #signal-desktop &
 #steam & 
 firefox & 
-strawberry &
+#strawberry &
+audacious &
 kitty &
 #hyprland-autoname-workspaces & 
 #hyprdim &
