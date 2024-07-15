@@ -1,4 +1,4 @@
-
+{ pkgs, ... }:
 
 
 
@@ -23,6 +23,7 @@
     allowedUDPPorts = [ 8080 ];
   };
 }
+
 
 {
   # Define a user account
