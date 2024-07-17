@@ -42,6 +42,8 @@ in
  
 
   home.packages = with pkgs; [ 
+	
+	glaxnimate # Simple vector animation program. KDENLive Requirement
 	libsForQt5.kdenlive # Video editor
 #	workout-tracker
 	stable.audacious # Music Player
