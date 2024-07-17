@@ -42,11 +42,12 @@ in
  
 
   home.packages = with pkgs; [ 
+	libsForQt5.kdenlive # Video editor
 #	workout-tracker
-	stable.audacious
-	gqview
-	wofi
-	stable.rofi-wayland 
+	stable.audacious # Music Player
+	gqview # A fast image viewer
+	wofi # A launcher/menu program for wlroots based wayland compositors such as sway
+	stable.rofi-wayland # A launcher/menu program for wlroots based wayland compositors such as sway
 	wootility # A customization and management software for Wooting keyboards
         mealie # A self hosted recipe manager and meal planner
 	steamtinkerlaunch # Steam Tinker
