@@ -6,6 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	wayfire
 	spice-gtk
 	android-tools
 	usb-modeswitch
