@@ -19,7 +19,7 @@
           "browser.contentblocking.category" = { Value = "strict"; Status = "locked"; };
           "extensions.pocket.enabled" = lock-false;
           "extensions.screenshots.disabled" = lock-true;
-          "browser.fullscreen.autohide" = lock-false;
+          "browser.fullscreen.autohide" = lock-true;
           "browser.topsites.contile.enabled" = lock-false;
           "browser.formfill.enable" = lock-false;
           "browser.search.suggest.enabled" = lock-false;
