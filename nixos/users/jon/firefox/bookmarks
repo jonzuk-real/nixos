@@ -228,9 +228,9 @@ programs.firefox.profiles.default.bookmarks = [
 								name = "Olive Oil";
 								bookmarks = [
 									{
-									 	name = "Amphora nueva";
-									 	url = "https://amphoranueva.com/marin/product-category/premium-extra-virgin-olive-oil/";
-									 	tags = [ "olive" "oil" "pantry" "store"];
+									 	name = "elite Olive Oils";
+									 	url = "https://eliteoliveoils.com/";
+									 	tags = [ "olive" "oil" "pantry" "list" "blog"];
 									}
 									{
 										name = "kali-agri";
