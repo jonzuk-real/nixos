@@ -13,6 +13,21 @@
 "hgeljhfekpckiiplhkigfehkdpldcggm" # Auto Refresh Plus | Page Monitor
  ];
 
+# New Section
+ extraOpts = {
+      "BrowserSignin" = "0";
+      "SyncDisabled" = "true";
+      "PasswordManagerEnabled" = "false";
+      "BuiltInDnsClientEnabled" = "false";
+      "​DeviceMetricsReportingEnabled" = "true";
+      "​ReportDeviceCrashReportInfo" = "true";
+      "​SpellcheckEnabled" = "true";
+      "​SpellcheckLanguage" = [
+                               "de"
+                               "en-US"
+                             ];
+# New Section Above
+
 
 	defaultSearchProviderEnabled = true;
 	defaultSearchProviderSearchURL = "https://search.brave.com/search?q={searchTerms}";
