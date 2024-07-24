@@ -26,6 +26,7 @@
                                "de"
                                "en-US"
                              ];
+};
 # New Section Above
 
 
