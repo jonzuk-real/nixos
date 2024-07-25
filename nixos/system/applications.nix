@@ -6,7 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
-	firefox-devedition
+#	firefox-devedition
 	wayfire
 	spice-gtk
 	android-tools
