@@ -42,7 +42,7 @@ in
  
 
   home.packages = with pkgs; [ 
-#	firefox-devedition # A web browser built from Firefox Developer Edition source tree	
+	firefox-devedition-unwrapped # A web browser built from Firefox Developer Edition source tree	
 	glaxnimate # Simple vector animation program. KDENLive Requirement
 	libsForQt5.kdenlive # Video editor
 #	workout-tracker
