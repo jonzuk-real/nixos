@@ -6,6 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	geoclue2
 #	firefox-devedition
 	wayfire
 	spice-gtk
