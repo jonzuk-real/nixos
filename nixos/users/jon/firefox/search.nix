@@ -13,7 +13,7 @@
                   ];
                 }];
                
-                definedAliases = [ "@NixPackages" ];
+                definedAliases = [ "@NP" ];
               };
               "NixOS Wiki" = {
                 urls = [{ template = "https://nixos.wiki/index.php?search={searchTerms}"; }];
