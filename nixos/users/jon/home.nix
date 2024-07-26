@@ -87,8 +87,8 @@ in
         xarchiver # GTK frontend to 7z,zip,rar,tar,bzip2, gzip,arj, lha, rpm and deb (open and extract only)
         airshipper # Provides automatic updates for the voxel RPG Veloren.
 	minetest # Infinite-world block sandbox game
-	hmcl # A Minecraft Launcher which is multi-functional, cross-platform and popular
-#        prismlauncher # A free, open source launcher for Minecraft
+#	hmcl # A Minecraft Launcher which is multi-functional, cross-platform and popular
+        prismlauncher # A free, open source launcher for Minecraft
         mari0 # Mario and Portal Combined
         superTux # Classic 2D jump'n run sidescroller game
         keepassxc # Password Manager
