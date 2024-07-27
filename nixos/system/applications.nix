@@ -6,6 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	async
 	geoclue2
 #	firefox-devedition
 	wayfire
