@@ -5,7 +5,7 @@ services.invidious.database.createLocally = true;
 services.postgresql.ensureDatabases = [
   "jon"
   "invidious"
-]
+];
 
 
-};
+}
