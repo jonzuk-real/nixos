@@ -42,6 +42,7 @@ in
  
 
   home.packages = with pkgs; [ 
+	tor-browser
 #	firefox-devedition-unwrapped # A web browser built from Firefox Developer Edition source tree	
 	glaxnimate # Simple vector animation program. KDENLive Requirement
 	libsForQt5.kdenlive # Video editor
