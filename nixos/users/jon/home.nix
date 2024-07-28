@@ -103,7 +103,7 @@ in
         git # Distributed version control system
         syncthing # Open Source Continuous File Synchronization
         gdrive3 # Google Drive CLI Client
-#	chromium # Chromium Browser
+	chromium # Chromium Browser
         brave # Privacy-oriented browser for Desktop and Laptop computers
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
