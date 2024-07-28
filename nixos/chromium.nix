@@ -32,7 +32,7 @@
 
 
 	defaultSearchProviderEnabled = true;
-	defaultSearchProviderSearchURL = "https://search.brave.com/search?q={searchTerms}";
+	defaultSearchProviderSearchURL = "https://www.startpage.com/sp/search?query={searchTerms}";
 	homepageLocation = "https://nixos.org";
  };
      
