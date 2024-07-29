@@ -10,6 +10,11 @@
 
  ];
 
+
+services.hardware.openrgb.enable = true;
+services.hardware.openrgb.motherboard = "amd";
+
+
 services.flatpak.enable = true;
 
 #Flakes and nix command
