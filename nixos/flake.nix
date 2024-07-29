@@ -36,9 +36,7 @@ modules = [
      ];
      
 
-config = {
-allowedUnfree = true;
-};
+nixpkgs.config.allowUnfree = true; 
  
        };
          };
