@@ -12,7 +12,7 @@ swaynoficationcenter &
 
 # top bar
 waybar &
- 
+#waybar -c .config/waybar/config3 -s .config/waybar/style2.css &
 
 #night light
 darkman run& 
