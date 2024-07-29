@@ -34,7 +34,12 @@ modules = [
 	    home-manager.extraSpecialArgs = {inherit inputs;};
 	}
      ];
-      
+     
+
+config = {
+allowedUnfree = true;
+};
+ 
        };
          };
          };

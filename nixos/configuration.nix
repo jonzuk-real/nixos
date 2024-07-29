@@ -22,7 +22,7 @@ in
 
 services.hardware.openrgb.enable = true;
 services.hardware.openrgb.motherboard = "amd";
-nixpkgs.config.allowUnfree = true; 
+#nixpkgs.config.allowUnfree = true; 
 
 services.flatpak.enable = true;
 
