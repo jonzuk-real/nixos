@@ -70,7 +70,7 @@ in
         lutris # Open Source gaming platform for GNU/Linux
         gamemode # Optimise Linux system performance on demand
         yt-dlp # YouTube CMD Downloader
-        strawberry # Music Player
+#        strawberry # Music Player
         gamescope # SteamOS session compositing window manager
         pavucontrol # PulseAudio Volume Control
         librewolf # Privacy Browser
