@@ -96,7 +96,7 @@ environment.systemPackages = [
      source-han-sans-traditional-chinese
      ubuntu_font_family
       font-awesome
-      nerdfonts
+     stable.nerdfonts
       noto-fonts
       noto-fonts-cjk
       noto-fonts-emoji
