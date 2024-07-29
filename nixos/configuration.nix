@@ -4,6 +4,15 @@
 { config, pkgs, inputs, ... }:
 
 
+let
+
+  stable = import inputs.nixpkgs-stable {
+    system = pkgs.system;
+  };
+
+in
+
+
 {
   imports =
     [ # Include the results of the hardware scan.
@@ -87,19 +96,19 @@ environment.systemPackages = [
     fontDir.enable = true;
     enableGhostscriptFonts = true;
     packages = with pkgs; [
-      corefonts
-      dejavu_fonts
-      inconsolata
+     corefonts
+     dejavu_fonts
+     inconsolata
      source-han-sans-japanese
      source-han-sans-korean
      source-han-sans-simplified-chinese
      source-han-sans-traditional-chinese
      ubuntu_font_family
-      font-awesome
-     nixpkgs-stable.nerdfonts
-      noto-fonts
-      noto-fonts-cjk
-      noto-fonts-emoji
+     font-awesome
+     stable.nerdfonts
+     noto-fonts
+     noto-fonts-cjk
+     noto-fonts-emoji
     ];
   };
 
