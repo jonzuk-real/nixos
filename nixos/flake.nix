@@ -7,7 +7,7 @@
    
     nixosConfigurations = {
         nixos = nixpkgs.lib.nixosSystem {
-      pkgs = import nixpkgs { system = "x86_64-linux"; 'nixpkgs.config.allowUnfree = true;' "config.allowUnfree = true;" };
+      pkgs = import nixpkgs { system = "x86_64-linux"; "nixpkgs.config.allowUnfree = true;" "config.allowUnfree = true;" };
 	specialArgs = {inherit inputs;};      
 modules = [ 
 	hyprland.nixosModules.default
