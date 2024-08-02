@@ -726,11 +726,7 @@ programs.firefox.profiles.default.bookmarks = [
                                                                                 name = "Lazy River Products";
                                                                                 url = "https://lazyriverproducts.com/";
                                                                         }
-                                                                        {
-                                                                                name = "Text to ASCII Art Generator (TAAG)";
-                                                                                url = "http://www.patorjk.com/software/taag/#p=display";
-                                                                                tags = [ "generator" "tool" "ascii" "art" "text" ];
-                                                                        }
+                                                                  
                                                                 ];
                                                         }
 
