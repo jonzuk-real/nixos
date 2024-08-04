@@ -725,8 +725,13 @@ programs.firefox.profiles.default.bookmarks = [
                                                                         {
                                                                                 name = "Lazy River Products";
                                                                                 url = "https://lazyriverproducts.com/";
-                                                                        }
-                                                                  
+                                                                       		tags = [ "weed" "cannabis" "medicine" "hemp" "THCa" "flower" ];
+									}
+                                                                  	{
+										name = "PUFFY";
+										url = "https://www.myqwin.com/";
+										tags = [ "weed" "cannabis" "medicine" "hemp" "THCa" "flower" ];
+									}
                                                                 ];
                                                         }
 
