@@ -42,6 +42,7 @@ in
  
 
   home.packages = with pkgs; [ 
+	microsoft-edge-dev # The web browser from Microsoft
 	sayonara # Music Playe
 	tor-browser # Privacy Browser 
 #	firefox-devedition-unwrapped # A web browser built from Firefox Developer Edition source tree	
