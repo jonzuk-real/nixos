@@ -1,8 +1,8 @@
  {
  programs.firefox.profiles.default.search = {
             force = true;
-            default = "StartPage";
-            order = [ "StartPage" "Searx" "Google" ];
+            default = "DuckDuckGo";
+            order = [ "DuckDuckGo" "Searx" "Google" ];
             engines = {
               "Nix Packages" = {
                 urls = [{

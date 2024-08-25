@@ -28,7 +28,7 @@ programs.firefox.profiles.default.bookmarks = [
 							}
 							{
 								name = "Weather";
-								url = "https://forecast.weather.gov/MapClick.php?lat=42.7619&lon=-71.4353&unit=0&lg=english&FcstType=graphical";
+								url = "https://weather.com/";
 								tags = [ "weather" ];
 							}
 							{
