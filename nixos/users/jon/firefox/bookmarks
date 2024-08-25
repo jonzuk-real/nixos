@@ -26,11 +26,25 @@ programs.firefox.profiles.default.bookmarks = [
 								url = "localhost:32400";
 								tags = [ "plex" ];
 							}
+
+
+
+						{
+							name = "Weather";
+							bookmarks= [
 							{
-								name = "Weather";
+								name = "The Weather Channel";
 								url = "https://weather.com/";
 								tags = [ "weather" ];
 							}
+						        {
+                                                                name = "National Weather Service";
+                                                                url = "https://weather.gov";
+                                                                tags = [ "weather" ];
+                                                        }
+							           ]
+
+						}
 							{
 								name = "Entertainment";
 								bookmarks= [
