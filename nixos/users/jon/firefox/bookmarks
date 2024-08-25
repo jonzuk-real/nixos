@@ -42,7 +42,7 @@ programs.firefox.profiles.default.bookmarks = [
                                                                 url = "https://weather.gov";
                                                                 tags = [ "weather" ];
                                                         }
-							           ]
+							           ];
 
 						}
 							{
