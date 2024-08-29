@@ -40,7 +40,6 @@ environment.systemPackages = with pkgs; [
 	swaynotificationcenter
 	xfce.thunar
 	xfce.thunar-volman
-	gvfs
 	pkgs.grim
 	pkgs.slurp
 	pkgs.wl-clipboard

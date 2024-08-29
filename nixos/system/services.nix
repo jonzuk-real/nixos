@@ -1,6 +1,7 @@
 { pkgs, config, libs, ... }:
  {
  # List services that you want to enable:
+	services.gvfs.enable = true;
 	services.resolved.enable = true;
 	programs.wayfire.enable = true;
 #	programs.stable.hyprland.enable = true;
