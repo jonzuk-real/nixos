@@ -38,6 +38,7 @@ environment.systemPackages = with pkgs; [
 	lxqt.lxqt-policykit
 	waybar-mpris
 	swaynotificationcenter
+	xfce.thunar-archive-plugin
 	xfce.thunar
 	xfce.thunar-volman
 	pkgs.grim

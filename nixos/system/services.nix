@@ -1,7 +1,10 @@
 { pkgs, config, libs, ... }:
  {
  # List services that you want to enable:
-	services.gvfs.enable = true;
+	
+	programs.xfconf.enable = true
+	services.gvfs.enable = true; # Mount, trash, and other functionalities
+	services.tumbler.enable = true; # Thumbnail support for images
 	services.resolved.enable = true;
 	programs.wayfire.enable = true;
 #	programs.stable.hyprland.enable = true;
