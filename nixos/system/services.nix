@@ -6,7 +6,7 @@
    	users.extraGroups.vboxusers.members = [ "jon" ];
 	virtualisation.virtualbox.guest.enable = true;
   	virtualisation.virtualbox.guest.draganddrop = true;
-	virtualisation.virtualbox.host.enable = true;
+#	virtualisation.virtualbox.host.enable = true;
    	virtualisation.virtualbox.host.enableExtensionPack = true;
 	
 	programs.xfconf.enable = true;
