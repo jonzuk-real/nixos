@@ -61,7 +61,7 @@ environment.systemPackages = with pkgs; [
 	pkgs.virtiofsd
 	pkgs.blender-hip
 	pkgs.gparted
-#	pkgs.vmware-workstation
+	pkgs.vmware-workstation
 	pkgs.htop
 	pkgs.pcsclite
 	pkgs.reaper
