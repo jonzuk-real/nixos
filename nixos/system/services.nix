@@ -8,7 +8,11 @@
   	virtualisation.virtualbox.guest.draganddrop = true;
 #	virtualisation.virtualbox.host.enable = true;
    	virtualisation.virtualbox.host.enableExtensionPack = true;
-	
+	  programs.sway = {
+    enable = true;
+    wrapperFeatures.gtk = true;
+			};	
+	services.gnome.gnome-keyring.enable = true;
 	programs.xfconf.enable = true;
 	services.gvfs.enable = true; # Mount, trash, and other functionalities
 	services.tumbler.enable = true; # Thumbnail support for images
