@@ -42,7 +42,7 @@ in
  
 
   home.packages = with pkgs; [ 
-
+	pdf4qt # Open source PDF editor
 	wootility # Wooting Keyboard Utility 
 	ffmpeg-full # A complete, cross-platform solution to record, convert and stream audio and video
 	microsoft-edge-dev # The web browser from Microsoft
