@@ -62,7 +62,7 @@ environment.systemPackages = with pkgs; [
 	pkgs.virtiofsd
 	pkgs.blender-hip
 	pkgs.gparted
-	virtualbox
+#	virtualbox
 	pkgs.htop
 	pkgs.pcsclite
 	pkgs.reaper
