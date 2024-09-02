@@ -42,6 +42,7 @@ in
  
 
   home.packages = with pkgs; [ 
+
 	wootility # Wooting Keyboard Utility 
 	ffmpeg-full # A complete, cross-platform solution to record, convert and stream audio and video
 	microsoft-edge-dev # The web browser from Microsoft
@@ -51,6 +52,7 @@ in
 	glaxnimate # Simple vector animation program. KDENLive Requirement
 	libsForQt5.kdenlive # Video editor
 #	workout-tracker
+	audacity # Sound editor with graphical UI
 	stable.audacious # Music Player
 	gqview # A fast image viewer
 	wofi # A launcher/menu program for wlroots based wayland compositors such as sway
