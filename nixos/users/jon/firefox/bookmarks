@@ -111,7 +111,19 @@ programs.firefox.profiles.default.bookmarks = [
 										}
 									];
 									}
+									{
+									name = "Online Stores";
+									bookmarks = [
+										}
+										{
+										name = "Vegan Essentials";
+										url = "https://veganessentials.com/";
+										tags = ["vegan" "cooking" "chef" "supplies" "food" "store" ];
+										}
 									];
+									}
+									];
+									
 							}
 							{
 								name = "Clothes";
