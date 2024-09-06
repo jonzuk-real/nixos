@@ -743,19 +743,19 @@ programs.firefox.profiles.default.bookmarks = [
                                                                 name = "Weed";
                                                                 bookmarks = [
                                                                         {
-                                                                                name = "arete hemp";
-                                                                                url = "https://aretehemp.com/";
-                                                                                tags = [ "weed" "cannabis" "medicine" "hemp" "THCa" "flower" ];
+                                                                                name = "Revere73";
+                                                                                url = "https://reverie73.com/";
+                                                                                tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
                                                                         }
                                                                         {
                                                                                 name = "Lazy River Products";
                                                                                 url = "https://lazyriverproducts.com/";
-                                                                       		tags = [ "weed" "cannabis" "medicine" "hemp" "THCa" "flower" ];
+                                                                       		tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
 									}
                                                                   	{
 										name = "PUFFY";
 										url = "https://www.myqwin.com/";
-										tags = [ "weed" "cannabis" "medicine" "hemp" "THCa" "flower" ];
+										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
 									}
                                                                 ];
                                                         }
