@@ -28,7 +28,12 @@ xhost +local: &
 firefox & 
 #strawberry &
 audacious &
-kitty &
+
+
+#Terminals
+#kitty &
+foot &
+
 #hyprland-autoname-workspaces & 
 #hyprdim &
 # wallpaper daemon
