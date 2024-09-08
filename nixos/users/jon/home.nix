@@ -42,6 +42,7 @@ in
  
 
   home.packages = with pkgs; [ 
+	kdePackages.okular # KDE document viewer
 	pdf4qt # Open source PDF editor
 	wootility # Wooting Keyboard Utility 
 	ffmpeg-full # A complete, cross-platform solution to record, convert and stream audio and video
