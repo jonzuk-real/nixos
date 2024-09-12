@@ -108,8 +108,7 @@
     "return-type": "json",
     "exec": "waybar-mpris --position --autofocus",
     "on-click": "waybar-mpris --send toggle",
-    // This option will switch between players on right click.
-        "on-click-right": "waybar-mpris --send player-next",
+    "on-click-right": "waybar-mpris --send player-next",
     // The options below will switch the selected player on scroll
         // "on-scroll-up": "waybar-mpris --send player-next",
         // "on-scroll-down": "waybar-mpris --send player-prev",
