@@ -47,7 +47,7 @@ in
 	wootility # Wooting Keyboard Utility 
 	ffmpeg-full # A complete, cross-platform solution to record, convert and stream audio and video
 	microsoft-edge-dev # The web browser from Microsoft
-	sayonara # Music Playe
+#	sayonara # Music Player
 	tor-browser # Privacy Browser 
 #	firefox-devedition-unwrapped # A web browser built from Firefox Developer Edition source tree	
 	glaxnimate # Simple vector animation program. KDENLive Requirement
@@ -61,7 +61,7 @@ in
 	wootility # A customization and management software for Wooting keyboards
         mealie # A self hosted recipe manager and meal planner
 	steamtinkerlaunch # Steam Tinker
-#      	 obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files
+#       obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files
         process-viewer # A process viewer GUI in rust
         gammastep # Screen color temperature manager
         darkman # Framework for dark-mode and light-mode transitions on Linux desktop
@@ -71,13 +71,13 @@ in
         libreoffice-qt # Comprehensive, professional-quality productivity suite, a variant of openoffice.org
         aspell # Spell checker for many languages
         aspellDicts.en # Aspell dictionary for English
-# 	 hunspell # Spell checker
-#        hunspellDicts.en_US # Hunspell dictionary for English (United States) from Wordlist
+#       hunspell # Spell checker
+#       hunspellDicts.en_US # Hunspell dictionary for English (United States) from Wordlist
         gedit # Former GNOME text editor
         lutris # Open Source gaming platform for GNU/Linux
         gamemode # Optimise Linux system performance on demand
         yt-dlp # YouTube CMD Downloader
-#        strawberry # Music Player
+#       strawberry # Music Player
         gamescope # SteamOS session compositing window manager
         pavucontrol # PulseAudio Volume Control
         librewolf # Privacy Browser
