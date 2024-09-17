@@ -2,6 +2,13 @@
  {
  # List services that you want to enable:
 
+#qt theming
+qt.enable = true;
+qt.platformTheme = "gtk2";
+qt.style = "adwaita-dark";
+
+
+
 	virtualisation.virtualbox.host.enable = true;
    	users.extraGroups.vboxusers.members = [ "jon" ];
 	virtualisation.virtualbox.guest.enable = true;
