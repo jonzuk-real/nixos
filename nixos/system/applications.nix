@@ -6,6 +6,8 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	virt-viewer
+	looking-glass-client
 	cpuid
 	async
 	geoclue2
