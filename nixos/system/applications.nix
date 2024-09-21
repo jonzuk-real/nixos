@@ -6,6 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	gnumake
 	virt-viewer
 	looking-glass-client
 	cpuid
