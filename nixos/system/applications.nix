@@ -6,6 +6,8 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	zlib
+	expat
 	gnumake
 	virt-viewer
 	looking-glass-client
