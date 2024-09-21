@@ -8,6 +8,9 @@ qt.platformTheme = "gtk2";
 qt.style = "adwaita-dark";
 
 
+	services.xserver.videoDrivers = [ "vmware" ];
+#	virtualisation.vmware.guest.enable = true;
+#	virtualisation.vmware.host.enable = true;
 
 	virtualisation.virtualbox.host.enable = true;
    	users.extraGroups.vboxusers.members = [ "jon" ];
