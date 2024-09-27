@@ -29,7 +29,7 @@ programs.firefox.profiles.default.bookmarks = [
 							{
 								name = "Amazon";
 								url = "https://www.amazon.com/";
-								tags = ["shopping" "amazon" "commerce" ]
+								tags = ["shopping" "amazon" "commerce" ];
 							}
 
 
