@@ -23,6 +23,7 @@ modules = [
   	./system/pipewire.nix
 	./system/kodi.nix
 	./system/network.nix
+#	./brave.nix
  	#./hardware/nvidia.nix
 #	./modules/invidious.nix
 # make home-manager as a module of nixos
