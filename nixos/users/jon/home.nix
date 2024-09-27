@@ -47,7 +47,7 @@ in
 	pdf4qt # Open source PDF editor
 	wootility # Wooting Keyboard Utility 
 	ffmpeg-full # A complete, cross-platform solution to record, convert and stream audio and video
-	microsoft-edge-dev # The web browser from Microsoft
+#	microsoft-edge-dev # The web browser from Microsoft
 #	sayonara # Music Player
 	tor-browser # Privacy Browser 
 #	firefox-devedition-unwrapped # A web browser built from Firefox Developer Edition source tree	
