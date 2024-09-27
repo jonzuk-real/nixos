@@ -6,7 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
-	vmware-workstation
+#	vmware-workstation
 	libusb
 	gcc
 	zlib
