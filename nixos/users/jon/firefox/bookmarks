@@ -27,6 +27,11 @@ programs.firefox.profiles.default.bookmarks = [
 								tags = [ "plex" ];
 							}
 							{
+                                                                name = "Jellyfin";
+                                                                url = "http://localhost:8096";
+                                                                tags = [ "jellyfin" "plex" "media" "music" "video" "movie" "tv" ];
+                                                        }
+							{
 								name = "Amazon";
 								url = "https://www.amazon.com/";
 								tags = ["shopping" "amazon" "commerce" ];
