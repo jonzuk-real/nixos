@@ -44,11 +44,7 @@ qt.style = "adwaita-dark";
 	virtualisation.libvirtd.enable = true;
 	programs.virt-manager.enable = true;		
 
-	services.plex = {
-	enable = true;
-   openFirewall = true;
-   user = "jon";
-};	
+	
 
 environment.systemPackages = [
     pkgs.xorg.xdm
