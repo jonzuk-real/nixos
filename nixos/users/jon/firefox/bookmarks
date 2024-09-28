@@ -252,9 +252,9 @@ programs.firefox.profiles.default.bookmarks = [
 								name = "Supplements";
 								bookmarks = [
 									{
-									 	name = "iHerb";
-									 	url = "https://www.iherb.com";
-									 	tags = [ "vitamins" "supplements" "pantry" "store"];
+										name = "iHerb";
+										url = "https://www.iherb.com";
+										tags = [ "vitamins" "supplements" "pantry" "store"];
 									}
 								
 											];
@@ -263,9 +263,9 @@ programs.firefox.profiles.default.bookmarks = [
 								name = "Olive Oil";
 								bookmarks = [
 									{
-									 	name = "elite Olive Oils";
-									 	url = "https://eliteoliveoils.com/";
-									 	tags = [ "olive" "oil" "pantry" "list" "blog"];
+										name = "elite Olive Oils";
+										url = "https://eliteoliveoils.com/";
+										tags = [ "olive" "oil" "pantry" "list" "blog"];
 									}
 									{
 										name = "kali-agri";
@@ -337,7 +337,7 @@ programs.firefox.profiles.default.bookmarks = [
 										}
 											];
 							}
- 							{
+							{
                                                                 name = "3D Prints";
                                                                 bookmarks = [
                                                                         {
@@ -345,7 +345,7 @@ programs.firefox.profiles.default.bookmarks = [
                                                                                 url = "https://www.thingiverse.com/";
                                                                                 tags = [ "print" "3d" ];
                                                                         }
-							  		{
+									{
                                                                                 name = "THANGS";
                                                                                 url = "https://thangs.com/?sort=trending";
                                                                                 tags = [ "print" "3d" ];
@@ -760,9 +760,9 @@ programs.firefox.profiles.default.bookmarks = [
                                                                         {
                                                                                 name = "Lazy River Products";
                                                                                 url = "https://lazyriverproducts.com/";
-                                                                       		tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
+										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
 									}
-                                                                  	{
+									{
 										name = "PUFFY";
 										url = "https://www.myqwin.com/";
 										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
