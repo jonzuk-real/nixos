@@ -6,6 +6,8 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	wezterm
+	foot
 	labwc-tweaks
 	labwc
 #	vmware-workstation
