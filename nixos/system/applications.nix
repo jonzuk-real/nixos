@@ -6,6 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	spice-vdagent	
 	wezterm
 	foot
 	labwc-tweaks
