@@ -31,6 +31,18 @@ services.flatpak.enable = true;
 #Flakes and nix command
 nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
+#LookingGlass
+virtualisation.libvirtd.qemu.verbatimConfig = ''
+    cgroup_device_acl = [
+        "/dev/null", "/dev/full", "/dev/zero",
+        "/dev/random", "/dev/urandom",
+        "/dev/ptmx", "/dev/kvm",
+        "/dev/kvmfr0"
+    ]
+'';
+
+
+
 #Add My User account
 users.users.jon = {
     isNormalUser = true;

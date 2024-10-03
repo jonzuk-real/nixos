@@ -18,6 +18,12 @@ qt.style = "adwaita-dark";
   	virtualisation.virtualbox.guest.draganddrop = true;
 #	virtualisation.virtualbox.host.enable = true;
    	virtualisation.virtualbox.host.enableExtensionPack = true;
+	services.udev.extraRules = ''
+    SUBSYSTEM=="kvmfr", OWNER="jon", GROUP="kvm", MODE="0660"
+'';
+
+
+
 	  programs.sway = {
     enable = true;
     wrapperFeatures.gtk = true;
