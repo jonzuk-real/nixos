@@ -24,6 +24,7 @@ modules = [
 	./system/kodi.nix
 	./system/network.nix
 #	./jellyfin.nix
+	./60QEMU.nix
 	./plex.nix
 #	./brave.nix
  	#./hardware/nvidia.nix
