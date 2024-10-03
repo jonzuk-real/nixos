@@ -10,8 +10,11 @@
 
   boot.initrd.availableKernelModules = [ "nvme" "xhci_pci" "ahci" "usbhid" "usb_storage" "sd_mod" ];
   boot.initrd.kernelModules = [ ];
-  boot.kernelModules = [ "kvm-amd" "virtio" "virtio_pci" "virtio_gpu" ];
-  boot.extraModulePackages = [ ];
+  boot.kernelModules = [ "kvmfr" "kvm-amd" "virtio" "virtio_pci" "virtio_gpu" ];
+  boot.extraModulePackages = [ config.boot.kernelPackages.kvmfr ];
+  boot.extraModprobeConfig = ''
+        options kvmfr static_size_mb=32
+    '';
 
   fileSystems."/" =
     { device = "/dev/disk/by-uuid/d2387be6-ad38-4e78-8a4b-879c933b6952";
