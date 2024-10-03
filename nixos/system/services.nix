@@ -7,7 +7,7 @@ qt.enable = true;
 qt.platformTheme = "gtk2";
 qt.style = "adwaita-dark";
 
-
+	hardware.xone.enable = true; # support for the xbox controller USB dongle
 #	services.xserver.videoDrivers = [ "vmware" ];
 #	virtualisation.vmware.guest.enable = true;
 #	virtualisation.vmware.host.enable = true;
