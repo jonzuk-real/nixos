@@ -6,6 +6,8 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	openvpn
+	protonvpn-gui
 	spice-vdagent	
 	wezterm
 	foot
