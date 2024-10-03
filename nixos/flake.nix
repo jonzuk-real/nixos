@@ -23,8 +23,8 @@ modules = [
   	./system/pipewire.nix
 	./system/kodi.nix
 	./system/network.nix
-#	./jellyfin.nix
-	./60QEMU.nix
+	./jellyfin.nix
+#	./60QEMU.nix
 	./plex.nix
 #	./brave.nix
  	#./hardware/nvidia.nix
