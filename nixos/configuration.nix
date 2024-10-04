@@ -43,10 +43,10 @@ users.users.jon = {
 
 
 #WayBar
-(pkgs.waybar.overrideAttrs (oldAttrs: {
+pkgs.waybar.overrideAttrs (oldAttrs: {
     mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
   })
-)
+
 ];
 
   #xdg portal
