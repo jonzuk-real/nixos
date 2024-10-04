@@ -23,9 +23,9 @@ modules = [
   	./system/pipewire.nix
 	./system/kodi.nix
 	./system/network.nix
+	./system/lookinglass.nix
 	./jellyfin.nix
 #	./60QEMU.nix
-	./lookinglass.nix
 	./plex.nix
 #	./brave.nix
  	#./hardware/nvidia.nix
