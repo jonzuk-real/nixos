@@ -16,6 +16,7 @@ modules = [
         ./hardware-configuration.nix
 	./users.nix
 	./chromium.nix
+	./steam.nix
 #	./hyprland.nix
 	./hardware/amdgpu.nix
 	./system/applications.nix
