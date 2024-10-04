@@ -41,13 +41,7 @@ users.users.jon = {
     extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
 };
 
-#Steam
-programs.steam = {
-  enable = true;
-  remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
-  dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
-};
-environment.systemPackages = [
+
 #WayBar
 (pkgs.waybar.overrideAttrs (oldAttrs: {
     mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
