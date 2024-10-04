@@ -29,17 +29,17 @@ services.pipewire.extraConfig.pipewire-pulse."92-low-latency" = {
     {
       name = "libpipewire-module-protocol-pulse";
       args = {
-        pulse.min.req = "32/48000";
-        pulse.default.req = "32/48000";
-        pulse.max.req = "32/48000";
-        pulse.min.quantum = "32/48000";
-        pulse.max.quantum = "32/48000";
+        pulse.min.req = "256/44100";
+        pulse.default.req = "256/48000";
+        pulse.max.req = "1024/192000";
+        pulse.min.quantum = "256/44100";
+        pulse.max.quantum = "1024/192000";
       };
     }
   ];
   stream.properties = {
-    node.latency = "32/48000";
-    resample.quality = 1;
+    node.latency = "256/48000";
+    resample.quality = 4;
   };
 };
 
