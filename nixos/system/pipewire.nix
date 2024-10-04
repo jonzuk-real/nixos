@@ -16,7 +16,7 @@
 #Pipewire Low Latency
 services.pipewire.extraConfig.pipewire."92-low-latency" = {
   context.properties = {
-    default.clock.rate = 48000;
+#    default.clock.rate = 48000;
     default.clock.quantum = 32;
     default.clock.min-quantum = 32;
     default.clock.max-quantum = 32;
@@ -30,7 +30,7 @@ services.pipewire.extraConfig.pipewire-pulse."92-low-latency" = {
       name = "libpipewire-module-protocol-pulse";
       args = {
         pulse.min.req = "256/44100";
-        pulse.default.req = "256/48000";
+#        pulse.default.req = "256/48000";
         pulse.max.req = "1024/192000";
         pulse.min.quantum = "256/44100";
         pulse.max.quantum = "1024/192000";
