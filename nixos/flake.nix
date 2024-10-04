@@ -1,5 +1,5 @@
 {
- description = "A retarded NixOS flake";
+ description = "My Epic NixOS flake";
 
 
 
