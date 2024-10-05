@@ -43,19 +43,14 @@ users.users.jon = {
 
 
 #WayBar
-#environment.systemPackages = with pkgs; [
+environment.systemPackages = with pkgs; [
   # Other packages...
-#  (waybar.overrideAttrs (oldAttrs: {
-#    mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
-#  }))
-#];
-
-environment.systemPackages = [
-pkgs.waybar.overrideAttrs (oldAttrs: {
+  (waybar.overrideAttrs (oldAttrs: {
     mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
-  })
-
+  }))
 ];
+
+
 
   #xdg portal
   xdg.portal.enable = true;
