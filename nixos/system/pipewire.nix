@@ -45,7 +45,7 @@ services.pipewire.extraConfig.pipewire-pulse."92-high-quality" = {
 
 #ALSA Low Latency
 services.pipewire.wireplumber.configPackages = [
-  (pkgs.writeTextDir "share/wireplumber/main.lua.d/99-alsa-highquality.lua" ''
+  (pkgs.writeTextDir "share/wireplumber/main.lua.d/99-alsa-lowlatency.lua" ''
     alsa_monitor.rules = {
       {
         matches = {{{ "node.name", "matches", "alsa_output.*" }}};
@@ -54,7 +54,7 @@ services.pipewire.wireplumber.configPackages = [
           ["audio.rate"] = "192000", -- for USB soundcards it should be twice your desired rate
           ["api.alsa.period-size"] = 1024, -- defaults to 1024, tweak by trial-and-error
           -- ["api.alsa.disable-batch"] = true, -- generally, USB soundcards use the batch mode
-          ["api.alsa.headroom"] = 1024,
+        # ["api.alsa.headroom"] = 1024,
         },
       },
     }
