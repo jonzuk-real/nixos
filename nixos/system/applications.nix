@@ -6,6 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	gvfs
 	openvpn
 	protonvpn-gui
 	spice-vdagent	
