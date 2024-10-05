@@ -19,26 +19,8 @@ qt.style = "adwaita-dark";
 #	virtualisation.virtualbox.host.enable = true;
    	virtualisation.virtualbox.host.enableExtensionPack = true;
 	
-#QEMU option
-virtualisation.libvirtd = {
-  qemuVerbatimConfig = ''
-    # Your custom QEMU configuration here
-    cgroup_device_acl = [
-      "/dev/null", "/dev/full", "/dev/zero",
-      "/dev/random", "/dev/urandom",
-      "/dev/ptmx", "/dev/kvm", "/dev/kqemu",
-      "/dev/rtc", "/dev/hpet", "/dev/sev",
-      "/dev/kvmfr0"
-    ]
-  '';
-};
 
 
-
-	  programs.sway = {
-    enable = true;
-    wrapperFeatures.gtk = true;
-			};	
 	services.gnome.gnome-keyring.enable = true;
 	programs.xfconf.enable = true;
 	services.gvfs.enable = true; # Mount, trash, and other functionalities
