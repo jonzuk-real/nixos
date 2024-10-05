@@ -24,11 +24,10 @@
       fsType = "vfat";
     };
 
-#  fileSystems."/home/jon/.mount" =
-#    { device = "/dev/disk/by-uuid/FE56CD4356CCFD81";
-#      fsType = "ntfs-3g";
-#      options = [ "rw" "uid=1000"];
-#    };
+  fileSystems."/run/media/jon/SSD" =
+    { device = "/dev/disk/by-uuid/c239575d-bf5a-4591-b471-67d96650742a";
+      fsType = "ext4";
+    };
 
 #  fileSystems."/boot" =
 #    { device = "/dev/disk/by-uuid/BC13-EE69";
