@@ -23,7 +23,7 @@ services.pipewire.extraConfig.pipewire."92-high-quality" = {
   };
 };
 
-PulseAudio Low Latency
+#PulseAudio Low Latency
 services.pipewire.extraConfig.pipewire-pulse."92-high-quality" = {
   context.modules = [
     {

@@ -21,7 +21,7 @@ in
  
 
 
-
+systemd.user.services.gvfs-daemon.environment
 services.hardware.openrgb.enable = true;
 services.hardware.openrgb.motherboard = "amd";
 #nixpkgs.config.allowUnfree = true; 
