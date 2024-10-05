@@ -19,6 +19,20 @@ qt.style = "adwaita-dark";
 #	virtualisation.virtualbox.host.enable = true;
    	virtualisation.virtualbox.host.enableExtensionPack = true;
 	
+#QEMU option
+virtualisation.libvirtd = {
+  enable = true;
+  qemuVerbatimConfig = ''
+    # Your custom QEMU configuration here
+    cgroup_device_acl = [
+      "/dev/null", "/dev/full", "/dev/zero",
+      "/dev/random", "/dev/urandom",
+      "/dev/ptmx", "/dev/kvm", "/dev/kqemu",
+      "/dev/rtc", "/dev/hpet", "/dev/sev",
+      "/dev/kvmfr0"
+    ]
+  '';
+};
 
 
 

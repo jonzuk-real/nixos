@@ -39,7 +39,7 @@ services.pipewire.extraConfig.pipewire."92-high-quality" = {
 #  ];
 #  stream.properties = {
 #    node.latency = "256/48000";
-#    resample.quality = 4;
+#    resample.quality = 14;
 #  };
 #};
 
