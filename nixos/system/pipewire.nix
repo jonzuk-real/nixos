@@ -37,11 +37,11 @@ services.pipewire.extraConfig.pipewire."92-high-quality" = {
 #      };
 #    }
 #  ];
-  stream.properties = {
-    node.latency = "256/48000";
-    resample.quality = 4;
-  };
-};
+#  stream.properties = {
+#    node.latency = "256/48000";
+#    resample.quality = 4;
+#  };
+#};
 
 #ALSA Low Latency
 services.pipewire.wireplumber.configPackages = [
