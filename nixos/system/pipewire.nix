@@ -23,25 +23,25 @@ services.pipewire.extraConfig.pipewire."92-high-quality" = {
   };
 };
 
-#PulseAudio Low Latency
-#services.pipewire.extraConfig.pipewire-pulse."92-low-latency" = {
-#  context.modules = [
-#    {
-#      name = "libpipewire-module-protocol-pulse";
-#      args = {
-#        pulse.min.req = "256/44100";
-#        pulse.default.req = "256/48000";
-#        pulse.max.req = "1024/192000";
-#        pulse.min.quantum = "256/44100";
-#        pulse.max.quantum = "1024/192000";
-#      };
-#    }
-#  ];
-#  stream.properties = {
-#    node.latency = "256/48000";
-#    resample.quality = 14;
-#  };
-#};
+PulseAudio Low Latency
+services.pipewire.extraConfig.pipewire-pulse."92-high-quality" = {
+  context.modules = [
+    {
+      name = "libpipewire-module-protocol-pulse";
+      args = {
+        pulse.min.req = "256/44100";
+        pulse.default.req = "256/48000";
+        pulse.max.req = "1024/192000";
+        pulse.min.quantum = "256/44100";
+        pulse.max.quantum = "1024/192000";
+      };
+    }
+  ];
+  stream.properties = {
+    node.latency = "256/48000";
+    resample.quality = 14;
+  };
+};
 
 #ALSA Low Latency
 services.pipewire.wireplumber.configPackages = [
