@@ -43,12 +43,23 @@ users.users.jon = {
 
 
 #WayBar
+pkgs.waybar.overrideAttrs (oldAttrs: {
 environment.systemPackages = with pkgs; [
   # Other packages...
   (waybar.overrideAttrs (oldAttrs: {
     mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
+  })
+
   }))
 ];
+
+#WayBar
+#environment.systemPackages = with pkgs; [
+#  # Other packages...
+#  (waybar.overrideAttrs (oldAttrs: {
+#    mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
+#  }))
+#];
 
 
 
