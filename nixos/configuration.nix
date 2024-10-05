@@ -50,12 +50,12 @@ users.users.jon = {
 #  }))
 #];
 
+environment.systemPackages = [
+pkgs.waybar.overrideAttrs (oldAttrs: {
+    mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
+  })
 
-#pkgs.waybar.overrideAttrs (oldAttrs: {
-#    mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
-#  })
-#
-#];
+];
 
   #xdg portal
   xdg.portal.enable = true;
