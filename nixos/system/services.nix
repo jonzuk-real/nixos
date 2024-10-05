@@ -21,7 +21,6 @@ qt.style = "adwaita-dark";
 	
 #QEMU option
 virtualisation.libvirtd = {
-  enable = true;
   qemuVerbatimConfig = ''
     # Your custom QEMU configuration here
     cgroup_device_acl = [
