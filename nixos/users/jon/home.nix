@@ -58,6 +58,7 @@ in
 #	workout-tracker
 	audacity # Sound editor with graphical UI
 	stable.audacious # Music Player
+	stable.waybar
 	gqview # A fast image viewer
 	wofi # A launcher/menu program for wlroots based wayland compositors such as sway
 	stable.rofi-wayland # A launcher/menu program for wlroots based wayland compositors such as sway

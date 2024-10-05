@@ -68,7 +68,7 @@ environment.systemPackages = with pkgs; [
 	kitty
 	pkgs.dunst
 	libnotify
-	pkgs.waybar
+	#waybar
 	plex
 	pkgs.unrar
 	pkgs.sway
