@@ -94,8 +94,7 @@ in
 	ppsspp # A HLE Playstation Portable emulator, written in C++ (SDL + headless)
         rpcs3 # PS3 Emulator
         qbittorrent # Featureful free software BitTorrent client
-        mpv # Media Player
-        heroic #Games Launcher
+        mpv # Media Player 
         xarchiver # GTK frontend to 7z,zip,rar,tar,bzip2, gzip,arj, lha, rpm and deb (open and extract only)
         airshipper # Provides automatic updates for the voxel RPG Veloren.
 	minetest # Infinite-world block sandbox game
