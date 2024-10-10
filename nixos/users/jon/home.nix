@@ -45,6 +45,7 @@ in
   
 
   home.packages = with pkgs; [ 
+	protontricks
 	feishin # Full-featured Subsonic/Jellyfin compatible desktop music player
 	kdePackages.okular # KDE document viewer
 	pdf4qt # Open source PDF editor
