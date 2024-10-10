@@ -53,7 +53,6 @@ modules = [
          };
 inputs = {
   nixtheplanet.url = "github:matthewcroughan/nixtheplanet";
-  nixpkgs.url = "github:nixos/nixpkgs/nixos-23.05";
 
   hyprland.url = "git+https://github.com/hyprwm/Hyprland?submodules=1";
 
