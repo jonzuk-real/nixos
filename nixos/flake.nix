@@ -29,8 +29,11 @@ modules = [
 #	./60QEMU.nix
 	./plex.nix
 #	./brave.nix
- 	#./hardware/nvidia.nix
+#	./hardware/nvidia.nix
 #	./modules/invidious.nix
+	./modules/mac.nix
+
+
 # make home-manager as a module of nixos
 # so that home-manager configuration will be deployed automatically when executing `nixos-rebuild switch`
           home-manager.nixosModules.home-manager
