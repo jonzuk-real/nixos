@@ -1,10 +1,8 @@
-{ pkgs, nixtheplanet, ... }:
-
 {
-#  inputs = {
-#    nixtheplanet.url = "github:matthewcroughan/nixtheplanet";
-#    nixpkgs.url = "github:nixos/nixpkgs/nixos-23.05";
-#  };
+  inputs = {
+    nixtheplanet.url = "github:matthewcroughan/nixtheplanet";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-23.05";
+  };
   outputs = { self, nixpkgs, nixtheplanet }: {
     nixosConfigurations.my-machine = nixpkgs.lib.nixosSystem {
       modules = [
