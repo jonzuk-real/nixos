@@ -22,6 +22,7 @@ in
   imports = [ 
 #  ./jellyfin.nix
   ./firefox/default.nix 
+  ./mac.nix
 #  ./system/kodi.nix
   ];
 
