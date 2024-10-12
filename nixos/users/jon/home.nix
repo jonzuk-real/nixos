@@ -45,6 +45,7 @@ in
   
 
   home.packages = with pkgs; [ 
+	xfce.catfish 
 	motrix # A full-featured download manager
 	ryujinx # Experimental Nintendo Switch Emulator written in C#
 	protontricks # A simple wrapper for running Winetricks commands for Proton-enabled games
