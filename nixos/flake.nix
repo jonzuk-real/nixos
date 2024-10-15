@@ -26,7 +26,7 @@ modules = [
 	./system/network.nix
 #	./system/lookingglass.nix
 	./jellyfin.nix
-#	./60QEMU.nix
+	./60QEMU.nix
 	./plex.nix
 #	./brave.nix
 #	./hardware/nvidia.nix
