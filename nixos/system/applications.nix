@@ -6,6 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	xvfb-run
 	glibc
 	heroic
 	gvfs
@@ -114,4 +115,5 @@ environment.systemPackages = with pkgs; [
 #	glib 
 ];
 }
+
 
