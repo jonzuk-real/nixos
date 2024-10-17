@@ -1,8 +1,8 @@
 { config, pkgs, ... }:
 {
-  imports = [
-    <home-manager/nixos> # Home manager
-  ];
+ # imports = [
+ #   <home-manager/nixos> # Home manager
+#  ];
 
   home-manager.users.owner = { pkgs, config, ... }: {
     home.file.".local/share/applications/start_win10_vm.desktop".source = /home/owner/Desktop/Sync/Files/Linux_Config/generations/start_win10_vm.desktop;
