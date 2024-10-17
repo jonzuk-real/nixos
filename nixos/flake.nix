@@ -31,7 +31,7 @@ modules = [
 #	./brave.nix
 #	./hardware/nvidia.nix
 #	./modules/invidious.nix
-	./modules/vfio.nix
+#	./modules/vfio.nix
 
 
 # make home-manager as a module of nixos

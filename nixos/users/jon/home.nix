@@ -20,7 +20,7 @@ in
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   imports = [ 
-#  ./jellyfin.nix
+  ./vfio.nix
   ./firefox/default.nix 
 #  ./mac.nix
 #  ./system/kodi.nix
