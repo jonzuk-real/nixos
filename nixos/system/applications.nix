@@ -6,7 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
-	proton-ge-bin
+#	proton-ge-bin
 	xvfb-run
 	glibc
 	heroic
