@@ -27,7 +27,7 @@ modules = [
 #	./system/lookingglass.nix
 	./jellyfin.nix
 #	./60QEMU.nix
-	./plex.nix
+#	./plex.nix
 #	./brave.nix
 #	./hardware/nvidia.nix
 #	./modules/invidious.nix
