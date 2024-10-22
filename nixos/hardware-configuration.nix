@@ -34,11 +34,11 @@
       fsType = "vfat";
     };
 
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
+#  boot.loader.systemd-boot.enable = true;
+#  boot.loader.efi.canTouchEfiVariables = true;
 
-  boot.loader.efi.efiSysMountPoint = "/efi";
-  boot.loader.systemd-boot.xbootldrMountPoint = "/boot";
+#  boot.loader.efi.efiSysMountPoint = "/efi";
+#  boot.loader.systemd-boot.xbootldrMountPoint = "/boot";
 
   # Enables DHCP on each ethernet and wireless interface. In case of scripted networking
   # (the default) this is the recommended approach. When using systemd-networkd it's
