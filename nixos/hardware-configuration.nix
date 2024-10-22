@@ -29,10 +29,10 @@
       fsType = "ext4";
     };
 
-#  fileSystems."/boot" =
-#    { device = "/dev/disk/by-uuid/BC13-EE69";
-#      fsType = "vfat";
-#    };
+  fileSystems."/efi" =
+    { device = "/dev/disk/by-uuid/B4A8-F99A";
+      fsType = "vfat";
+    };
 
 
 
