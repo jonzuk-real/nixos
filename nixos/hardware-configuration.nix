@@ -12,7 +12,7 @@
   boot.initrd.kernelModules = [ ];
   boot.kernelModules = [ "kvm-amd" "virtio" "virtio_pci" "virtio_gpu" ];
   boot.extraModulePackages = [  ];
- 
+  
 
   fileSystems."/" =
     { device = "/dev/disk/by-uuid/d2387be6-ad38-4e78-8a4b-879c933b6952";
@@ -34,7 +34,11 @@
       fsType = "vfat";
     };
 
+  boot.loader.systemd-boot.enable = true;
+  boot.loader.efi.canTouchEfiVariables = true;
 
+  boot.loader.efi.efiSysMountPoint = "/efi";
+  boot.loader.systemd-boot.xbootldrMountPoint = "/boot";
 
   # Enables DHCP on each ethernet and wireless interface. In case of scripted networking
   # (the default) this is the recommended approach. When using systemd-networkd it's
