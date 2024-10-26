@@ -6,6 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	os-prober
 #	proton-ge-bin
 	xvfb-run
 	glibc
