@@ -27,7 +27,7 @@ xhost +local: &
 #steam & 
 firefox & 
 #strawberry &
-audacious &
+#audacious &
 
 
 #Terminals
