@@ -301,7 +301,7 @@ programs.firefox.profiles.default.bookmarks = [
 								name = "Gaming";
 								bookmarks = [
 										{
-											name = "GG.DEALS"
+											name = "GG.DEALS";
 											url = "https://gg.deals/";
 											tags = ["game" "pass" "xbox" "ubisoft" "EA" "battlenet" "deals" "sale" "store" "gaming" "steam" ];
 										}
