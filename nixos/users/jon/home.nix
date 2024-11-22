@@ -87,7 +87,7 @@ in
         gamemode # Optimise Linux system performance on demand
         yt-dlp # YouTube CMD Downloader
 #       strawberry # Music Player
-        gamescope # SteamOS session compositing window manager
+#        gamescope # SteamOS session compositing window manager
         pavucontrol # PulseAudio Volume Control
         librewolf # Privacy Browser
         steam # Steam Client
