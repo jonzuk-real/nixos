@@ -59,7 +59,7 @@ environment.systemPackages = [
 #               plasma6.enable = true;
 #               gnome.enable = true;
  };
-        displayManager.lightdm.enable = true;
+        displayManager.sddm.enable = true;
 };
 
 
