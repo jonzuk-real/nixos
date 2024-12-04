@@ -8,7 +8,7 @@ nm-applet --indicator &
 #notifications
 swaync &
 swaynoficationcenter &
-
+blueman-applet&
 
 # top bar
 waybar &
