@@ -6,7 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
-	gstreamer
+#	gstreamer
 	dualsensectl
 	os-prober
 #	proton-ge-bin

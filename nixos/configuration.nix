@@ -38,7 +38,7 @@ nix.settings.experimental-features = [ "nix-command" "flakes" ];
 users.users.jon = {
     isNormalUser = true;
     description = "jon";
-    extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
+    extraGroups = [ "networkmanager" "wheel" "libvirtd" "disk"];
 };
 
 
