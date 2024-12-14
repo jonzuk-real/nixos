@@ -6,6 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	cron
 #	gstreamer
 	dualsensectl
 	os-prober
