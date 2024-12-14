@@ -125,6 +125,15 @@ environment.systemPackages = [
      noto-fonts-emoji
     ];
   };
+ 
+# Enable cron service
+  services.cron = {
+    enable = true;
+    systemCronJobs = [
+      "*/1 * * * *      jon     ~/toggle_waybar_position.sh"
+    ];
+  };
+
 
 #Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
