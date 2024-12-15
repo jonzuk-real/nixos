@@ -3,7 +3,7 @@
 
 {
 	"layer": "top",
-	"position": "bottom",
+	"position": "top",
 
 	"modules-left": [
 	"clock#1",

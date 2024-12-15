@@ -24,10 +24,10 @@
       fsType = "vfat";
     };
 
-  fileSystems."/run/media/jon/SSD" =
-    { device = "/dev/disk/by-uuid/c239575d-bf5a-4591-b471-67d96650742a";
-      fsType = "ext4";
-    };
+#  fileSystems."/run/media/jon/SSD" =
+#    { device = "/dev/disk/by-uuid/c239575d-bf5a-4591-b471-67d96650742a";
+#      fsType = "ext4";
+#    };
 
 #  fileSystems."/efi" =
 #    { device = "/dev/disk/by-uuid/B4A8-F99A";

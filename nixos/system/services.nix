@@ -26,7 +26,7 @@ qt.style = "adwaita-dark";
 	services.gvfs.enable = true; # Mount, trash, and other functionalities
 	services.tumbler.enable = true; # Thumbnail support for images
 	services.resolved.enable = true;
-	programs.wayfire.enable = true;
+#	programs.wayfire.enable = true;
 #	programs.stable.hyprland.enable = true;
 	virtualisation.waydroid.enable = true;
 	security.polkit.enable = true;
@@ -56,10 +56,10 @@ environment.systemPackages = [
 #               xterm.enable = false;
 #               xfce.enable = true;
 #               lxqt.enable = true;
-#                plasma6.enable = true;
+                 plasma6.enable = true;
 #               gnome.enable = true;
  };
-        displayManager.sddm.enable = true;
+        displayManager.sddm.wayland.enable = true;
 };
 
 
