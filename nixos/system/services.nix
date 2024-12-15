@@ -92,6 +92,12 @@ environment.gnome.excludePackages = with pkgs.gnome; [
     gnome-system-monitor gnome-weather gnome-disk-utility pkgs.gnome-connections
   ];
 
+#KDE Loser Remover
+environment.plasma6.excludePackages = with pkgs.kdePackages; [
+  plasma-browser-integration
+  konsole
+  oxygen
+];
 
 
 }
