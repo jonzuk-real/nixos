@@ -22,7 +22,7 @@ modules = [
 	./system/applications.nix
   	./system/services.nix
   	./system/pipewire.nix
-	./system/kodi.nix
+#	./system/kodi.nix
 	./system/network.nix
 #	./system/lookingglass.nix
 	./jellyfin.nix

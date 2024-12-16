@@ -49,26 +49,28 @@ environment.systemPackages = [
     pkgs.xorg.xdm
   ];
 
+
+
+services.desktopManager.plasma6.enable = true;
+
   # Enable the X11 windowing system.
-  services.xserver = {
-        enable = true;
-        desktopManager = {
+#  services = {
+#        desktopManager = {
 #               xterm.enable = false;
 #               xfce.enable = true;
 #               lxqt.enable = true;
-                plasma6.enable = true;
+#                plasma6.enable = true;
 #               gnome.enable = true;
- };
-        displayManager.sddm.enable = true;
-};
+# };
+        #displayManager.sddm.enable = true;
+#};
 
 
 
 
 # Configure keymap in X11
   services.xserver = {
-    layout = "us";
-    xkbVariant = "";
+    xkb.layout = "us";
   };
 
 #Gnome De-Shitter
