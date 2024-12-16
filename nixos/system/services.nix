@@ -55,7 +55,7 @@ environment.systemPackages = [
 
   # Enable the X11 windowing system.
   services.xserver = {
-	enabled = true;
+	enable = true;
         desktopManager = {
 #               xterm.enable = false;
 #               xfce.enable = true;
