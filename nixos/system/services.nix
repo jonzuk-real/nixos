@@ -51,19 +51,20 @@ environment.systemPackages = [
 
 
 
-services.desktopManager.plasma6.enable = true;
+#services.desktopManager.plasma6.enable = true;
 
   # Enable the X11 windowing system.
-#  services = {
-#        desktopManager = {
+  services.xserver = {
+	enabled = true;
+        desktopManager = {
 #               xterm.enable = false;
 #               xfce.enable = true;
 #               lxqt.enable = true;
-#                plasma6.enable = true;
+                plasma6.enable = true;
 #               gnome.enable = true;
-# };
-        #displayManager.sddm.enable = true;
-#};
+ };
+        displayManager.sddm.enable = true;
+};
 
 
 
