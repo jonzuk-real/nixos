@@ -23,7 +23,7 @@ environment.systemPackages = with pkgs; [
 	labwc-tweaks
 	labwc
 #	vmware-workstation
-	libusb
+	libusb1
 	gcc
 	zlib
 	expat

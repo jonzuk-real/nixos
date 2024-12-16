@@ -10,8 +10,6 @@
       pkgs = import nixpkgs { system = "x86_64-linux"; nixpkgs.config.allowUnfree = true; config.allowUnfree = true; };
 	specialArgs = {inherit inputs;};      
 modules = [ 
-	hyprland.nixosModules.default
-        {programs.hyprland.enable = true;}
         ./configuration.nix
         ./hardware-configuration.nix
 	./users.nix
@@ -54,7 +52,7 @@ modules = [
 inputs = {
   nixtheplanet.url = "github:matthewcroughan/nixtheplanet";
 
-  hyprland.url = "git+https://github.com/hyprwm/Hyprland?submodules=1";
+  hyprland.url = "git+https://github.com/hyprwm/Hyprland";
 
   nixpkgs = {
     url = "github:NixOS/nixpkgs/nixos-unstable";

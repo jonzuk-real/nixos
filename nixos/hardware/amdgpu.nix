@@ -3,13 +3,13 @@
 
 boot.initrd.kernelModules = [ "amdgpu" ];
 services.xserver.videoDrivers = [ "amdgpu" ];
-hardware.opengl = {
+hardware.graphics = {
 	# Mesa
 	enable = true;
 
 	# Vulkan
-	driSupport = true;
+#	driSupport = true;
 	#32-Bit apps
-	driSupport32Bit = true;
+	enable32Bit = true;
 };
 }

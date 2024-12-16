@@ -1,8 +1,8 @@
-                                                                  
-{ pkgs, config, libs, ... }:
- {
-
- programs.hyprland.enable = true;
-        xdg.portal.enable = true;
-        xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
+{ pkgs, config, libs, hyprland, inputs,... }:{
+  programs.hyprland = {
+    enable = true;
+    package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
+    portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
+  };
 }
+

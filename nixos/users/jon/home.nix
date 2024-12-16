@@ -64,7 +64,8 @@ in
 	audacity # Sound editor with graphical UI
 	stable.audacious # Music Player
 	stable.waybar
-	gqview # A fast image viewer
+	gthumb # error: 'gqview' has been removed due to lack of maintenance upstream and depending on gtk2. Consider using 'gthumb' instead
+#	gqview # A fast image viewer
 	wofi # A launcher/menu program for wlroots based wayland compositors such as sway
 	stable.rofi-wayland # A launcher/menu program for wlroots based wayland compositors such as sway
 	wootility # A customization and management software for Wooting keyboards
@@ -92,7 +93,7 @@ in
         librewolf # Privacy Browser
         steam # Steam Client
         steam-run # Run commands in the same FHS environment that is used for Steam
-        steamPackages.steam-runtime # The official runtime used by Steam
+#        steamPackages.steam-runtime # The official runtime used by Steam
 	mangohud # A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more
         stable.yubioath-flutter # Yubico Authenticator for Desktop
 #        gimp # Photo Editor

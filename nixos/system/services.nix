@@ -15,7 +15,7 @@ qt.style = "adwaita-dark";
 	virtualisation.virtualbox.host.enable = true;
    	users.extraGroups.vboxusers.members = [ "jon" ];
 	virtualisation.virtualbox.guest.enable = true;
-  	virtualisation.virtualbox.guest.draganddrop = true;
+  	virtualisation.virtualbox.guest.dragAndDrop = true;
 #	virtualisation.virtualbox.host.enable = true;
    	virtualisation.virtualbox.host.enableExtensionPack = true;
 	
@@ -27,7 +27,7 @@ qt.style = "adwaita-dark";
 	services.tumbler.enable = true; # Thumbnail support for images
 	services.resolved.enable = true;
 #	programs.wayfire.enable = true;
-#	programs.stable.hyprland.enable = true;
+	programs.hyprland.enable = true;
 	virtualisation.waydroid.enable = true;
 	security.polkit.enable = true;
         services.adguardhome.enable = true;
@@ -63,10 +63,10 @@ services.desktopManager.plasma6.enable = true;
 #               plasma5.enable = true;
 #               gnome.enable = true;
  };
-        displayManager.sddm.enable = true;
+        
 };
 
-
+services.displayManager.sddm.enable = true;
 
 
 # Configure keymap in X11
