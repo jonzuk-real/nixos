@@ -63,7 +63,7 @@ in
 #	workout-tracker
 	audacity # Sound editor with graphical UI
 	stable.audacious # Music Player
-	stable.waybar
+	waybar
 	gthumb # error: 'gqview' has been removed due to lack of maintenance upstream and depending on gtk2. Consider using 'gthumb' instead
 #	gqview # A fast image viewer
 	wofi # A launcher/menu program for wlroots based wayland compositors such as sway
