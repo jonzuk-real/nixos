@@ -18,7 +18,7 @@ qt.style = "adwaita-dark";
   	virtualisation.virtualbox.guest.dragAndDrop = true;
 #	virtualisation.virtualbox.host.enable = true;
    	virtualisation.virtualbox.host.enableExtensionPack = true;
-	
+	services.spice-vdagentd.enable = true;	
 
 
 	services.gnome.gnome-keyring.enable = true;
