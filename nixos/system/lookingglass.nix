@@ -1,5 +1,4 @@
-{ pkgs, config, libs, ... }:
-
+{ pkgs, config, libs, nixpkgs, home-manager, nixpkgs-stable, nur, hyprland, ... }:
 {
 
 

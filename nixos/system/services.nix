@@ -6,7 +6,7 @@
 qt.enable = true;
 qt.platformTheme = "gtk2";
 qt.style = "adwaita-dark";
-
+	hardware.xpadneo.enable = true; # Whether to enable the xpadneo driver for Xbox One wireless controllers.
 	hardware.xone.enable = true; # support for the xbox controller USB dongle
 #	services.xserver.videoDrivers = [ "vmware" ];
 #	virtualisation.vmware.guest.enable = true;
