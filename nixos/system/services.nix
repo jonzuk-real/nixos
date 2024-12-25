@@ -11,7 +11,7 @@ qt.style = "adwaita-dark";
 #	services.xserver.videoDrivers = [ "vmware" ];
 #	virtualisation.vmware.guest.enable = true;
 #	virtualisation.vmware.host.enable = true;
-
+	networking. enableIPv6 = false;
 	virtualisation.virtualbox.host.enable = true;
    	users.extraGroups.vboxusers.members = [ "jon" ];
 	virtualisation.virtualbox.guest.enable = true;
