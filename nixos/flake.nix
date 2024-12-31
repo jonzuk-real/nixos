@@ -3,7 +3,7 @@
 
 
 
-  outputs = inputs@{ nixpkgs, home-manager, nixpkgs-stable, nur, hyprland, ... }: {
+  outputs = inputs@{ nixpkgs, home-manager, nixpkgs-stable, nur, hyprland, chaotic,... }: {
    
     nixosConfigurations = {
         nixos = nixpkgs.lib.nixosSystem {
@@ -64,6 +64,10 @@ inputs = {
     url = "github:nix-community/home-manager";
     inputs.nixpkgs.follows = "nixpkgs";   
 				};    
+  chaotic = {
+    url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
+};
+
   nur = {
       url = "gitlab:rycee/nur-expressions?dir=pkgs/firefox-addons";
       inputs.nixpkgs.follows = "nixpkgs";

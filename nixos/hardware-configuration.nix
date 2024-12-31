@@ -9,7 +9,7 @@
     ];
 
   boot.initrd.availableKernelModules = [ "nvme" "xhci_pci" "ahci" "usbhid" "usb_storage" "sd_mod" ];
-  boot.initrd.kernelModules = [ "usbhid" "joydev" "xpad" ];
+  boot.initrd.kernelModules = [ "usbhid" "joydev" "xpad" "amdgpu"];
   boot.kernelModules = [ "kvm-amd" "virtio" "virtio_pci" "virtio_gpu" ];
   boot.extraModulePackages = [  ];
   

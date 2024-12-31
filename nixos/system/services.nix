@@ -1,14 +1,15 @@
-{ pkgs, config, libs, ... }:
+{ pkgs, config, libs, chaotic, ... }:
  {
  # List services that you want to enable:
-
+chaotic.someFeature.enable = true;
+chaotic.hdr.enable = true;
 #qt theming
 qt.enable = true;
 qt.platformTheme = "gtk2";
 qt.style = "adwaita-dark";
 	hardware.xpadneo.enable = true; # Whether to enable the xpadneo driver for Xbox One wireless controllers.
 	hardware.xone.enable = true; # support for the xbox controller USB dongle
-#	services.xserver.videoDrivers = [ "vmware" ];
+	services.xserver.videoDrivers = [ "amdgpu" ];
 #	virtualisation.vmware.guest.enable = true;
 #	virtualisation.vmware.host.enable = true;
 	networking. enableIPv6 = false;
