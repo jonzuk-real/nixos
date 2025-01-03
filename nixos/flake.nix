@@ -24,7 +24,7 @@ modules = [
 #	./system/kodi.nix
 	./system/network.nix
 #	./system/lookingglass.nix
-	./jellyfin.nix
+#	./jellyfin.nix
 #	./60QEMU.nix
 #	./plex.nix
 #	./brave.nix

@@ -86,7 +86,7 @@ environment.systemPackages = with pkgs; [
 	pkgs.unrar
 	pkgs.sway
 	pkgs.linuxHeaders
-	pkgs.looking-glass-client
+#	pkgs.looking-glass-client
 	libguestfs
 	pkgs.virtiofsd
 	pkgs.blender-hip
