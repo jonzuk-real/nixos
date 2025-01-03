@@ -1,8 +1,8 @@
-{ config, pkgs, inputs,   ... }
-
+{ config, pkgs, inputs,   ... }:
 
 
 {
+
 
 
 
@@ -53,12 +53,12 @@
 	libsForQt5.kdenlive # Video editor
 #	workout-tracker
 	audacity # Sound editor with graphical UI
-	stable.audacious # Music Player
+	audacious # Music Player
 	waybar
 	gthumb # error: 'gqview' has been removed due to lack of maintenance upstream and depending on gtk2. Consider using 'gthumb' instead
 #	gqview # A fast image viewer
 	wofi # A launcher/menu program for wlroots based wayland compositors such as sway
-	stable.rofi-wayland # A launcher/menu program for wlroots based wayland compositors such as sway
+	rofi-wayland # A launcher/menu program for wlroots based wayland compositors such as sway
 	wootility # A customization and management software for Wooting keyboards
         mealie # A self hosted recipe manager and meal planner
 	steamtinkerlaunch # Steam Tinker
