@@ -1,14 +1,4 @@
-{ config, pkgs, inputs,   ... }:
-
-
-
-let
-
-  stable = import inputs.nixpkgs-stable {
-    system = pkgs.system;
-  };
-
-in
+{ config, pkgs, inputs,   ... }
 
 
 
@@ -96,7 +86,7 @@ in
         steam-run # Run commands in the same FHS environment that is used for Steam
 #        steamPackages.steam-runtime # The official runtime used by Steam
 	mangohud # A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more
-        stable.yubioath-flutter # Yubico Authenticator for Desktop
+        yubioath-flutter # Yubico Authenticator for Desktop
 #        gimp # Photo Editor
 	ppsspp # A HLE Playstation Portable emulator, written in C++ (SDL + headless)
         rpcs3 # PS3 Emulator

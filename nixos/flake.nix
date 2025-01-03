@@ -3,7 +3,7 @@
 
 
 
-  outputs = inputs@{ nixpkgs, home-manager, nixpkgs-stable, nur, hyprland, ... }: {
+  outputs = inputs@{ nixpkgs, home-manager, nixpkgs-unstable, nur, hyprland, ... }: {
    
     nixosConfigurations = {
         nixos = nixpkgs.lib.nixosSystem {
@@ -54,11 +54,11 @@ inputs = {
 			
   hyprland.url =  "git+https://github.com/hyprwm/Hyprland";
 					
-  nixpkgs = 
+  nixpkgs-unstable = 
 {    url = "github:NixOS/nixpkgs/nixos-unstable";
 };		     	
-  nixpkgs-stable = 
-{    url = "github:NixOS/nixpkgs/nixos-23.11";
+  nixpkgs = 
+{    url = "github:NixOS/nixpkgs/nixos-24.11";
 };				   	
   home-manager =    
 {    url = "github:nix-community/home-manager";
