@@ -61,12 +61,11 @@ services.desktopManager.plasma6.enable = true;
 #               xterm.enable = false;
 #               xfce.enable = true;
 #               lxqt.enable = true;
-      
 #               gnome.enable = true;
  };
         
 };
-services.desktopManager.plasma5.enable = true;
+#services.desktopManager.plasma5.enable = true;
 services.displayManager.sddm.enable = true;
 
 
