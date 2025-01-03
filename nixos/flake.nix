@@ -3,13 +3,14 @@
 
 
 
-  outputs = inputs@{ nixpkgs, home-manager, nixpkgs-stable, nur, hyprland, chaotic,... }: {
+  outputs = inputs@{ nixpkgs, home-manager, nixpkgs-stable, nur, hyprland, ... }: {
    
     nixosConfigurations = {
         nixos = nixpkgs.lib.nixosSystem {
       pkgs = import nixpkgs { system = "x86_64-linux"; nixpkgs.config.allowUnfree = true; config.allowUnfree = true; };
 	specialArgs = {inherit inputs;};      
 modules = [ 
+#	./chaotic.nix
         ./configuration.nix
         ./hardware-configuration.nix
 	./users.nix
@@ -31,7 +32,6 @@ modules = [
 #	./modules/invidious.nix
 #	./modules/vfio.nix
 
-
 # make home-manager as a module of nixos
 # so that home-manager configuration will be deployed automatically when executing `nixos-rebuild switch`
           home-manager.nixosModules.home-manager
@@ -50,29 +50,25 @@ modules = [
          };
          };
 inputs = {
-  nixtheplanet.url = "github:matthewcroughan/nixtheplanet";
-
-  hyprland.url = "git+https://github.com/hyprwm/Hyprland";
-
-  nixpkgs = {
-    url = "github:NixOS/nixpkgs/nixos-unstable";
-		     };	
-  nixpkgs-stable = {
-    url = "github:NixOS/nixpkgs/nixos-23.11";
-				   };	
-  home-manager = {   
-    url = "github:nix-community/home-manager";
-    inputs.nixpkgs.follows = "nixpkgs";   
-				};    
-  chaotic = {
-    url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
+  nixtheplanet.url =  "github:matthewcroughan/nixtheplanet";
+			
+  hyprland.url =  "git+https://github.com/hyprwm/Hyprland";
+					
+  nixpkgs = 
+{    url = "github:NixOS/nixpkgs/nixos-unstable";
+};		     	
+  nixpkgs-stable = 
+{    url = "github:NixOS/nixpkgs/nixos-23.11";
+};				   	
+  home-manager =    
+{    url = "github:nix-community/home-manager";
+    inputs.nixpkgs.follows = "nixpkgs";   			
 };
-
-  nur = {
-      url = "gitlab:rycee/nur-expressions?dir=pkgs/firefox-addons";
+  nur = 
+{      url = "gitlab:rycee/nur-expressions?dir=pkgs/firefox-addons";
       inputs.nixpkgs.follows = "nixpkgs";
-	    };
-		};
+};				    
+	};
 
 
 

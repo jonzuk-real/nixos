@@ -6,6 +6,8 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	mesa
+#	hyprland
 	ulauncher
 	efibootmgr
 	cron
@@ -31,7 +33,7 @@ environment.systemPackages = with pkgs; [
 	expat
 	gnumake
 	virt-viewer
-	looking-glass-client
+#	looking-glass-client
 	cpuid
 	async
 	geoclue2
@@ -93,7 +95,7 @@ environment.systemPackages = with pkgs; [
 	pkgs.htop
 	pkgs.pcsclite
 	pkgs.reaper
-	pkgs.xboxdrv # Xbox Controller Compat
+#	pkgs.xboxdrv # Xbox Controller Compat
 #	pkgs.adguardhome
 #	pkgs.opensnitch
 #	pkgs.opensnitch-ui

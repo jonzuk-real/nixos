@@ -1,8 +1,8 @@
 { pkgs, config, libs, chaotic, ... }:
  {
  # List services that you want to enable:
-chaotic.someFeature.enable = true;
-chaotic.hdr.enable = true;
+#chaotic.someFeature.enable = true;
+#chaotic.hdr.enable = true;
 #qt theming
 qt.enable = true;
 qt.platformTheme = "gtk2";
@@ -28,7 +28,7 @@ qt.style = "adwaita-dark";
 	services.tumbler.enable = true; # Thumbnail support for images
 	services.resolved.enable = true;
 #	programs.wayfire.enable = true;
-	programs.hyprland.enable = true;
+#	programs.hyprland.enable = true;
 	virtualisation.waydroid.enable = true;
 	security.polkit.enable = true;
         services.adguardhome.enable = true;
@@ -61,7 +61,7 @@ services.desktopManager.plasma6.enable = true;
 #               xterm.enable = false;
 #               xfce.enable = true;
 #               lxqt.enable = true;
-#               plasma5.enable = true;
+               plasma6.enable = true;
 #               gnome.enable = true;
  };
         

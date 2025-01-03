@@ -1,4 +1,4 @@
-{ config, pkgs, inputs,  ... }:
+{ config, pkgs, inputs,   ... }:
 
 
 
@@ -22,6 +22,7 @@ in
   imports = [ 
 #  ./vfio.nix
   ./firefox/default.nix 
+#  ./chaotic.nix
 #  ./mac.nix
 #  ./system/kodi.nix
   ];
