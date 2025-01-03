@@ -4,13 +4,7 @@
 { config, pkgs, inputs, chaotic,... }:
 
 
-let
 
-  stable = import inputs.nixpkgs-stable {
-    system = pkgs.system;
-  };
-
-in
 
 
 {
@@ -119,7 +113,7 @@ environment.systemPackages = [
      source-han-sans-traditional-chinese
      ubuntu_font_family
      font-awesome
-     stable.nerdfonts
+     nerdfonts
      noto-fonts
      noto-fonts-cjk-sans
      noto-fonts-emoji
