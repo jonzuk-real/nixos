@@ -6,6 +6,14 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	gtk3
+	gtk4
+	  libsForQt5.full
+    qt6.full
+#    kde-frameworks
+    plasma-desktop
+#    kirigami
+	  adwaita-qt6
 	kdePackages.kglobalaccel
 	gamescope
 	mesa
@@ -65,7 +73,7 @@ environment.systemPackages = with pkgs; [
 	hyprcursor
 	home-manager
 	openjdk
-	xorg.xhost
+#	xorg.xhost
 	lxqt.lxqt-policykit
 	waybar-mpris
 	swaynotificationcenter

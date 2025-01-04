@@ -4,12 +4,12 @@
 #chaotic.someFeature.enable = true;
 #chaotic.hdr.enable = true;
 #qt theming
-qt.enable = true;
-qt.platformTheme = "gtk2";
-qt.style = "adwaita-dark";
+#qt.enable = true;
+#qt.platformTheme = "gtk2";
+#qt.style = "breeze";
 	hardware.xpadneo.enable = true; # Whether to enable the xpadneo driver for Xbox One wireless controllers.
 	hardware.xone.enable = true; # support for the xbox controller USB dongle
-	services.xserver.videoDrivers = [ "amdgpu" ];
+#	services.xserver.videoDrivers = [ "amdgpu" ];
 #	virtualisation.vmware.guest.enable = true;
 #	virtualisation.vmware.host.enable = true;
 	networking. enableIPv6 = false;
@@ -43,11 +43,11 @@ qt.style = "adwaita-dark";
 	virtualisation.spiceUSBRedirection.enable = true;
 	virtualisation.libvirtd.enable = true;
 	programs.virt-manager.enable = true;		
-
-	
+	programs.xwayland.enable = true;
+#	services.wayland.enable = true;	
 
 environment.systemPackages = [
-    pkgs.xorg.xdm
+#    pkgs.xorg.xdm
   ];
 
 
@@ -57,22 +57,23 @@ services.desktopManager.plasma6.enable = true;
   # Enable the X11 windowing system.
   services.xserver = {
 	enable = true;
-        desktopManager = {
+#        desktopManager = {
 #               xterm.enable = false;
 #               xfce.enable = true;
 #               lxqt.enable = true;
 #               gnome.enable = true;
  };
         
-};
+#};
 #services.desktopManager.plasma5.enable = true;
+services.displayManager.sddm.enable = true;
 services.displayManager.sddm.wayland.enable = true;
-
+#services.displayManager.gdm.enable = true;
 
 # Configure keymap in X11
-  services.xserver = {
-    xkb.layout = "us";
-  };
+ # services.xserver = {
+ #   xkb.layout = "us";
+ # };
 
 #Gnome De-Shitter
 environment.gnome.excludePackages = with pkgs.gnome; [
