@@ -22,7 +22,7 @@ qt.style = "adwaita-dark";
 	services.spice-vdagentd.enable = true;	
 
 
-	services.gnome.gnome-keyring.enable = true;
+#	services.gnome.gnome-keyring.enable = true;
 	programs.xfconf.enable = true;
 	services.gvfs.enable = true; # Mount, trash, and other functionalities
 	services.tumbler.enable = true; # Thumbnail support for images
@@ -66,7 +66,7 @@ services.desktopManager.plasma6.enable = true;
         
 };
 #services.desktopManager.plasma5.enable = true;
-services.displayManager.gdm.enable = true;
+services.displayManager.sddm.wayland.enable = true;
 
 
 # Configure keymap in X11
@@ -96,11 +96,11 @@ environment.gnome.excludePackages = with pkgs.gnome; [
   ];
 
 #KDE Loser Remover
-environment.plasma6.excludePackages = with pkgs.kdePackages; [
-  plasma-browser-integration
-  konsole
-  oxygen
-];
+#environment.plasma6.excludePackages = with pkgs.kdePackages; [
+#  plasma-browser-integration
+#  konsole
+#  oxygen
+#];
 
 
 }

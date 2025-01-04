@@ -50,7 +50,7 @@
 	tor-browser # Privacy Browser 
 #	firefox-devedition-unwrapped # A web browser built from Firefox Developer Edition source tree	
 	glaxnimate # Simple vector animation program. KDENLive Requirement
-	libsForQt5.kdenlive # Video editor
+#	libsForQt5.kdenlive # Video editor
 #	workout-tracker
 	audacity # Sound editor with graphical UI
 	audacious # Music Player

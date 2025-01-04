@@ -6,6 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	kdePackages.kglobalaccel
 	gamescope
 	mesa
 #	hyprland
@@ -55,7 +56,7 @@ environment.systemPackages = with pkgs; [
 #	xdotool 
 #	xorg.xwininfo 
 #	xxd
-	wayfire #3D wayland
+#	wayfire #3D wayland
 	gimp
 	mpvpaper
 #	hyprland-autoname-workspaces # trying this out 
