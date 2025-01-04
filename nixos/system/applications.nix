@@ -6,6 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	gamescope
 	mesa
 #	hyprland
 	ulauncher
