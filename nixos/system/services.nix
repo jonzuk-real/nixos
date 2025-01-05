@@ -53,6 +53,7 @@ environment.systemPackages = [
 
 
 services.desktopManager.plasma6.enable = true;
+services.desktopManager.plasma6.enableQt5Integration = true;
 
   # Enable the X11 windowing system.
   services.xserver = {
