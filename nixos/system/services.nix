@@ -98,9 +98,9 @@ environment.gnome.excludePackages = with pkgs.gnome; [
 
 #KDE Loser Remover
 #environment.plasma6.excludePackages = with pkgs.kdePackages; [
-#  plasma-browser-integration
-#  konsole
-#  oxygen
+  plasma-browser-integration
+  konsole
+  oxygen
 #];
 
 
