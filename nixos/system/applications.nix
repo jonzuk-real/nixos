@@ -7,15 +7,16 @@
 
 environment.systemPackages = with pkgs; [
 	kdePackages.kcoreaddons
+	kdePackages.plasma-desktop
+	kdePackages.kglobalaccel
+	libdecor
 	gtk3
 	gtk4
 	  libsForQt5.full
     qt6.full
 #    kde-frameworks
-    plasma-desktop
 #    kirigami
 	  adwaita-qt6
-	kdePackages.kglobalaccel
 	gamescope
 	mesa
 #	hyprland
