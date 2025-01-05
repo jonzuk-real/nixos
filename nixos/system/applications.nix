@@ -1,4 +1,4 @@
-\{ pkgs, config, libs, ... }:
+{ pkgs, config, libs, ... }:
 
 {
 
@@ -6,12 +6,13 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
-#	gtk3
-#	gtk4
-#	  libsForQt5.full
-#    qt6.full
+	kdePackages.kcoreaddons
+	gtk3
+	gtk4
+	  libsForQt5.full
+    qt6.full
 #    kde-frameworks
-#    plasma-desktop
+    plasma-desktop
 #    kirigami
 	  adwaita-qt6
 	kdePackages.kglobalaccel
