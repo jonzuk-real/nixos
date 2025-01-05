@@ -7,6 +7,7 @@
 
 environment.systemPackages = with pkgs; [
 	kdePackages.kcoreaddons
+	libsForQt5.plasma-desktop
 	kdePackages.plasma-desktop
 	kdePackages.kglobalaccel
 	libdecor
