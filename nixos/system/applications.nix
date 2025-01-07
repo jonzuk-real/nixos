@@ -95,8 +95,8 @@ environment.systemPackages = with pkgs; [
 	mpvpaper
 #	hyprland-autoname-workspaces # trying this out 
 	#tofi
-	hyprlock
-	hyprcursor
+#	hyprlock
+#	hyprcursor
 	home-manager
 	openjdk
 #	xorg.xhost
@@ -106,7 +106,7 @@ environment.systemPackages = with pkgs; [
 	xfce.thunar-archive-plugin
 	xfce.thunar
 	xfce.thunar-volman
-	hyprshot # Screenshot tool
+#	hyprshot # Screenshot tool
 #	pkgs.grim # screenshot tool
 	pkgs.slurp
 	pkgs.wl-clipboard
