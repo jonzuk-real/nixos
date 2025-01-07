@@ -1,9 +1,5 @@
-{ pkgs, config, libs, unstable, ... }:
+{ pkgs, config, libs, inputs, ... }:
 
-{
-
-#List packages installed in system profile. To search, run:
-  # $ nix search wget
 
 
 
@@ -13,18 +9,24 @@ let
     config = config.nixpkgs.config;
   };
 in
+
+
+
+
+
+
 {
-  nixpkgs.overlays = [
-    (final: prev: {
-      unstable = unstable;
-    })
-  ];
+
+#List packages installed in system profile. To search, run:
+  # $ nix search wget
+
+
 
 
 
 environment.systemPackages = with pkgs; [
 	
-unstable.protontricks
+	unstable.protontricks
 	unstable.winetricks
 	peaclock
 	kdePackages.kcoreaddons

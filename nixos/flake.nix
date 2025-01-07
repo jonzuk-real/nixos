@@ -11,6 +11,7 @@
 	specialArgs = {inherit inputs;};      
 modules = [ 
 #	./chaotic.nix
+#	./winetricks.nix
         ./configuration.nix
         ./hardware-configuration.nix
 	./users.nix
