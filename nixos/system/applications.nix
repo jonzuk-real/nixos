@@ -5,6 +5,23 @@
 #List packages installed in system profile. To search, run:
   # $ nix search wget
 
+
+
+let
+  unstable = import inputs.nixpkgs-unstable {
+    system = pkgs.system;
+    config = config.nixpkgs.config;
+  };
+in
+{
+  nixpkgs.overlays = [
+    (final: prev: {
+      unstable = unstable;
+    })
+  ];
+
+
+
 environment.systemPackages = with pkgs; [
 	
 unstable.protontricks
