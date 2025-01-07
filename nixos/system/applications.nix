@@ -1,4 +1,4 @@
-{ pkgs, config, libs, ... }:
+{ pkgs, config, libs, unstable, ... }:
 
 {
 
@@ -6,8 +6,9 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
-	protontricks
-	winetricks
+	
+unstable.protontricks
+	unstable.winetricks
 	peaclock
 	kdePackages.kcoreaddons
 	libsForQt5.plasma-desktop
