@@ -39,7 +39,7 @@
 	xfce.catfish 
 	motrix # A full-featured download manager
 	ryujinx # Experimental Nintendo Switch Emulator written in C#
-	protontricks # A simple wrapper for running Winetricks commands for Proton-enabled games
+#	protontricks # A simple wrapper for running Winetricks commands for Proton-enabled games
 	feishin # Full-featured Subsonic/Jellyfin compatible desktop music player
 	kdePackages.okular # KDE document viewer
 	pdf4qt # Open source PDF editor

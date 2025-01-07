@@ -6,6 +6,7 @@
   # $ nix search wget
 
 environment.systemPackages = with pkgs; [
+	winetricks
 	peaclock
 	kdePackages.kcoreaddons
 	libsForQt5.plasma-desktop
