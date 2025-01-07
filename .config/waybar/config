@@ -3,7 +3,9 @@
 
 {
 	"layer": "top",
+	"mode": "dock",
 	"position": "top",
+	"ipc": true,
 
 	"modules-left": [
 	"clock#1",
@@ -105,6 +107,7 @@
     "escape": true
   },
 
+
 	"custom/waybar-mpris": {
     "return-type": "json",
     "exec": "waybar-mpris --position --autofocus",
@@ -142,6 +145,6 @@
 	"tray": {
 		"icon-size": 20
 	}
-    
+        
 
 }
