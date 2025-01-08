@@ -30,13 +30,13 @@ environment.systemPackages = with pkgs; [
 	unstable.winetricks
 	peaclock
 	kdePackages.kcoreaddons
-	libsForQt5.plasma-desktop
+#	libsForQt5.plasma-desktop
 	kdePackages.plasma-desktop
 	kdePackages.kglobalaccel
 	libdecor
 	gtk3
 	gtk4
-	  libsForQt5.full
+#	  libsForQt5.full
     qt6.full
 #    kde-frameworks
 #    kirigami

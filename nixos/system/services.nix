@@ -28,7 +28,7 @@
 	services.tumbler.enable = true; # Thumbnail support for images
 	services.resolved.enable = true;
 #	programs.wayfire.enable = true;
-#	programs.hyprland.enable = true;
+	programs.hyprland.enable = true;
 	virtualisation.waydroid.enable = true;
 	security.polkit.enable = true;
         services.adguardhome.enable = true;
@@ -53,7 +53,7 @@ environment.systemPackages = [
 
 
 services.desktopManager.plasma6.enable = true;
-services.desktopManager.plasma6.enableQt5Integration = true;
+#services.desktopManager.plasma6.enableQt5Integration = true;
 
   # Enable the X11 windowing system.
   services.xserver = {
