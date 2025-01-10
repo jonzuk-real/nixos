@@ -768,13 +768,18 @@ programs.firefox.profiles.default.bookmarks = [
 										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
 									}
 									{
-										name = "Smyth Cannabis - Lowell";
-										url = "https://smythcannabis.com/dispensary-menu/";
+										name = "RISE - Dracut";
+										url = "https://risecannabis.com/dispensaries/massachusetts/dracut/4637/recreational-menu/";
 										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
 									}
 									{
-										name = "Uma Flowers - Pepperell";
-										url = "https://www.umaflowers.co/";
+										name = "Tree House - Dracut";
+										url = "https://visittreehousema.com/locations/dispensary-dracut/";
+										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
+									}
+									{
+										name = "Smyth Cannabis - Lowell";
+										url = "https://smythcannabis.com/dispensary-menu/";
 										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
 									}
 									{
@@ -783,8 +788,8 @@ programs.firefox.profiles.default.bookmarks = [
 										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
 									}
 									{
-										name = "Tree House - Dracut";
-										url = "https://visittreehousema.com/locations/dispensary-dracut/";
+										name = "Uma Flowers - Pepperell";
+										url = "https://www.umaflowers.co/";
 										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
 									}
 									{
