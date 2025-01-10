@@ -1,6 +1,10 @@
 { pkgs, config, libs, inputs, ... }:
 
-
+#let 
+# attr = { a=2; }; 
+#in if builtins.hasAttr "b" attr 
+#  then attr.b 
+#  else false
 
 
 let
@@ -25,7 +29,14 @@ in
 
 
 environment.systemPackages = with pkgs; [
-	
+
+#(import (fetchTarball {
+#    url = "https://github.com/hyprwm/aquamarine/archive/refs/heads/main.tar.gz";
+#    sha256 = "sha256:0c9z8jrjk38icrcd8sk254p0isid8r1fgmj5h76k81jrss976aqq";  # Use null for development; replace with actual hash later
+#  })).packages.x86_64-linux.aquamarine
+#	 aquamarine.packages.x86_64-linux.default
+#	aquamarine.aquamarine
+#	unstable.aquamarine	
 	unstable.protontricks
 	unstable.winetricks
 	peaclock

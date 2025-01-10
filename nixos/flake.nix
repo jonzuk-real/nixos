@@ -3,7 +3,7 @@
 
 
 
-  outputs = inputs@{ nixpkgs, home-manager, nixpkgs-unstable, nur, hyprland, ... }: {
+  outputs = inputs@{ nixpkgs, home-manager, nixpkgs-unstable, nur, hyprland, aquamarine,... }: {
    
     nixosConfigurations = {
         nixos = nixpkgs.lib.nixosSystem {
@@ -52,7 +52,7 @@ modules = [
          };
 inputs = {
   nixtheplanet.url =  "github:matthewcroughan/nixtheplanet";
-			
+  aquamarine.url = "github:hyprwm/aquamarine";			
   hyprland.url =  "git+https://github.com/hyprwm/Hyprland";
 					
   nixpkgs-unstable = 
