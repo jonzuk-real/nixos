@@ -36,6 +36,7 @@
   
 
   home.packages = with pkgs; [ 
+	ddcui # Graphical user interface for ddcutil - control monitor settings
 	xfce.catfish 
 #	motrix # A full-featured download manager
 	ryujinx # Experimental Nintendo Switch Emulator written in C#
