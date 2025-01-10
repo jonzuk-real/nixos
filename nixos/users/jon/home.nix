@@ -36,6 +36,7 @@
   
 
   home.packages = with pkgs; [ 
+	ddcutil # Query and change Linux monitor settings using DDC/CI and USB
 	ddcui # Graphical user interface for ddcutil - control monitor settings
 	xfce.catfish 
 #	motrix # A full-featured download manager
