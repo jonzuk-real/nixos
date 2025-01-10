@@ -4,7 +4,7 @@
 {
 	"layer": "top",
 	"mode": "dock",
-	"position": "top",
+	"position": "bottom",
 	"ipc": true,
 
 	"modules-left": [
