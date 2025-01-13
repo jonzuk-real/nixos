@@ -1,4 +1,4 @@
-{ pkgs, config, libs, inputs, ... }:
+{ pkgs, config, libs, inputs, hyprland, ... }:
 
 #let 
 # attr = { a=2; }; 
@@ -35,8 +35,9 @@ environment.systemPackages = with pkgs; [
 #    sha256 = "sha256:0c9z8jrjk38icrcd8sk254p0isid8r1fgmj5h76k81jrss976aqq";  # Use null for development; replace with actual hash later
 #  })).packages.x86_64-linux.aquamarine
 #	 aquamarine.packages.x86_64-linux.default
-#	aquamarine.aquamarine
+#	aquamarine.
 #	unstable.aquamarine	
+#	hyprland.hyprland
 	unstable.protontricks
 	unstable.winetricks
 	peaclock

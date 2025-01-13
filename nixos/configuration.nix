@@ -1,7 +1,7 @@
  # your system.  Help is available in the configuration.nix(5) man page
  # and in the NixOS manual (accessible by running ‘nixos-help’).
  #
-{ config, pkgs, inputs, chaotic,... }:
+{ config, pkgs, inputs, chaotic, aquamarine,... }:
 
 
 
@@ -13,7 +13,9 @@
      
  ];
  
-
+ #environment.systemPackages = [
+        #    aquamarine.defaultPackage.x86_64-linux
+        #  ];
 
 #systemd.user.services.gvfs-daemon.environment
 services.hardware.openrgb.enable = true;
@@ -37,6 +39,7 @@ users.users.jon = {
 
 
 environment.systemPackages = [
+aquamarine.defaultPackage.x86_64-linux
 #WayBar
 (pkgs.waybar.overrideAttrs (oldAttrs: {
     mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];

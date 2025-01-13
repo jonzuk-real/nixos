@@ -21,6 +21,7 @@ modules = [
 	./hardware/amdgpu.nix
 	./system/applications.nix
   	./system/services.nix
+#	./hyprflake.nix
   	./system/pipewire.nix
 #	./system/kodi.nix
 	./system/network.nix
@@ -43,8 +44,11 @@ modules = [
 	    home-manager.extraSpecialArgs = {inherit inputs;};
 	}
      ];
-     
-
+#      programs.hyprland.enable = true;
+ #       programs.hyprland.package = hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
+# environment.systemPackages = [
+#            aquamarine.defaultPackage.x86_64-linux
+#          ];
 #nixpkgs.config.allowUnfree = true; 
  
        };
@@ -52,8 +56,10 @@ modules = [
          };
 inputs = {
   nixtheplanet.url =  "github:matthewcroughan/nixtheplanet";
-  aquamarine.url = "github:hyprwm/aquamarine";			
+#  aquamarine.url = "github:hyprwm/aquamarine";			
   hyprland.url =  "git+https://github.com/hyprwm/Hyprland";
+  aquamarine.url = "github:hyprwm/aquamarine/";
+#   aquamarine.ref = "v0.7.0";
 					
   nixpkgs-unstable = 
 {    url = "github:NixOS/nixpkgs/nixos-unstable";

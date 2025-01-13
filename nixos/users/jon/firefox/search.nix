@@ -4,6 +4,12 @@
             default = "DuckDuckGo";
             order = [ "DuckDuckGo" "Searx" "Google" ];
             engines = {
+	      "Perplexity AI" = {
+                urls = [{ template = "https://www.perplexity.ai/search/new?q={searchTerms}"; }];
+                iconUpdateURL = "https://external-content.duckduckgo.com/ip3/www.perplexity.ai.ico";
+                updateInterval = 24 * 60 * 60 * 1000; # every day
+                definedAliases = [ "@Perp" ];
+              };
               "Nix Packages" = {
                 urls = [{
                   template = "https://search.nixos.org/packages";

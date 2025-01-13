@@ -29,6 +29,7 @@
 	services.resolved.enable = true;
 #	programs.wayfire.enable = true;
 	programs.hyprland.enable = true;
+#	programs.hyprland.package = hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
 	virtualisation.waydroid.enable = true;
 	security.polkit.enable = true;
         services.adguardhome.enable = true;
