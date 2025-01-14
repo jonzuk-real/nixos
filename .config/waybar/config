@@ -42,7 +42,13 @@
 		
 		"tray"
 	],
+	"drawer": {
+	"transition-duration": 300,
+	"children-class": "hidden",
+	 "click-to-reveal": true
 
+
+	},
 
 	"hyprland/workspaces": {
 		"format": "{icon}",

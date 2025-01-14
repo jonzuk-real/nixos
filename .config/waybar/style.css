@@ -134,3 +134,13 @@ window#waybar.hidden {
     background-color: #ecf0f1;
     color: #2d3436;
 }
+.hidden {
+    opacity: 0; /* Use opacity instead of display */
+    transition: opacity 0.3s ease; /* Smooth transition */
+    /* Avoid pointer-events as it is unsupported */
+}
+
+.module:hover .hidden {
+    opacity: 1; /* Show on hover */
+    /* No pointer-events property */
+}
