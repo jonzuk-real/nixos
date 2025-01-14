@@ -39,7 +39,7 @@ users.users.jon = {
 
 
 environment.systemPackages = [
-aquamarine.defaultPackage.x86_64-linux
+#aquamarine.defaultPackage.x86_64-linux
 #WayBar
 (pkgs.waybar.overrideAttrs (oldAttrs: {
     mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
