@@ -118,7 +118,7 @@ environment.systemPackages = with pkgs; [
 	xfce.thunar-archive-plugin
 	xfce.thunar
 	xfce.thunar-volman
-#	hyprshot # Screenshot tool
+	hyprshot # Screenshot tool
 #	pkgs.grim # screenshot tool
 	pkgs.slurp
 	pkgs.wl-clipboard
