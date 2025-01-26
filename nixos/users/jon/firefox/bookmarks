@@ -337,7 +337,12 @@ programs.firefox.profiles.default.bookmarks = [
 												name = "item.tf";
 												url = "https://item.tf/";
 												tags = [ "tf2" ];
-											}									
+											}		
+											{
+												name = "mannco.store";
+												url = "https://mannco.store/";
+												tags = [ "tf2" ];
+											}					
 													];								
 										}
 											];
@@ -795,6 +800,11 @@ programs.firefox.profiles.default.bookmarks = [
 									{
 										name = "Tree House - Pepperell";
 										url = "https://visittreehousema.com/locations/dispensary-pepperell/";
+										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
+									}
+									{
+										name = "CNA Stores - Haverhill";
+										url = "https://www.cnastores.com/haverhill-cannabis";
 										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
 									}
 									{
