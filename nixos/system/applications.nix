@@ -165,6 +165,7 @@ environment.systemPackages = with pkgs; [
 	ntfs3g
 	bluez
 	virglrenderer
+	mullvad-closest
 	mullvad-vpn
 	mullvad
 	virtio-win
