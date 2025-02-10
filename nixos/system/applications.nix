@@ -165,6 +165,7 @@ environment.systemPackages = with pkgs; [
 	ntfs3g
 	bluez
 	virglrenderer
+	mullvad
 	virtio-win
 #	pkgs.xfce.xfce4-whiskermenu-plugin
 #	pkgs.xfce.xfce4-settings	
