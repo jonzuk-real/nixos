@@ -763,11 +763,6 @@ programs.firefox.profiles.default.bookmarks = [
                                                                 name = "Weed";
                                                                 bookmarks = [
                                                                         {
-                                                                                name = "Revere73 - Dracut";
-                                                                                url = "https://reverie73.com/lowell-menu/";
-                                                                                tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
-                                                                        }
-                                                                        {
                                                                                 name = "Lazy River Products - Dracut";
                                                                                 url = "https://lazyriverproducts.com/menu/";
 										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];

@@ -20,7 +20,7 @@
 #	virtualisation.virtualbox.host.enable = true;
    	virtualisation.virtualbox.host.enableExtensionPack = true;
 	services.spice-vdagentd.enable = true;	
-
+services.mullvad-vpn.enable = true;
 
 #	services.gnome.gnome-keyring.enable = true;
 	programs.xfconf.enable = true;
