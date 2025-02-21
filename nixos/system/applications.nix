@@ -56,7 +56,7 @@ environment.systemPackages = with pkgs; [
 	gamescope
 	mesa
 #	hyprland
-	ulauncher
+#	ulauncher
 	efibootmgr
 	cron
 #	gstreamer
