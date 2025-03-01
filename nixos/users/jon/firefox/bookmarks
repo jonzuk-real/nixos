@@ -802,11 +802,7 @@ programs.firefox.profiles.default.bookmarks = [
 										url = "https://www.cnastores.com/haverhill-cannabis";
 										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
 									}
-									{
-										name = "PUFFY";
-										url = "https://www.myqwin.com/";
-										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
-									}
+									
                                                                 ];
                                                         }
 
