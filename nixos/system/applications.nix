@@ -40,6 +40,8 @@ environment.systemPackages = with pkgs; [
 #	hyprland.hyprland
 	unstable.protontricks
 	unstable.winetricks
+	freecad
+	unityhub
 	peaclock
 	kdePackages.kcoreaddons
 #	libsForQt5.plasma-desktop
