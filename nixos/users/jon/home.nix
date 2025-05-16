@@ -36,6 +36,8 @@
   
 
   home.packages = with pkgs; [ 
+#	googleearth-pro # World sphere viewer
+	xearth # sets the X root window to an image of the Earth
 	mullvad-browser
 	eww
 	ddcutil # Query and change Linux monitor settings using DDC/CI and USB
