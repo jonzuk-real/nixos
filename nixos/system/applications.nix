@@ -38,6 +38,7 @@ environment.systemPackages = with pkgs; [
 #	aquamarine.
 #	unstable.aquamarine	
 #	hyprland.hyprland
+	hyprshade
 	unstable.protontricks
 	unstable.winetricks
 	freecad
