@@ -763,6 +763,11 @@ programs.firefox.profiles.default.bookmarks = [
                                                                 name = "Weed";
                                                                 bookmarks = [
                                                                         {
+										name = "Clouded Valley - Maine";
+										url = "https://www.cloudedvalleycannabis.com/";
+										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
+									}
+									{
                                                                                 name = "Lazy River Products - Dracut";
                                                                                 url = "https://lazyriverproducts.com/menu/";
 										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
