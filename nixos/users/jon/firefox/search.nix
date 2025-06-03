@@ -1,7 +1,7 @@
  {
  programs.firefox.profiles.default.search = {
             force = true;
-            default = "DuckDuckGo";
+            default = "StartPage";
             order = [ "DuckDuckGo" "Searx" "Google" ];
             engines = {
 	      "Perplexity AI" = {
