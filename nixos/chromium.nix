@@ -10,7 +10,7 @@
 "mnjggcdmjocbbbhaepdhchncahnbgone" # SponsorBlock for YouTube - Skip Sponsorships
 "cmjhejfkhdonjimgkinjdombabgfbcal" # YouTube Livestreams Theater Mode
 "ponfpcnoihfmfllpaingbgckeeldkhle" # Enhancer for YouTube™
-"mfidniedemcgceagapgdekdbmanojomk" # Coupert - Automatic Coupon Finder & Cashback
+#"mfidniedemcgceagapgdekdbmanojomk" # Coupert - Automatic Coupon Finder & Cashback
 "hgeljhfekpckiiplhkigfehkdpldcggm" # Auto Refresh Plus | Page Monitor
  ];
 
