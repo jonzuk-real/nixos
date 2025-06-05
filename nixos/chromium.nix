@@ -32,7 +32,7 @@
 
 
 	defaultSearchProviderEnabled = true;
-	defaultSearchProviderSearchURL = "https://www.startpage.com/sp/search?query={searchTerms}";
+	defaultSearchProviderSearchURL = "https://www.perplexity.ai/search/new?q={searchTerms}";
 	homepageLocation = "https://nixos.org";
  };
      
