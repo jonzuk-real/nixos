@@ -44,10 +44,10 @@ environment.systemPackages = with pkgs; [
 	freecad
 	unityhub
 	peaclock
-	kdePackages.kcoreaddons
+#	kdePackages.kcoreaddons
 #	libsForQt5.plasma-desktop
-	kdePackages.plasma-desktop
-	kdePackages.kglobalaccel
+#	kdePackages.plasma-desktop
+#	kdePackages.kglobalaccel
 	libdecor
 	gtk3
 	gtk4
