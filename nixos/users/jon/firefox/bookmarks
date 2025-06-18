@@ -767,46 +767,6 @@ programs.firefox.profiles.default.bookmarks = [
 										url = "https://www.cloudedvalleycannabis.com/";
 										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
 									}
-									{
-                                                                                name = "Lazy River Products - Dracut";
-                                                                                url = "https://lazyriverproducts.com/menu/";
-										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
-									}
-									{
-										name = "RISE - Dracut";
-										url = "https://risecannabis.com/dispensaries/massachusetts/dracut/4637/recreational-menu/";
-										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
-									}
-									{
-										name = "Tree House - Dracut";
-										url = "https://visittreehousema.com/locations/dispensary-dracut/";
-										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
-									}
-									{
-										name = "Smyth Cannabis - Lowell";
-										url = "https://smythcannabis.com/dispensary-menu/";
-										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
-									}
-									{
-										name = "Mayflower - Lowell";
-										url = "https://mayflowermass.com/lowell/";
-										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
-									}
-									{
-										name = "Uma Flowers - Pepperell";
-										url = "https://www.umaflowers.co/";
-										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
-									}
-									{
-										name = "Tree House - Pepperell";
-										url = "https://visittreehousema.com/locations/dispensary-pepperell/";
-										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
-									}
-									{
-										name = "CNA Stores - Haverhill";
-										url = "https://www.cnastores.com/haverhill-cannabis";
-										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" ];
-									}
 									
                                                                 ];
                                                         }
