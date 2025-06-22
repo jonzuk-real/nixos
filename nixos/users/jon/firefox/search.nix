@@ -4,6 +4,12 @@
             default = "Brave Search";
             order = [ "DuckDuckGo" "Searx" "Google" ];
             engines = {
+	       "ChatGPT" = {
+                urls = [{ template = "https://chatgpt.com/?q={searchTerms}&hints=search,reason&ref=ext"; }];
+                iconUpdateURL = "https://external-content.duckduckgo.com/ip3/www.perplexity.ai.ico";
+                updateInterval = 24 * 60 * 60 * 1000; # every day
+                definedAliases = [ "@GPT" ];
+              };
 	      "Perplexity AI" = {
                 urls = [{ template = "https://www.perplexity.ai/search/new?q={searchTerms}"; }];
                 iconUpdateURL = "https://external-content.duckduckgo.com/ip3/www.perplexity.ai.ico";
