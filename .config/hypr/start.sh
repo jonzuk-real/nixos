@@ -40,5 +40,7 @@ foot &
 mpvpaper -f -vs -o "no-audio loop shuffle" --slideshow 60 DP-2 /home/jon/Pictures/wallpaper &
 #swww init &
 #swww /home/jon/Pictures/pixelcity.gif &
+#remove waydroid applications from app menu
+rm -fv /home/${USER}/.local/share/applications/waydroid.* &
 
 #./.waybar-fkiller &
