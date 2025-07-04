@@ -777,9 +777,16 @@ programs.firefox.profiles.default.bookmarks = [
                                                                                 url = "https://fraktalcanna.com/";
                                                                                 tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
                                                                         }
+									{
 										name = "Kind Guy Patient Care Center - Biddeford, ME";
 										url = "https://kindguy.wm.store/";
 										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
+									}									
+									{
+                                                                                name = "Local Leaf - Portland, ME";
+                                                                                url = "https://dutchie.com/stores/local-leaf-med";
+                                                                                tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
+                                                                        }
 									{
                                                                                 name = "Skunk Circus - Raymond, ME";
                                                                                 url = "https://www.skunkcircus.com/home";
