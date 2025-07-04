@@ -768,6 +768,11 @@ programs.firefox.profiles.default.bookmarks = [
 										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
 									}
 									{
+                                                                                name = "Kind Farms Reserve Cannabis Dispensary - Berwick, ME";
+                                                                                url = "https://weedmaps.com/dispensaries/kind-farms-reserve-1";
+                                                                                tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic>
+                                                                        }
+									{
                                                                                 name = "FRAKTAL Cannabis Dispensary - Sandford, ME";
                                                                                 url = "https://fraktalcanna.com/";
                                                                                 tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
@@ -777,7 +782,6 @@ programs.firefox.profiles.default.bookmarks = [
                                                                                 url = "https://www.skunkcircus.com/home";
                                                                                 tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
                                                                         }
-									
                                                                 ];
                                                         }
 
