@@ -763,10 +763,20 @@ programs.firefox.profiles.default.bookmarks = [
                                                                 name = "Weed";
                                                                 bookmarks = [
                                                                         {
-										name = "Clouded Valley - Maine";
+										name = "Clouded Valley Cannabis - York, ME";
 										url = "https://www.cloudedvalleycannabis.com/";
 										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
 									}
+									{
+                                                                                name = "FRAKTAL Cannabis Dispensary - Sandford, ME";
+                                                                                url = "https://fraktalcanna.com/";
+                                                                                tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
+                                                                        }
+									{
+                                                                                name = "Skunk Circus - Raymond, ME";
+                                                                                url = "https://www.skunkcircus.com/home";
+                                                                                tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
+                                                                        }
 									
                                                                 ];
                                                         }

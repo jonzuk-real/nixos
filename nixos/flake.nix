@@ -12,6 +12,7 @@
 modules = [ 
 #	./chaotic.nix
 #	./winetricks.nix
+#	./wger.nix
         ./configuration.nix
         ./hardware-configuration.nix
 	./users.nix

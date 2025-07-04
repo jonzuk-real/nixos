@@ -28,6 +28,14 @@ services.flatpak.enable = true;
 nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
 
+# WGER
+virtualisation.docker = {
+  enable = true;
+};
+
+
+  
+
 
 
 #Add My User account
