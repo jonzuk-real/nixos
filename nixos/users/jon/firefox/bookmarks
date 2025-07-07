@@ -778,11 +778,20 @@ programs.firefox.profiles.default.bookmarks = [
                                                                                 tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
                                                                         }
 									{
+                                                                                name = "Lonely Bones - Sandford, ME";
+                                                                                url = "https://weedmaps.com/dispensaries/lonely-bones/";
+                                                                                tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
+                                                                        }
+									{
+                                                                                name = "Grove Cannabis - Sandford, ME";
+                                                                                url = "https://weedmaps.com/deliveries/grove-cannabis-company-3";
+                                                                                tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
+                                                                        }
+									{
                                                                                 name = "Captains Cannabis - Sandford, ME";
                                                                                 url = "https://captains-cannabis.com/order-online";
                                                                                 tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
                                                                         }				
-
 									{
 										name = "Kind Guy Patient Care Center - Biddeford, ME";
 										url = "https://kindguy.wm.store/";
