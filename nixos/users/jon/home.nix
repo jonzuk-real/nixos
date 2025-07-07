@@ -49,7 +49,7 @@
 	feishin # Full-featured Subsonic/Jellyfin compatible desktop music player
 	kdePackages.okular # KDE document viewer
 	pdf4qt # Open source PDF editor
-	wootility # Wooting Keyboard Utility 
+#	wootility # Wooting Keyboard Utility 
 	ffmpeg-full # A complete, cross-platform solution to record, convert and stream audio and video
 #	microsoft-edge-dev # The web browser from Microsoft
 #	sayonara # Music Player
@@ -73,7 +73,7 @@
         gammastep # Screen color temperature manager
         darkman # Framework for dark-mode and light-mode transitions on Linux desktop
         obs-studio # Free and open source software for video recording and live streaming
-        path-of-building # Offline build planner for Path of Exile
+#        path-of-building # Offline build planner for Path of Exile
         wordbook # Offline English-English dictionary application built for GNOME
         libreoffice-qt # Comprehensive, professional-quality productivity suite, a variant of openoffice.org
         aspell # Spell checker for many languages
