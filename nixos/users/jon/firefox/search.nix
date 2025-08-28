@@ -1,7 +1,7 @@
  {
  programs.firefox.profiles.default.search = {
             force = true;
-            default = "Brave Search";
+            default = "Perplexity AI";
             order = [ "DuckDuckGo" "Searx" "Google" ];
             engines = {
 	       "ChatGPT" = {
