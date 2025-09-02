@@ -30,42 +30,24 @@ in
 
 environment.systemPackages = with pkgs; [
 
-#(import (fetchTarball {
-#    url = "https://github.com/hyprwm/aquamarine/archive/refs/heads/main.tar.gz";
-#    sha256 = "sha256:0c9z8jrjk38icrcd8sk254p0isid8r1fgmj5h76k81jrss976aqq";  # Use null for development; replace with actual hash later
-#  })).packages.x86_64-linux.aquamarine
-#	 aquamarine.packages.x86_64-linux.default
-#	aquamarine.
-#	unstable.aquamarine	
-#	hyprland.hyprland
+
 	hyprshade
 	unstable.protontricks
 	unstable.winetricks
 	freecad
 	unityhub
 	peaclock
-#	kdePackages.kcoreaddons
-#	libsForQt5.plasma-desktop
-#	kdePackages.plasma-desktop
-#	kdePackages.kglobalaccel
 	libdecor
 	gtk3
 	gtk4
-#	  libsForQt5.full
-    qt6.full
-#    kde-frameworks
-#    kirigami
-	  adwaita-qt6
+	qt6.full
+        adwaita-qt6
 	gamescope
 	mesa
-#	hyprland
-#	ulauncher
 	efibootmgr
 	cron
-#	gstreamer
 	dualsensectl
 	os-prober
-#	proton-ge-bin
 	xvfb-run
 	glibc
 	heroic
@@ -77,44 +59,26 @@ environment.systemPackages = with pkgs; [
 	foot
 	labwc-tweaks
 	labwc
-#	vmware-workstation
 	libusb1
 	gcc
 	zlib
 	expat
 	gnumake
 	virt-viewer
-#	looking-glass-client
 	cpuid
 	async
 	geoclue2
-#	firefox-devedition
 	wayfire
 	spice-gtk
 	android-tools
 	usb-modeswitch
 	usbutils
-#	dhclient
-	iptables
-	#Android Internet 
+	iptables 
 	mtpfs
-# 	Steam Tinker Apps
-#	wtype
-#	unzip 
-#	wget 
-#	xdotool 
-#	xorg.xwininfo 
-#	xxd
-#	wayfire #3D wayland
 	gimp
 	mpvpaper
-#	hyprland-autoname-workspaces # trying this out 
-	#tofi
-#	hyprlock
-#	hyprcursor
 	home-manager
 	openjdk
-#	xorg.xhost
 	lxqt.lxqt-policykit
 	waybar-mpris
 	swaynotificationcenter
@@ -128,21 +92,17 @@ environment.systemPackages = with pkgs; [
 	swww
 	rofimoji
 	rofi-vpn
-#	rofi-calc
 	kitty
 	pkgs.dunst
 	libnotify
-	#waybar
 	plex
 	pkgs.unrar
 	pkgs.sway
 	pkgs.linuxHeaders
-#	pkgs.looking-glass-client
 	libguestfs
 	pkgs.virtiofsd
 	pkgs.blender-hip
 	pkgs.gparted
-#	virtualbox
 	pkgs.htop
 	pkgs.pcsclite
 	pkgs.reaper
@@ -154,9 +114,6 @@ environment.systemPackages = with pkgs; [
 	pkgs.linuxKernel.packages.linux_5_4.wireguard
 	pkgs.networkmanager
 	pkgs.wireguard-tools
-	# support both 32- and 64-bit applications
-       # wineWowPackages
-#	winetricks
 	dxvk
 	vkd3d
 	vkd3d-proton
@@ -172,10 +129,6 @@ environment.systemPackages = with pkgs; [
 	mullvad-vpn
 	mullvad
 	virtio-win
-#	pkgs.xfce.xfce4-whiskermenu-plugin
-#	pkgs.xfce.xfce4-settings	
-#	gnome3.adwaita-icon-theme # default gnome cursors
-#	glib 
 
 # Wine Section
 

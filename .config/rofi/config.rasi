@@ -4,4 +4,14 @@
 //@theme "/nix/store/xk5rsp8f1anq31afnrsvwj7hjmkyr4dg-rofi-1.7.5+wayland2/share/rofi/themes/iggy.rasi"
 //@theme "/nix/store/xk5rsp8f1anq31afnrsvwj7hjmkyr4dg-rofi-1.7.5+wayland2/share/rofi/themes/sidebar.rasi"
  
-@theme "/nix/store/ij26dpjdkwl6l0z8dhmsbc7j3z3bhbrx-rofi-1.7.5+wayland2/share/rofi/themes/sidebar.rasi"
+//@theme "/nix/store/ij26dpjdkwl6l0z8dhmsbc7j3z3bhbrx-rofi-1.7.5+wayland2/share/rofi/themes/sidebar.rasi"
+
+//@theme "/nix/store/xcfia1n9h67jj4wks2kicw6xm1alj0q0-rofi-1.7.5+wayland3/share/rofi/themes/fullscreen-preview.rasi"
+
+//@theme "/nix/store/xcfia1n9h67jj4wks2kicw6xm1alj0q0-rofi-1.7.5+wayland3/share/rofi/themes/fullscreen-preview.rasi"
+
+//@theme "/nix/store/xcfia1n9h67jj4wks2kicw6xm1alj0q0-rofi-1.7.5+wayland3/share/rofi/themes/sidebar.rasi"
+
+//@theme "/nix/store/xcfia1n9h67jj4wks2kicw6xm1alj0q0-rofi-1.7.5+wayland3/share/rofi/themes/sidebar-v2.rasi"
+
+@theme "/nix/store/xcfia1n9h67jj4wks2kicw6xm1alj0q0-rofi-1.7.5+wayland3/share/rofi/themes/sidebar.rasi"

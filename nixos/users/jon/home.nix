@@ -38,62 +38,49 @@
   home.packages = with pkgs; [ 
 #	googleearth-pro # World sphere viewer
 	xearth # sets the X root window to an image of the Earth
-	mullvad-browser
+#	mullvad-browser
 	eww
 	ddcutil # Query and change Linux monitor settings using DDC/CI and USB
 	ddcui # Graphical user interface for ddcutil - control monitor settings
 	xfce.catfish 
-#	motrix # A full-featured download manager
 	ryujinx # Experimental Nintendo Switch Emulator written in C#
 #	protontricks # A simple wrapper for running Winetricks commands for Proton-enabled games
-	feishin # Full-featured Subsonic/Jellyfin compatible desktop music player
+#	feishin # Full-featured Subsonic/Jellyfin compatible desktop music player
 	kdePackages.okular # KDE document viewer
 	pdf4qt # Open source PDF editor
-#	wootility # Wooting Keyboard Utility 
 	ffmpeg-full # A complete, cross-platform solution to record, convert and stream audio and video
-#	microsoft-edge-dev # The web browser from Microsoft
-#	sayonara # Music Player
 	tor-browser # Privacy Browser 
-#	firefox-devedition-unwrapped # A web browser built from Firefox Developer Edition source tree	
-	glaxnimate # Simple vector animation program. KDENLive Requirement
-#	libsForQt5.kdenlive # Video editor
+#	glaxnimate # Simple vector animation program. KDENLive Requirement
+#	kdenlive # Video editor
 #	workout-tracker
 	audacity # Sound editor with graphical UI
 	audacious # Music Player
 	waybar
 	gthumb # error: 'gqview' has been removed due to lack of maintenance upstream and depending on gtk2. Consider using 'gthumb' instead
-#	gqview # A fast image viewer
 	wofi # A launcher/menu program for wlroots based wayland compositors such as sway
 	rofi-wayland # A launcher/menu program for wlroots based wayland compositors such as sway
-	wootility # A customization and management software for Wooting keyboards
-        mealie # A self hosted recipe manager and meal planner
-	steamtinkerlaunch # Steam Tinker
+#	wootility # A customization and management software for Wooting keyboards
+#	mealie # Meal planner self hosted
 #       obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files
         process-viewer # A process viewer GUI in rust
         gammastep # Screen color temperature manager
         darkman # Framework for dark-mode and light-mode transitions on Linux desktop
         obs-studio # Free and open source software for video recording and live streaming
-#        path-of-building # Offline build planner for Path of Exile
+#       path-of-building # Offline build planner for Path of Exile
         wordbook # Offline English-English dictionary application built for GNOME
         libreoffice-qt # Comprehensive, professional-quality productivity suite, a variant of openoffice.org
         aspell # Spell checker for many languages
         aspellDicts.en # Aspell dictionary for English
-#       hunspell # Spell checker
-#       hunspellDicts.en_US # Hunspell dictionary for English (United States) from Wordlist
         gedit # Former GNOME text editor
         lutris # Open Source gaming platform for GNU/Linux
         gamemode # Optimise Linux system performance on demand
         yt-dlp # YouTube CMD Downloader
-#       strawberry # Music Player
-#        gamescope # SteamOS session compositing window manager
         pavucontrol # PulseAudio Volume Control
         librewolf # Privacy Browser
         steam # Steam Client
         steam-run # Run commands in the same FHS environment that is used for Steam
-#        steamPackages.steam-runtime # The official runtime used by Steam
 	mangohud # A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more
         yubioath-flutter # Yubico Authenticator for Desktop
-#        gimp # Photo Editor
 	ppsspp # A HLE Playstation Portable emulator, written in C++ (SDL + headless)
         rpcs3 # PS3 Emulator
         qbittorrent # Featureful free software BitTorrent client
@@ -101,7 +88,6 @@
         xarchiver # GTK frontend to 7z,zip,rar,tar,bzip2, gzip,arj, lha, rpm and deb (open and extract only)
         airshipper # Provides automatic updates for the voxel RPG Veloren.
 	minetest # Infinite-world block sandbox game
-#	hmcl # A Minecraft Launcher which is multi-functional, cross-platform and popular
         prismlauncher # A free, open source launcher for Minecraft
         mari0 # Mario and Portal Combined
         superTux # Classic 2D jump'n run sidescroller game
@@ -116,7 +102,6 @@
         git # Distributed version control system
         syncthing # Open Source Continuous File Synchronization
         gdrive3 # Google Drive CLI Client
-#	chromium # Chromium Browser
         brave # Privacy-oriented browser for Desktop and Laptop computers
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
