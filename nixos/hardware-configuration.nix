@@ -8,11 +8,10 @@
     [ (modulesPath + "/installer/scan/not-detected.nix")
     ];
 
-  boot.initrd.availableKernelModules = [ "nvme" "xhci_pci" "ahci" "usbhid" "usb_storage" "sd_mod" ];
-  boot.initrd.kernelModules = [ "usbhid" "joydev" "xpad" "amdgpu"];
-  boot.kernelModules = [ "kvm-amd" "virtio" "virtio_pci" "virtio_gpu" ];
-  boot.extraModulePackages = [  ];
-  
+  boot.initrd.availableKernelModules = [ "nvme" "xhci_pci" "ahci" "usbhid" "sd_mod" ];
+  boot.initrd.kernelModules = [ ];
+  boot.kernelModules = [ "kvm-amd" ];
+  boot.extraModulePackages = [ ];
 
   fileSystems."/" =
     { device = "/dev/disk/by-uuid/d2387be6-ad38-4e78-8a4b-879c933b6952";
@@ -22,34 +21,21 @@
   fileSystems."/boot" =
     { device = "/dev/disk/by-uuid/BC13-EE69";
       fsType = "vfat";
+      options = [ "fmask=0022" "dmask=0022" ];
     };
 
-#  fileSystems."/run/media/jon/SSD" =
-#    { device = "/dev/disk/by-uuid/c239575d-bf5a-4591-b471-67d96650742a";
-#      fsType = "ext4";
-#    };
-
-#  fileSystems."/efi" =
-#    { device = "/dev/disk/by-uuid/B4A8-F99A";
-#      fsType = "vfat";
-#    };
-
-#  boot.loader.grub.enable = true;
-#  boot.loader.grub.device = "nodev";
-#  boot.loader.grub.useOSProber = true;
-
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
-
-#  boot.loader.efi.efiSysMountPoint = "/efi";
-#  boot.loader.systemd-boot.xbootldrMountPoint = "/boot";
+  swapDevices = [ ];
 
   # Enables DHCP on each ethernet and wireless interface. In case of scripted networking
   # (the default) this is the recommended approach. When using systemd-networkd it's
   # still possible to use this option, but it's recommended to use it in conjunction
   # with explicit per-interface declarations with `networking.interfaces.<interface>.useDHCP`.
   networking.useDHCP = lib.mkDefault true;
+  # networking.interfaces.docker0.useDHCP = lib.mkDefault true;
   # networking.interfaces.enp7s0.useDHCP = lib.mkDefault true;
+  # networking.interfaces.vboxnet0.useDHCP = lib.mkDefault true;
+  # networking.interfaces.virbr0.useDHCP = lib.mkDefault true;
+  # networking.interfaces.vnet0.useDHCP = lib.mkDefault true;
 
   nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
   hardware.cpu.amd.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
