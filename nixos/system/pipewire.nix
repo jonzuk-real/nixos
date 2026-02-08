@@ -11,17 +11,17 @@
     pulse.enable = true;
     # If you want to use JACK applications, uncomment this
     jack.enable = true;
-  };
- extraConfig.jack = {
+    extraConfig.jack = {
     "10-clock-rate" = {
       "jack.properties" = {
         # latency = <buffer-size>/<sample-rate>
         "node.latency" = "256/44100";   # 256 samples at 96 kHz
         "node.rate"    = "1/44100";     # graph runs at 96 kHz
         "node.lock-quantum" = true;
-      };
-    };
-  };
+   			   };
+   			 };
+ 			 };
+};
 
 #Pipewire Low Latency
 services.pipewire.extraConfig.pipewire."92-high-quality" = {
@@ -40,7 +40,7 @@ services.pipewire.extraConfig.pipewire-pulse."92-high-quality" = {
       name = "libpipewire-module-protocol-pulse";
       args = {
         pulse.min.req = "256/44100";
-        pulse.default.req = "256/48000";
+        pulse.default.req = "256/96000";
         pulse.max.req = "1024/192000";
         pulse.min.quantum = "256/44100";
         pulse.max.quantum = "1024/192000";
@@ -48,7 +48,7 @@ services.pipewire.extraConfig.pipewire-pulse."92-high-quality" = {
     }
   ];
   stream.properties = {
-    node.latency = "256/48000";
+    node.latency = "256/96000";
     resample.quality = 14;
   };
 };
