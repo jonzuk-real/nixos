@@ -20,6 +20,8 @@
         "node.rate"    = "1/44100";     # graph runs at 96 kHz
         "node.lock-quantum" = true;
       };
+    };
+  };
 
 #Pipewire Low Latency
 services.pipewire.extraConfig.pipewire."92-high-quality" = {
