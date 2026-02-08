@@ -12,6 +12,14 @@
     # If you want to use JACK applications, uncomment this
     jack.enable = true;
   };
+ extraConfig.jack = {
+    "10-clock-rate" = {
+      "jack.properties" = {
+        # latency = <buffer-size>/<sample-rate>
+        "node.latency" = "256/44100";   # 256 samples at 96 kHz
+        "node.rate"    = "1/44100";     # graph runs at 96 kHz
+        "node.lock-quantum" = true;
+      };
 
 #Pipewire Low Latency
 services.pipewire.extraConfig.pipewire."92-high-quality" = {
