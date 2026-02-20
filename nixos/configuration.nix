@@ -21,7 +21,7 @@
 services.hardware.openrgb.enable = true;
 services.hardware.openrgb.motherboard = "amd";
 #nixpkgs.config.allowUnfree = true; 
-
+services.gvfs.enable = true;
 services.flatpak.enable = true;
 
 #Flakes and nix command

@@ -70,6 +70,7 @@ environment.systemPackages = with pkgs; [
 	geoclue2
 	wayfire
 	spice-gtk
+	android-studio-tools
 	android-tools
 	usb-modeswitch
 	usbutils
