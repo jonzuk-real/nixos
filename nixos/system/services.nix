@@ -20,7 +20,8 @@
 #	virtualisation.virtualbox.host.enable = true;
    	virtualisation.virtualbox.host.enableExtensionPack = true;
 	services.spice-vdagentd.enable = true;	
-services.mullvad-vpn.enable = true;
+	services.mullvad-vpn.enable = true;
+	services.openssh.enable = true;
 	services.openssh.settings.X11Forwarding = true;
 #	services.gnome.gnome-keyring.enable = true;
 	programs.xfconf.enable = true;
