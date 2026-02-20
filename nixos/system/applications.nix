@@ -72,6 +72,7 @@ environment.systemPackages = with pkgs; [
 	spice-gtk
 	android-studio-tools
 	android-tools
+	jmtpfs
 	usb-modeswitch
 	usbutils
 	iptables 

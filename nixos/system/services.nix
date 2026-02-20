@@ -21,7 +21,7 @@
    	virtualisation.virtualbox.host.enableExtensionPack = true;
 	services.spice-vdagentd.enable = true;	
 services.mullvad-vpn.enable = true;
-
+	services.openssh.settings.X11Forwarding = true;
 #	services.gnome.gnome-keyring.enable = true;
 	programs.xfconf.enable = true;
 	services.gvfs.enable = true; # Mount, trash, and other functionalities
