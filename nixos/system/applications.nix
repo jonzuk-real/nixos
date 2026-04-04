@@ -30,7 +30,7 @@ in
 
 environment.systemPackages = with pkgs; [
 
-
+#	cloudflared
 	hyprshade
 	unstable.protontricks
 	unstable.winetricks
