@@ -10,6 +10,7 @@
       pkgs = import nixpkgs { system = "x86_64-linux"; nixpkgs.config.allowUnfree = true; config.allowUnfree = true; };
 	specialArgs = {inherit inputs;};      
 modules = [ 
+#=	./system/FTP.nix
 #	./chaotic.nix
 #	./winetricks.nix
 #	./wger.nix
@@ -27,7 +28,7 @@ modules = [
 #	./system/kodi.nix
 	./system/network.nix
 #	./system/lookingglass.nix
-#	./jellyfin.nix
+	./jellyfin.nix
 #	./60QEMU.nix
 	./plex.nix
 #	./brave.nix
