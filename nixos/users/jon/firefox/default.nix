@@ -6,7 +6,6 @@
 			    ./bookmarks			    
 			    ];
 	programs.firefox.enable = true;
-	programs.firefox.profiles.default.bookmarks.force = true;
 }
 
 
