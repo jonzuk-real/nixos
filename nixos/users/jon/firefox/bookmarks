@@ -1,0 +1,802 @@
+{
+programs.firefox.profiles.default.bookmarks = [
+	 
+	 
+	 {
+						name = "Bookmarks Toolbar";
+						toolbar = true;
+						bookmarks = [	
+							{
+								name = "Cronometer";
+								url = "https://cronometer.com/#diary";
+								tags = [ "cronometer" ];
+							}
+							{
+								name = "Gmail";
+								url = "https://gmail.com/";
+								tags = [ "google" "mail" ];
+							}
+							{
+                                                                name = "AdGuard";
+                                                                url = "http://localhost/#";
+                                                                tags = [ "adguard" ];
+                                                        }
+							{
+								name = "Plex";
+								url = "localhost:32400";
+								tags = [ "plex" ];
+							}
+							{
+                                                                name = "Jellyfin";
+                                                                url = "http://localhost:8096";
+                                                                tags = [ "jellyfin" "plex" "media" "music" "video" "movie" "tv" ];
+                                                        }
+							{
+								name = "Amazon";
+								url = "https://www.amazon.com/";
+								tags = ["shopping" "amazon" "commerce" ];
+							}
+
+
+
+						{
+							name = "Weather";
+							bookmarks= [
+							{
+								name = "The Weather Channel";
+								url = "https://weather.com/";
+								tags = [ "weather" ];
+							}
+						        {
+                                                                name = "National Weather Service";
+                                                                url = "https://weather.gov";
+                                                                tags = [ "weather" ];
+                                                        }
+							           ];
+
+						}
+							{
+								name = "Entertainment";
+								bookmarks= [
+									{
+										name = "YouTube";
+										url = "https://www.youtube.com/";
+										tags = [ "yt" "youtube" ];
+									}
+									{
+										name = "Odysee";
+										url = "https://odysee.com/";
+										tags = [ "odysee" ];
+									}
+									{
+										name = "Rumble";
+										url = "https://rumble.com/";
+										tags = [ "rumble" ];
+									}
+									{
+										name = "BitChute";
+										url = "https://bitchute.com/";
+										tags = [ "bitchute" ];
+									}
+									{
+										name = "Gab";
+										url = "https://gab.com/";
+										tags = [ "gab" ];
+									}
+			  				];
+							}
+						{
+							name = "Shopping";
+							bookmarks = [
+							{
+									name = "Food";
+									bookmarks = [
+										{
+									name = "Grocery Stores";
+									bookmarks = [
+										{
+										name = "Whole Foods Market";
+										url = "https://www.wholefoodsmarket.com/";
+										tags = ["cooking" "chef" "supplies" "food" "store" ];
+										}
+										{
+										name = "Hannaford";
+										url = "https://www.hannaford.com/";
+										tags = ["cooking" "chef" "supplies" "food" "store" ];
+										}
+										{
+										name = "Market Basket";
+										url = "https://www.shopmarketbasket.com/";
+										tags = ["cooking" "chef" "supplies" "food" "store" ];
+										}
+										{
+										name = "Shaws";
+										url = "https://www.shaws.com/";
+										tags = ["cooking" "chef" "supplies" "food" "store" ];
+										}
+										{
+										name = "ALDI";
+										url = "https://www.aldi.us/";
+										tags = ["cooking" "chef" "supplies" "food" "store" ];
+										}
+									];
+									}
+									{
+									name = "Online Stores";
+									bookmarks = [
+										{
+										name = "Vegan Essentials";
+										url = "https://veganessentials.com/";
+										tags = ["vegan" "cooking" "chef" "supplies" "food" "store" ];
+										}
+									];
+									}
+									];
+									
+							}
+							{
+								name = "Clothes";
+								bookmarks = [
+									{
+										name = "Royal Apparel";
+										url = "https://royalapparel.com/";
+										tags = [ "organic" "cotton" "clothes" ];	
+									}
+									{
+										name = "Pact";
+										url = "https://wearpact.com/men";
+										tags = [ "organic" "cotton" "clothes" ];	
+									}
+									{	name = "Patagonia";
+										url = "https://www.patagonia.com/home/";
+										tags = [ "organic" "cotton" "clothes" ];	
+									}
+									{
+										name = "Christy Dawn";
+										url = "https://christydawn.com/collections/unisex";
+										tags = [ "organic" "cotton" "clothes" ];
+									}
+									{
+										name = "Organic Basics";
+										url = "https://us.organicbasics.com/";
+										tags = [ "organic" "cotton" "clothes" ];
+									}
+									{
+										name = "Armed Angels";
+										url = "https://www.armedangels.com/wo-en";
+										tags = [ "organic" "cotton" "clothes" ];
+									}
+									{
+										name = "Earth Creations";
+										url = "https://www.earthcreations.net/index.php?main_page=index&cPath=28&products_page=1";
+										tags = [ "organic" "cotton" "clothes" ];
+									}
+									{
+                                                                                name = "Earth Wardrobe";
+                                                                                url = "https://earthwardrobe.com/";
+                                                                                tags = [ "organic" "cotton" "clothes" ];
+                                                                        }
+									{
+										name = "Socks";
+										bookmarks = [
+											{
+												name = "Harvest and Mil Mens Socks";
+												url = "https://harvestandmill.com/collections/menshop-socks";
+												tags = ["organic" "cotton" "socks" ];
+											}
+											{
+                                                                                                name = "Natural Clothing Company";
+                                                                                                url = "https://naturalclothingcompany.com/collections/men/products/organic-mens-socks-large-1013?variant=5444565569";
+                                                                                                tags = ["organic" "cotton" "socks" ];
+                                                                                        }
+											{
+                                                                                                name = "QforQuinn";
+                                                                                                url = "https://www.qforquinn.com/collections/unisex-cotton-socks-for-men-and-women";
+                                                                                                tags = ["organic" "cotton" "socks" ];
+                                                                                        }
+										];
+									}
+									{
+										name = "Underwear";
+										bookmarks = [
+											{
+												name = "Toad and Co Mens Underwear";
+												url = "https://www.toadandco.com/collections/mens-sale-accessories";
+												tags = ["organic" "cotton" "underwear" ];
+											}
+										];
+									}
+									{
+										name = "Sales";
+										bookmarks = [
+											{
+												name = "Madetrade";
+												url = "https://www.madetrade.com/collections/mens-clothing?filter.v.price.gte=&filter.v.price.lte=&filter.p.m.Sale.Sale=On+Sale&sort_by=manual";
+												tags = [ "organic" "cotton" "clothes" "sales" ];	
+											}
+											{
+												name = "Komodo UK";
+												url = "https://www.komodo.co.uk/collections/mens-sale";
+												tags = [ "organic" "cotton" "clothes" "sales" ];
+											}
+											{
+												name = "Spiritex";
+												url = "https://www.spiritex.net/collections/mens-sale";
+												tags = [ "organic" "cotton" "clothes" "sales" ];	
+											}
+											{
+												name = "Green Label Organic";
+												url = "https://greenlabelorganic.com/";
+												tags = [ "organic" "cotton" "clothes" "sales" ];
+											}
+											{
+												name = "tentree";
+												url = "https://www.tentree.com/collections/mens-sale?page=1&sort=asc";
+												tags = [ "organic" "cotton" "clothes" "sales" ];
+											}
+											{
+												name = "Sherpa Adventure Gear";
+												url = "https://www.sherpaadventuregear.com/men/sale#filters.sustainability=Organic%20Cotton&sort=price";
+												tags = [ "organic" "cotton" "clothes" "sales" ];
+											}
+											{
+                                                                                                name = "SUPERDRY";
+                                                                                                url = "https://www.superdry.com/us/sale/mens/view-all?page=1&scrollYPos=0&sort=price%7Easc";
+                                                                                                tags = [ "organic" "cotton" "clothes" "sales" ];
+                                                                                        }
+													];
+									}
+											];
+								}
+							{
+								name = "Supplements";
+								bookmarks = [
+									{
+										name = "iHerb";
+										url = "https://www.iherb.com";
+										tags = [ "vitamins" "supplements" "pantry" "store"];
+									}
+								
+											];
+							}
+							{
+								name = "Olive Oil";
+								bookmarks = [
+									{
+										name = "elite Olive Oils";
+										url = "https://eliteoliveoils.com/";
+										tags = [ "olive" "oil" "pantry" "list" "blog"];
+									}
+									{
+										name = "kali-agri";
+										url = "https://www.kaliagri.it/";
+										tags = [ "olive" "oil" "pantry" "store"];
+									}
+									{
+										name = "Monadnock Oil & Vinegar";
+										url = "https://www.monadnockoilandvinegar.com/store/c52/Extra_Virgin_Olive_Oils.html";
+										tags = [ "olive" "oil" "pantry" "store"];
+									}
+								
+											];
+							}	
+							{
+								name = "Cooking Supplies";
+								bookmarks = [
+										{
+										name = "Websturaunt";
+										url = "https://www.webstaurantstore.com/";
+										tags = ["cooking" "chef" "supplies" "food" "store" ];
+										}
+								];
+							}
+										];
+							}
+							{
+								name = "Gaming";
+								bookmarks = [
+										{
+											name = "GG.DEALS";
+											url = "https://gg.deals/";
+											tags = ["game" "pass" "xbox" "ubisoft" "EA" "battlenet" "deals" "sale" "store" "gaming" "steam" ];
+										}
+										{
+											name = "Steam";
+											url = "https://store.steampowered.com/";
+											tags = [ "steam" "store" "gaming"];
+										}
+										{
+											name = "G2A";
+											url = "https://www.g2a.com/";
+											tags = [ "g2a" "store" "gaming"];
+										}
+										{
+										name = "Team Fortress 2";
+										bookmarks = [
+											{
+												name = "Marketplace.tf";
+												url = "https://marketplace.tf/";
+												tags = [ "tf2" ];
+											}
+											{
+												name = "Scrap.tf";
+												url = "https://scrap.tf/";
+												tags = [ "tf2" ];
+											}
+											{
+												name = "backpack.tf";
+												url = "https://backpack.tf/";
+												tags = [ "tf2" ];
+											}
+											{
+												name = "Teamwork.tf";
+												url = "https://teamwork.tf/";
+												tags = [ "tf2" ];
+											}
+											{
+												name = "item.tf";
+												url = "https://item.tf/";
+												tags = [ "tf2" ];
+											}		
+											{
+												name = "mannco.store";
+												url = "https://mannco.store/";
+												tags = [ "tf2" ];
+											}					
+													];								
+										}
+											];
+							}
+							{
+                                                                name = "3D Prints";
+                                                                bookmarks = [
+                                                                        {
+                                                                                name = "Thingiverse";
+                                                                                url = "https://www.thingiverse.com/";
+                                                                                tags = [ "print" "3d" ];
+                                                                        }
+									{
+                                                                                name = "THANGS";
+                                                                                url = "https://thangs.com/?sort=trending";
+                                                                                tags = [ "print" "3d" ];
+                                                                        }
+                                                                        {
+                                                                                name = "Printables";
+                                                                                url = "https://www.printables.com/";
+                                                                                tags = [ "print" "3d" ];
+                                                                        }
+                                                                                        ];
+                                                        }  
+							{
+								name = "Code";
+								bookmarks = [
+									{
+														name = "GitHub";
+														url = "https://github.com/";
+														tags = [ "git" "code" "posix" "shell" "article" "info" ];
+									}									
+									{
+										name = "POSIX_Shell";
+										bookmarks = [
+											{
+												name = "Articles/Info";
+												bookmarks = [
+													{
+														name = "rothgar/awesome-tuis";
+														url = "https://github.com/rothgar/awesome-tuis";
+														tags = [ "code" "posix" "shell" "article" "info" ];
+													}
+												];
+											}
+											{
+												name = "Docs";
+												bookmarks = [
+													{
+														name = "dodie/testing-in-bash";
+														url = "https://github.com/dodie/testing-in-bash/";
+														tags = [ "code" "posix" "shell" "unit" "test" "testing" ];
+													}
+													{
+														name = "POSIX Extended Regex";
+														url = "https://docs.thousandeyes.com/product-documentation/internet-and-wan-monitoring/tests/http-server-tests/posix-extended-regular-expression-syntax";
+														tags = [ "code" "posix" "shell" "docs" "regex" ];
+													}
+													{
+														name = "POSIX-Extended Regex";
+														url = "https://en.wikibooks.org/wiki/Regular_Expressions/POSIX-Extended_Regular_Expressions";
+														tags = [ "code" "posix" "shell" "docs" "regex" ];
+													}
+													{
+														name = "Shell Comparison";
+														url = "https://en.wikipedia.org/wiki/Comparison_of_command_shells";
+														tags = [ "code" "posix" "shell" "docs" "comparison" ];
+													}
+													{
+														name = "Base Specifications";
+														url = "https://pubs.opengroup.org/onlinepubs/9699919799/";
+														tags = [ "code" "posix" "shell" "docs" "ieee" ];
+													}
+													{
+														name = "POSIX I/O Redirection";
+														url = "https://www.ibm.com/docs/en/aix/7.1?topic=ks-input-output-redirection-in-korn-shell-posix-shell";
+														tags = [ "code" "posix" "shell" "docs" "redirection" ];
+													}
+													{
+														name = "Determine the Current Shell";
+														url = "https://www.baeldung.com/linux/find-current-shell";
+														tags = [ "code" "posix" "shell" "docs" "current" ];
+													}
+													{
+														name = "Print to the Same Line";
+														url = "https://www.baeldung.com/linux/echo-printf-overwrite-terminal-line";
+														tags = [ "code" "posix" "shell" "docs" "print" "same" "line" ];
+													}
+													{
+														name = "Catch Signls";
+														url = "https://unix.stackexchange.com/questions/520035/exit-trap-with-posix";
+														tags = [ "code" "posix" "shell" "docs" "trap catch signls" ];
+													}
+													{
+														name = "String Manipulation";
+														url = "https://www.geeksforgeeks.org/string-manipulation-in-shell-scripting/";
+														tags = [ "code" "posix" "shell" "docs" "stirng" "manipulation" ];
+													}
+													{
+														name = "styleguide";
+														url = "https://google.github.io/styleguide/shellguide.html#s4-comments";
+														tags = [ "code" "posix" "shell" "docs" "style" "guide" ];
+													}
+													{
+														name = "Determine Shell";
+														url = "https://unix.stackexchange.com/questions/9501/how-to-test-what-shell-i-am-using-in-a-terminal";
+														tags = [ "code" "posix" "shell" "docs" "detemrine" ];
+													}
+													{
+														name = "Special Characters (Control Characters)";
+														url = "https://en.wikipedia.org/wiki/Control_character";
+														tags = [ "code" "posix" "shell" "docs" "special" "chracters" "control" ];
+													}
+													{
+														name = "Best Practices";
+														url = "https://bertvv.github.io/cheat-sheets/Bash.html";
+														tags = [ "code" "posix" "shell" "docs" "best" "practices" ];
+													}
+													{
+														name = "Linux File Structure";
+														url = "https://i.stack.imgur.com/BlpRb.png";
+														tags = [ "code" "posix" "linux" "file" "structure" ];
+													}
+												];
+											}
+											{
+												name = "Libraries";
+												bookmarks = [
+												];
+											}
+											{
+												name = "Tools";
+												bookmarks = [
+													{
+														name = "Twin-twinrc";
+														url = "https://github.com/cosmos72/twin/blob/master/twinrc";
+														tags = [ "code" "posix" "shell" "tool" "twin" ];
+													}
+													{
+														name = "Tmux";
+														url = "https://github.com/nordtheme/tmux";
+														tags = [ "code" "posix" "shell" "tool" "tmux" ];
+													}
+													{
+														name = "pgrange/bash_unit";
+														url = "https://github.com/pgrange/bash_unit";
+														tags = [ "code" "posix" "shell" "unit" "test" "testing" "library" ];
+													}
+													{
+														name = "shellspec/shellspec";
+														url = "https://github.com/shellspec/shellspec";
+														tags = [ "code" "posix" "shell" "tool" "spec" "shellspec" ];
+													}
+												];
+											}
+										];
+									}
+									{
+										name = "C++";
+										bookmarks = [
+											{
+												name = "Docs";
+												bookmarks = [
+													{
+														name = "Google C++ Style Guide";
+														url = "https://google.github.io/styleguide/cppguide.html#General_Naming_Rules";
+														tags = [ "code" "docs" "c++" "documentation" ];
+													}
+												];
+											}
+										];
+									}
+									{
+										name = "Arduino";
+										bookmarks = [
+											{
+												name = "Docs";
+												bookmarks = [
+													{
+														name = "How to organize my Arduino projects' structure for easy source control? - Arduino Stack Exchange";
+														url = "https://arduino.stackexchange.com/questions/348/how-to-organize-my-arduino-projects-structure-for-easy-source-control";
+														tags = [ "code" "docs" "documentation" "arduino" ];
+													}
+												];
+											}
+										];
+									}
+									{
+										name = "Mine";
+										bookmarks = [
+											{
+												name = "ReedClanton/shell_base";
+												url = "https://github.com/ReedClanton/shell_base";
+												tags = [ "code" "shell" "mine" "repo" "base" ];
+											}
+											{
+												name = "Coverage report";
+												url = "file:///home/reedclanton/git/shell_base/coverage/index.html";
+												tags = [ "code" "test" "coverage" "report" ];
+											}
+										];
+									}
+									{
+										name = "GitHub Apps";
+										bookmarks = [
+											{
+												name = "Epic Generator";
+												url = "https://github.com/TimonVS/epic-generator";
+												tags = [ "code" "github" "apps" "epic" "generator" ];
+											}
+										];
+									}
+									{
+										name = "Web";
+										bookmarks = [
+											{
+												name = "Tools";
+												bookmarks = [
+													{
+														name = "CSS/HTML/XML/JavaScript/PHP/JSON Formatter";
+														url = "https://webformatter.com/css";
+														tags = [ "code" "tool" "html" "web" "formatter" "css" "xml" "javascript" "php" "json" ];
+													}
+													{
+														name = "HTML Colors";
+														url = "https://www.w3schools.com/colors/colors_names.asp";
+														tags = [ "code" "tool" "html" "web" "color" ];
+													}
+													{
+														name = "Tmux Cheat Sheet";
+														url = "https://tmuxcheatsheet.com/";
+														tags = [ "tool" "tmux" "cheat" "sheet" ];
+													}
+												];
+											}
+											{
+												name = "HTML";
+												bookmarks = [
+													{
+														name = "HTML - Named character references";
+														url = "https://www.w3.org/TR/2011/WD-html5-20110525/named-character-references.html";
+														tags = [ "code" "html" "character" ];
+													}
+													{
+														name = "HTML Checker";
+														url = "https://validator.w3.org/nu/#textarea";
+														tags = [ "code" "html" "checker" "validator" ];
+													}
+												];
+											}
+										];
+									}
+								];
+							}
+							{
+								name = "Tools";
+								bookmarks = [
+									{
+										name = "Safing.io";
+										url = "https://safing.io/";
+										tags = [ "tool" "safing" "io" "foss" "privacy" ];
+									}
+									{
+										name = "Home | endoflife.date";
+										url = "https://endoflife.date/";
+									}
+									{
+										name = "Text to ASCII Art Generator (TAAG)";
+										url = "http://www.patorjk.com/software/taag/#p=display";
+										tags = [ "generator" "tool" "ascii" "art" "text" ];
+									}
+								];
+							}
+							{
+								name = "NixOS Tabs";
+								bookmarks = [
+									{
+										name = "NixOS 23.05 manual | Nix & NixOS";
+										url = "https://nixos.org/manual/nixos/stable/";
+										tags = [ "nixos" ];
+									}
+									{
+										name = "NixOS Search";
+										url = "https://search.nixos.org/packages?channel=unstable&show=tmuxPlugins.sidebar&from=0&size=50&sort=alpha_asc&type=packages&query=tmuxPlugins";
+										tags = [ "nixos" ];
+									}
+									{
+										name = "Configuration Collection";
+										url = "https://nixos.wiki/wiki/Configuration_Collection";
+									}
+									{
+										name = "Home Manager Manual";
+										url = "https://nix-community.github.io/home-manager/index.xhtml#sec-install-standalone";
+									}
+									{
+										name = "Home Manager - Configuration Options (Appendix A)";
+										url = "https://nix-community.github.io/home-manager/options.xhtml";
+									}
+									{
+										name = "Vimjoyer - YouTube";
+										url = "https://www.youtube.com/@vimjoyer/videos";
+									}
+									{
+										name = "Nix home-manager tutorial: Declare your entire home directory - YouTube";
+										url = "https://www.youtube.com/watch?v=FcC2dzecovw";
+									}
+									{
+										name = "Extending NixOS Configurations";
+										url = "https://hoverbear.org/blog/extending-nixos-configurations/";
+									}
+									{
+										name = "Declarative GNOME configuration with NixOS";
+										url = "https://hoverbear.org/blog/declarative-gnome-configuration-in-nixos/";
+									}
+									{
+										name = "neoclide/coc.nvim: Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers.";
+										url = "https://github.com/neoclide/coc.nvim";
+									}
+									{
+										name = "nix-community/nixvim: Configure Neovim with Nix! [maintainer=@pta2002, @traxys, @GaetanLepage]";
+										url = "https://github.com/nix-community/nixvim";
+									}
+									{
+										name = "tmux-python/tmuxp: 🖥️ tmux session manager. built on libtmux";
+										url = "https://github.com/tmux-python/tmuxp";
+									}
+									{
+										name = "Error: reading symbolic link '/nix/var/nix/profiles/per-user/root/channels/': No such file or directory - Help - NixOS Discourse";
+										url = "https://discourse.nixos.org/t/error-reading-symbolic-link-nix-var-nix-profiles-per-user-root-channels-no-such-file-or-directory/34838";
+									}
+									{
+										name = "(4) NixOS Config - Autologin - Flatpak - Fonts - Polkit - Release Upgrade - YouTube";
+										url = "https://www.youtube.com/watch?v=IRRtk320j2A";
+									}
+									{
+										name = "Is it possible to configure flatpaks with home-manager? : r/NixOS";
+										url = "https://www.reddit.com/r/NixOS/comments/14uj2b6/is_it_possible_to_configure_flatpaks_with/";
+										tags = [ "nixos" "flatpak" ];
+									}
+									{
+										name = "Install on Linux - Safing Docs";
+										url = "https://docs.safing.io/portmaster/install/linux#manual-install-and-launching";
+									}
+									{
+										name = "My E-Mail configuration: Nix & Home-Manager, Notmuch & mbsync - beb.ninja";
+										url = "https://beb.ninja/post/email/";
+									}
+									{
+										name = "gauteh/lieer: Fast email-fetching and sending and two-way tag synchronization between notmuch and GMail";
+										url = "https://github.com/gauteh/lieer";
+									}
+									{
+										name = "gauteh/lieer: Fast email-fetching and sending and two-way tag synchronization between notmuch and GMail";
+										url = "https://github.com/gauteh/lieer/";
+									}
+									{
+										name = "getting-started";
+										url = "https://notmuchmail.org/getting-started/";
+									}
+								];
+							}
+							{
+								name = "Workout";
+								bookmarks = [
+									{
+										name = "Routine (Scroll to Pure Strength)";
+										url = "https://www.hybridcalisthenics.com/programs";
+										tags = [ "workout" "strength" "routine" ];
+									}
+									{
+										name = "Exercises";
+										bookmarks = [
+											{
+												name = "Pushups";
+												url = "https://www.hybridcalisthenics.com/advanced-incline-pushups";
+												tags = [ "workout" "pushup" "pushups" ];
+											}
+											{
+												name = "Leg Raises (Move on to L-Sit)";
+												url = "https://www.hybridcalisthenics.com/alternating-leg-raises";
+												tags = [ "workout" "leg" "raise" "exercise" ];
+											}
+											{
+												name = "L-Sit";
+												url = "https://www.youtube.com/watch?v=wuDgmAr2ez8";
+												tags = [ "workout" "monday" "l-sit" "l" "sit" ];
+											}
+											{
+												name = "Squats";
+												url = "https://www.hybridcalisthenics.com/assisted-squats";
+												tags = [ "workout" "squats" "exercise" "squat" ];
+											}
+											{
+												name = "Pullups";
+												url = "https://www.hybridcalisthenics.com/horizontal-pullups";
+												tags = [ "workout" "pullup" "exercise" "pullups" ];
+											}
+											{
+												name = "Bridges";
+												url = "https://www.hybridcalisthenics.com/straight-bridges";
+												tags = [ "workout" "bridges" "exercise" "bridge" ];
+											}
+											{
+												name = "Clutch Flags";
+												url = "https://www.hybridcalisthenics.com/clutchflags";
+												tags = [ "workout" "clutch" "flags" "exercise" "flag" ];
+											}
+											{
+												name = "Twists";
+												url = "https://www.hybridcalisthenics.com/straight-leg-twists";
+												tags = [ "workout" "exercise" "twist" "twists" ];
+											}
+										];
+									}
+								];
+							}
+						  {
+                                                                name = "Weed";
+                                                                bookmarks = [
+                                                                        {
+										name = "Clouded Valley Cannabis - York, ME";
+										url = "https://www.cloudedvalleycannabis.com/";
+										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
+									}
+									{
+                                                                                name = "Kind Farms Reserve Cannabis Dispensary - Berwick, ME";
+                                                                                url = "https://weedmaps.com/dispensaries/kind-farms-reserve-1";
+                                                                                tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
+                                                                        }
+									{
+										name = "Kind Guy Patient Care Center - Biddeford, ME";
+										url = "https://kindguy.wm.store/";
+										tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
+									}
+									{
+										name = "The Market - Westbrook, ME";
+                                                                                url = "https://www.themarket207.com/";
+                                                                                tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
+									}									
+									{
+                                                                                name = "Local Leaf - Portland, ME";
+                                                                                url = "https://dutchie.com/stores/local-leaf-med";
+                                                                                tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
+                                                                        }
+									{
+                                                                                name = "Skunk Circus - Raymond, ME";
+                                                                                url = "https://www.skunkcircus.com/home";
+                                                                                tags = [ "weed" "cannabis" "medicine" "hemp" "flower" "medical" "maine" "organic" ];
+                                                                        }
+                                                                ];
+                                                        }
+
+						];
+					}
+			];
+
+}
