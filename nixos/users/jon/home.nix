@@ -10,7 +10,8 @@
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   imports = [ 
-#  ./vfio.nix
+  ./sway-home.nix
+  #  ./vfio.nix
   ./firefox/default.nix 
 #  ./chaotic.nix
 #  ./mac.nix

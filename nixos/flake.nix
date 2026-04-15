@@ -10,7 +10,8 @@
       pkgs = import nixpkgs { system = "x86_64-linux"; nixpkgs.config.allowUnfree = true; config.allowUnfree = true; };
 	specialArgs = {inherit inputs;};      
 modules = [ 
-    ./system/cloudflare.nix
+	./system/sway.nix
+   # ./system/cloudflare.nix
 #=	./system/FTP.nix
 #	./chaotic.nix
 #	./winetricks.nix
@@ -46,6 +47,7 @@ modules = [
             home-manager.useUserPackages = true;
             home-manager.users.jon = import ./users/jon/home.nix; 
 	    home-manager.extraSpecialArgs = {inherit inputs;};
+	    home-manager.backupFileExtension = "backup"; 
 	}
      ];
 #      programs.hyprland.enable = true;

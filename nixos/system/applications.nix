@@ -91,7 +91,7 @@ environment.systemPackages = with pkgs; [
 	libnotify
 	plex
 	pkgs.unrar
-	pkgs.sway
+#	pkgs.sway
 	pkgs.linuxHeaders
 	libguestfs
 	pkgs.virtiofsd
