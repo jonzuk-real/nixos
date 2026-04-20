@@ -198,8 +198,8 @@
 
       # Sway equivalent of hyprland's special:console / special:music
       # (use named scratchpads via marks as sway has only one scratchpad)
-      for_window [app_id="^foot$"]     mark console, move scratchpad
-      for_window [app_id="^audacious$"] mark music, move scratchpad
+  #    for_window [app_id="^foot$"]     mark console, move scratchpad
+  #    for_window [app_id="^audacious$"] mark music, move scratchpad
 
       # Focus wrapping
       focus_wrapping no
