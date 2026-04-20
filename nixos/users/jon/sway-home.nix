@@ -146,8 +146,8 @@
         "${modifier}+Shift+0"       = "move container to workspace number 10";
 
         # Scroll through workspaces
-        "${modifier}+button4"       = "workspace next";
-        "${modifier}+button5"       = "workspace prev";
+#       "--whole-window button4"    = "workspace next";
+#       "--whole-window button5"    = "workspace prev";
 
         # Scratchpad equivalents (sway has one scratchpad, mapped to magic like hyprland)
         "${modifier}+x"             = "scratchpad show";
