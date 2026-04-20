@@ -203,7 +203,9 @@
 
       # Focus wrapping
       focus_wrapping no
-
+      #smartgaps
+      smart_borders on
+      smart_gaps on
       # Font
       font pango:Roboto Mono Medium 10
     '';
