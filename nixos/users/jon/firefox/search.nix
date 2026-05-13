@@ -75,7 +75,7 @@
                 updateInterval = 24 * 60 * 60 * 1000; # every day
                 definedAliases = [ "@Brave" ];
               };
-              "Bing".metaData.hidden = true;
+              "bing".metaData.hidden = true;
               "google".metaData.alias = "@g"; # builtin engines only support specifying one additional alias
             };
           };
