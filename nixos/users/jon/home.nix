@@ -83,7 +83,7 @@
 	mangohud # A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more
         yubioath-flutter # Yubico Authenticator for Desktop
 	ppsspp # A HLE Playstation Portable emulator, written in C++ (SDL + headless)
-#BORKY        rpcs3 # PS3 Emulator
+#BROKEN YAY        rpcs3 # PS3 Emulator
         qbittorrent # Featureful free software BitTorrent client
         mpv # Media Player 
         xarchiver # GTK frontend to 7z,zip,rar,tar,bzip2, gzip,arj, lha, rpm and deb (open and extract only)
@@ -96,7 +96,7 @@
         lite # A lightweight text editor written in Lua
         nox # Tools to make nix nicer to use
         qalculate-qt # The ultimate desktop calculator
-#BORKED        pcsx2 # Playstation 2 emulator
+#borkedafterupdate        pcsx2 # Playstation 2 emulator
         dolphin-emu # Gamecube/Wii/Triforce emulator for x86_64 and ARMv8
         jdk17 # The open-source Java Development Kit
         maestral-gui # GUI front-end for maestral (an open-source Dropbox client) for Linux
