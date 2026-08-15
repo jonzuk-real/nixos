@@ -16,9 +16,9 @@
 	virtualisation.virtualbox.host.enable = true;
    	users.extraGroups.vboxusers.members = [ "jon" ];
 	virtualisation.virtualbox.guest.enable = true;
-  	virtualisation.virtualbox.guest.dragAndDrop = true;
+#  	virtualisation.virtualbox.guest.dragAndDrop = true;
 #	virtualisation.virtualbox.host.enable = true;
-   	virtualisation.virtualbox.host.enableExtensionPack = true;
+#   	virtualisation.virtualbox.host.enableExtensionPack = true;
 	services.spice-vdagentd.enable = true;	
 	services.mullvad-vpn.enable = true;
 #	services.openssh.permitRootLogin = true;
