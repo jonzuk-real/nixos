@@ -65,7 +65,7 @@ environment.systemPackages = with pkgs; [
 	spice-gtk
 	android-studio-tools
 	android-tools
-	jmtpfs
+#	jmtpfs   # DISCONTINUED UNMAINTED SOFTWARE
 	usb-modeswitch
 	usbutils
 	iptables 
