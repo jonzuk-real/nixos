@@ -22,6 +22,7 @@
 
 
 environment.systemPackages = with pkgs; [
+	open-webui
 	hyprland
 	cloudflared
 	hyprshade
