@@ -96,7 +96,7 @@
         lite # A lightweight text editor written in Lua
         nox # Tools to make nix nicer to use
         qalculate-qt # The ultimate desktop calculator
-        pcsx2 # Playstation 2 emulator
+#BORKED        pcsx2 # Playstation 2 emulator
         dolphin-emu # Gamecube/Wii/Triforce emulator for x86_64 and ARMv8
         jdk17 # The open-source Java Development Kit
         maestral-gui # GUI front-end for maestral (an open-source Dropbox client) for Linux
