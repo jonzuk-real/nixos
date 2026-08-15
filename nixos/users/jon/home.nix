@@ -83,7 +83,7 @@
 	mangohud # A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more
         yubioath-flutter # Yubico Authenticator for Desktop
 	ppsspp # A HLE Playstation Portable emulator, written in C++ (SDL + headless)
-        rpcs3 # PS3 Emulator
+#BORKY        rpcs3 # PS3 Emulator
         qbittorrent # Featureful free software BitTorrent client
         mpv # Media Player 
         xarchiver # GTK frontend to 7z,zip,rar,tar,bzip2, gzip,arj, lha, rpm and deb (open and extract only)
