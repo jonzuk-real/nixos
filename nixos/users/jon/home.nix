@@ -73,13 +73,13 @@
         aspell # Spell checker for many languages
         aspellDicts.en # Aspell dictionary for English
         gedit # Former GNOME text editor
-        lutris # Open Source gaming platform for GNU/Linux
+#        lutris # Open Source gaming platform for GNU/Linux
         gamemode # Optimise Linux system performance on demand
         yt-dlp # YouTube CMD Downloader
         pavucontrol # PulseAudio Volume Control
         librewolf # Privacy Browser
-        steam # Steam Client
-        steam-run # Run commands in the same FHS environment that is used for Steam
+#        steam # Steam Client
+#        steam-run # Run commands in the same FHS environment that is used for Steam
 	mangohud # A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more
         yubioath-flutter # Yubico Authenticator for Desktop
 	ppsspp # A HLE Playstation Portable emulator, written in C++ (SDL + headless)

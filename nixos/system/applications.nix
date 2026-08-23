@@ -43,7 +43,7 @@ environment.systemPackages = with pkgs; [
 	os-prober
 	xvfb-run
 	glibc
-	heroic
+#	heroic
 	gvfs
 	openvpn
 	proton-vpn
