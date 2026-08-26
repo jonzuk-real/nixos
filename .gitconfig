@@ -3,7 +3,7 @@
 	email = jonzuk@protonmail.com
 [credential "https://github.com"]
 	helper = 
-	helper = !/nix/store/1131yfwz32j7ad860qy9ksvbiid2hv0k-gh-2.89.0/bin/gh auth git-credential
+	helper = !/nix/store/2sy0iwq5r6ha7kj3nax1wdcsh4kf4jai-gh-2.97.0/bin/.gh-wrapped auth git-credential
 [credential "https://gist.github.com"]
 	helper = 
-	helper = !/nix/store/1131yfwz32j7ad860qy9ksvbiid2hv0k-gh-2.89.0/bin/gh auth git-credential
+	helper = !/nix/store/2sy0iwq5r6ha7kj3nax1wdcsh4kf4jai-gh-2.97.0/bin/.gh-wrapped auth git-credential
